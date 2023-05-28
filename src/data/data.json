@@ -1,33 +1,77 @@
 {
     "armors": [
         {
-            "name": "Mask of Awakening",
-            "setName": "Awakening",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Mask_of_Awakening",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Tunic of Awakening",
-            "setName": "Awakening",
+            "name": "Ancient Hero's Armor",
+            "setName": "Ancient Hero",
             "type": "Chest",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Awakening",
+            "wiki": "https://www.zeldadungeon.net/wiki/Ancient_Hero's_Armor",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
             "obtained": false
         },
         {
-            "name": "Trousers of Awakening",
-            "setName": "Awakening",
+            "name": "Ancient Hero's Aspect",
+            "setName": "Ancient Hero",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Ancient_Hero's_Aspect",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Ancient Hero's Trousers",
+            "setName": "Ancient Hero",
             "type": "Legs",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_Awakening",
+            "wiki": "https://www.zeldadungeon.net/wiki/Ancient_Hero's_Trousers",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Archaic Legwear",
+            "setName": "Archaic",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Archaic_Legwear",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Archaic Tunic",
+            "setName": "Archaic",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Archaic_Tunic",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Archaic Warm Greaves",
+            "setName": "",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Archaic_Warm_Greaves",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Barbarian Armor",
+            "setName": "Barbarian",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Barbarian_Armor",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
@@ -45,22 +89,110 @@
             "obtained": false
         },
         {
-            "name": "Barbarian Armor",
+            "name": "Barbarian Leg Wraps",
             "setName": "Barbarian",
-            "type": "Chest",
+            "type": "Legs",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Barbarian Armor",
+            "wiki": "https://www.zeldadungeon.net/wiki/Barbarian_Leg_Wraps",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
             "obtained": false
         },
         {
-            "name": "Barbarian Leg Wraps",
-            "setName": "Barbarian",
-            "type": "Legs",
+            "name": "Bokoblin Mask",
+            "setName": "",
+            "type": "Head",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Barbarian_Leg_Wraps",
+            "wiki": "https://www.zeldadungeon.net/wiki/Bokoblin_Mask",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Cap of Time",
+            "setName": "Time",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_Time",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Cap of Twilight",
+            "setName": "Twilight",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_Twilight",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Cap of the Hero",
+            "setName": "Hero",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Hero",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Cap of the Sky",
+            "setName": "Sky",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Sky",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Cap of the Wild",
+            "setName": "Wild",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Wild",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Cap of the Wind",
+            "setName": "Wind",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Wind",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Cece Hat",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Cece_Hat",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Champion's Leathers",
+            "setName": "",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Champion's_Leathers",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
@@ -111,17 +243,6 @@
             "obtained": false
         },
         {
-            "name": "Climbing Gear",
-            "setName": "Climbing Gear",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Climbing_Gear",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
             "name": "Climbing Boots",
             "setName": "Climbing Gear",
             "type": "Legs",
@@ -133,35 +254,46 @@
             "obtained": false
         },
         {
-            "name": "Hood of the Depths",
-            "setName": "Depths",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Hood_of_the_Depths",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Tunic of the Depths",
-            "setName": "Depths",
+            "name": "Climbing Gear",
+            "setName": "Climbing Gear",
             "type": "Chest",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Depths",
+            "wiki": "https://www.zeldadungeon.net/wiki/Climbing_Gear",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
             "obtained": false
         },
         {
-            "name": "Gaiters of the Depths",
-            "setName": "Depths",
+            "name": "Dark Hood",
+            "setName": "Dark",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Dark_Hood",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Dark Trousers",
+            "setName": "Dark",
             "type": "Legs",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Gaiters_of_the_Depths",
+            "wiki": "https://www.zeldadungeon.net/wiki/Dark_Trousers",
             "dlc": false,
-            "isUpgradable": true,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Dark Tunic",
+            "setName": "Dark",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Dark_Tunic",
+            "dlc": false,
+            "isUpgradable": false,
             "currentLevel": 0,
             "obtained": false
         },
@@ -193,6 +325,17 @@
             "type": "Legs",
             "image": "",
             "wiki": "https://www.zeldadungeon.net/wiki/Desert_Voe_Trousers",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Diamond Circlet",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Diamond_Circlet",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
@@ -232,13 +375,35 @@
             "obtained": false
         },
         {
-            "name": "Fierce Deity Mask",
-            "setName": "Fierce Deity",
+            "name": "Evil Spirit Armor",
+            "setName": "Evil Spirit",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Armor",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Evil Spirit Greaves",
+            "setName": "Evil Spirit",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Greaves",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Evil Spirit Mask",
+            "setName": "Evil Spirit",
             "type": "Head",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Fierce_Deity_Mask",
+            "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Mask",
             "dlc": false,
-            "isUpgradable": true,
+            "isUpgradable": false,
             "currentLevel": 0,
             "obtained": false
         },
@@ -265,11 +430,11 @@
             "obtained": false
         },
         {
-            "name": "Flamebreaker Helm",
-            "setName": "Flamebreaker",
+            "name": "Fierce Deity Mask",
+            "setName": "Fierce Deity",
             "type": "Head",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Flamebreaker Helm",
+            "wiki": "https://www.zeldadungeon.net/wiki/Fierce_Deity_Mask",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
@@ -280,7 +445,7 @@
             "setName": "Flamebreaker",
             "type": "Chest",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Flamebreaker Armor",
+            "wiki": "https://www.zeldadungeon.net/wiki/Flamebreaker_Armor",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
@@ -298,6 +463,17 @@
             "obtained": false
         },
         {
+            "name": "Flamebreaker Helm",
+            "setName": "Flamebreaker",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Flamebreaker_Helm",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
             "name": "Froggy Hood",
             "setName": "Froggy",
             "type": "Head",
@@ -309,22 +485,22 @@
             "obtained": false
         },
         {
-            "name": "Froggy Sleeve",
+            "name": "Froggy Leggings",
             "setName": "Froggy",
-            "type": "Chest",
+            "type": "Legs",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Froggy_Sleeve",
+            "wiki": "https://www.zeldadungeon.net/wiki/Froggy_Leggings",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
             "obtained": false
         },
         {
-            "name": "Froggy Leggings",
+            "name": "Froggy Sleeve",
             "setName": "Froggy",
-            "type": "Legs",
+            "type": "Chest",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Froggy_Leggings",
+            "wiki": "https://www.zeldadungeon.net/wiki/Froggy_Sleeve",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
@@ -364,6 +540,17 @@
             "obtained": false
         },
         {
+            "name": "Gaiters of the Depths",
+            "setName": "Depths",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Gaiters_of_the_Depths",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
             "name": "Glide Mask",
             "setName": "Glide",
             "type": "Head",
@@ -397,35 +584,24 @@
             "obtained": false
         },
         {
-            "name": "Cap of the Hero",
-            "setName": "Hero",
+            "name": "Hood of the Depths",
+            "setName": "Depths",
             "type": "Head",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Hero",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hood_of_the_Depths",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
             "obtained": false
         },
         {
-            "name": "Tunic of the Hero",
-            "setName": "Hero",
-            "type": "Chest",
+            "name": "Horriblin Mask",
+            "setName": "",
+            "type": "Head",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Hero",
+            "wiki": "https://www.zeldadungeon.net/wiki/Horriblin_Mask",
             "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Trousers of the Hero",
-            "setName": "Hero",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Hero",
-            "dlc": false,
-            "isUpgradable": true,
+            "isUpgradable": false,
             "currentLevel": 0,
             "obtained": false
         },
@@ -434,18 +610,7 @@
             "setName": "Hylian",
             "type": "Head",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Hylian Hood",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Hylian Tunic",
-            "setName": "Hylian",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Hylian_Tunic",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hylian_Hood",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
@@ -463,728 +628,13 @@
             "obtained": false
         },
         {
-            "name": "Miner's Mask",
-            "setName": "Miner's",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Miner's_Mask",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Miner's Top",
-            "setName": "Miner's",
+            "name": "Hylian Tunic",
+            "setName": "Hylian",
             "type": "Chest",
             "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Miner's_Top",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hylian_Tunic",
             "dlc": false,
             "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Miner's Trousers",
-            "setName": "Miner's",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Miner's_Trousers",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Radiant Mask",
-            "setName": "Radiant",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Radiant_Mask",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Radiant Shirt",
-            "setName": "Radiant",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Radiant_Shirt",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Radiant Tights",
-            "setName": "Radiant",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Radiant_Tights",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Royal Guard Cap",
-            "setName": "Royal Guard",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Royal_Guard_Cap",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Royal Guard Uniform",
-            "setName": "Royal Guard",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Royal_Guard_Uniform",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Royal Guard Boots",
-            "setName": "Royal Guard",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Royal_Guard_Boots",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Rubber Helm",
-            "setName": "Rubber",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Rubber Helm",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Rubber Armor",
-            "setName": "Rubber",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Rubber_Armor",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Rubber Tights",
-            "setName": "Rubber",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Rubber_Tights",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Cap of the Sky",
-            "setName": "Sky",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Sky",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Tunic of the Sky",
-            "setName": "Sky",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Sky",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Trousers of the Sky",
-            "setName": "Sky",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Sky",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Snowquill Headdress",
-            "setName": "Snowquill",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Snowquill_Headdress",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Snowquill Tunic",
-            "setName": "Snowquill",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Snowquill_Tunic",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Snowquill Trousers",
-            "setName": "Snowquill",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Snowquill_Trousers",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Soldier's Helm",
-            "setName": "Soldier's",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Soldier's_Helm",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Soldier's Armor",
-            "setName": "Soldier's",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Soldier's_Armor",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Soldier's Greaves",
-            "setName": "Soldier's",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Soldier's_Greaves",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Stealth Mask",
-            "setName": "Stealth",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Stealth_Mask",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Stealth Chest Guard",
-            "setName": "Stealth",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Stealth_Chest_Guard",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Stealth Tights",
-            "setName": "Stealth",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Stealth_Tights",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Cap of Time",
-            "setName": "Time",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_Time",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Tunic of Time",
-            "setName": "Time",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Time",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Trousers of Time",
-            "setName": "Time",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_Time",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Cap of Twilight",
-            "setName": "Twilight",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_Twilight",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Tunic of Twilight",
-            "setName": "Twilight",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Twilight",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Trousers of Twilight",
-            "setName": "Twilight",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_Twilight",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Cap of the Wild",
-            "setName": "Wild",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Wild",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Tunic of the Wild",
-            "setName": "Wild",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Wild",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Trousers of the Wild",
-            "setName": "Wild",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Wild",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Cap of the Wind",
-            "setName": "Wind",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Wind",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Tunic of the Wind",
-            "setName": "Wind",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Wind",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Trousers of the Wind",
-            "setName": "Wind",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Wind",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Yiga Mask",
-            "setName": "Yiga",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Yiga Mask",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Yiga Armor",
-            "setName": "Yiga",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Yiga_Armor",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Yiga Tights",
-            "setName": "Yiga",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Yiga_Tights",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Zonaite Helm",
-            "setName": "Zonaite",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Zonaite_Helm",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Zonaite Waistguard",
-            "setName": "Zonaite",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Zonaite_Waistguard",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Zonaite Shin Guards",
-            "setName": "Zonaite",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Zonaite_Shin_Guards",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Zora Helm",
-            "setName": "Zora",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Zora_Helm",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Zora Armor",
-            "setName": "Zora",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Zora_Armor",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Zora Greaves",
-            "setName": "Zora",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Zora_Greaves",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Archaic Tunic",
-            "setName": "Archaic",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Archaic_Tunic",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Archaic Legwear",
-            "setName": "Archaic",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Archaic_Legwear",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Dark Hood",
-            "setName": "Dark",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Dark_Hood",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Dark Tunic",
-            "setName": "Dark",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Dark_Tunic",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Dark Trousers",
-            "setName": "Dark",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Dark_Trousers",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Evil Spirit Mask",
-            "setName": "Evil Spirit",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Mask",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Evil Spirit Armor",
-            "setName": "Evil Spirit",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Armor",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Evil Spirit Greaves",
-            "setName": "Evil Spirit",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Greaves",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Mystic Headpiece",
-            "setName": "Mystic",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Mystic Headpiece",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Mystic Robe",
-            "setName": "Mystic",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Mystic_Robe",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Mystic Trousers",
-            "setName": "Mystic",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Mystic_Trousers",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Phantom Helm",
-            "setName": "Phantom",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Helm",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Phantom Armor",
-            "setName": "Phantom",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Armor",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Phantom Greaves",
-            "setName": "Phantom",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Greaves",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Tingle's Hood",
-            "setName": "Tingle",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tingle's_Hood",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Tingle's Shirt",
-            "setName": "Tingle",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tingle's_Shirt",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Tingle's Tights",
-            "setName": "Tingle",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Tingle's_Tights",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Archaic Warm Greaves",
-            "setName": "",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Archaic_Warm_Greaves",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Bokoblin Mask",
-            "setName": "",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Bokoblin_Mask",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Cece Hat",
-            "setName": "",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Cece_Hat",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Horriblin Mask",
-            "setName": "",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Horriblin_Mask",
-            "dlc": false,
-            "isUpgradable": false,
             "currentLevel": 0,
             "obtained": false
         },
@@ -1205,6 +655,17 @@
             "type": "Head",
             "image": "",
             "wiki": "https://www.zeldadungeon.net/wiki/Korok_Mask",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Lightning Helm",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Thunder_Helm",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
@@ -1244,6 +705,17 @@
             "obtained": false
         },
         {
+            "name": "Mask of Awakening",
+            "setName": "Awakening",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Mask_of_Awakening",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
             "name": "Midna's Helmet",
             "setName": "",
             "type": "Head",
@@ -1251,6 +723,39 @@
             "wiki": "https://www.zeldadungeon.net/wiki/Midna's_Helmet",
             "dlc": false,
             "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Miner's Mask",
+            "setName": "Miner's",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Miner's_Mask",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Miner's Top",
+            "setName": "Miner's",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Miner's_Top",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Miner's Trousers",
+            "setName": "Miner's",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Miner's_Trousers",
+            "dlc": false,
+            "isUpgradable": true,
             "currentLevel": 0,
             "obtained": false
         },
@@ -1266,6 +771,116 @@
             "obtained": false
         },
         {
+            "name": "Mystic Headpiece",
+            "setName": "Mystic",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Mystic_Headpiece",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Mystic Robe",
+            "setName": "Mystic",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Mystic_Robe",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Mystic Trousers",
+            "setName": "Mystic",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Mystic_Trousers",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Opal Earrings",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Opal_Earrings",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Phantom Armor",
+            "setName": "Phantom",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Armor",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Phantom Greaves",
+            "setName": "Phantom",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Greaves",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Phantom Helmet",
+            "setName": "Phantom",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Helmet",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Radiant Mask",
+            "setName": "Radiant",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Radiant_Mask",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Radiant Shirt",
+            "setName": "Radiant",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Radiant_Shirt",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Radiant Tights",
+            "setName": "Radiant",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Radiant_Tights",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
             "name": "Ravio's Hood",
             "setName": "",
             "type": "Head",
@@ -1273,6 +888,226 @@
             "wiki": "https://www.zeldadungeon.net/wiki/Ravio's_Hood",
             "dlc": false,
             "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Royal Guard Boots",
+            "setName": "Royal Guard",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Royal_Guard_Boots",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Royal Guard Cap",
+            "setName": "Royal Guard",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Royal_Guard_Cap",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Royal Guard Uniform",
+            "setName": "Royal Guard",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Royal_Guard_Uniform",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Rubber Armor",
+            "setName": "Rubber",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Rubber_Armor",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Rubber Helm",
+            "setName": "Rubber",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Rubber_Helm",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Rubber Tights",
+            "setName": "Rubber",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Rubber_Tights",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Ruby Circlet",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Ruby_Circlet",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Sand Boots",
+            "setName": "",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sand_Boots",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Sapphire Circlet",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sapphire_Circlet",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Sheik's Mask",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sheik's_Mask",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Snow Boots",
+            "setName": "",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Snow_Boots",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Snowquill Headdress",
+            "setName": "Snowquill",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Snowquill_Headdress",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Snowquill Trousers",
+            "setName": "Snowquill",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Snowquill_Trousers",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Snowquill Tunic",
+            "setName": "Snowquill",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Snowquill_Tunic",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Soldier's Armor",
+            "setName": "Soldier's",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Soldier's_Armor",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Soldier's Greaves",
+            "setName": "Soldier's",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Soldier's_Greaves",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Soldier's Helm",
+            "setName": "Soldier's",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Soldier's_Helm",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Stealth Chest Guard",
+            "setName": "Stealth",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Stealth_Chest_Guard",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Stealth Mask",
+            "setName": "Stealth",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Stealth_Mask",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Stealth Tights",
+            "setName": "Stealth",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Stealth_Tights",
+            "dlc": false,
+            "isUpgradable": true,
             "currentLevel": 0,
             "obtained": false
         },
@@ -1288,6 +1123,270 @@
             "obtained": false
         },
         {
+            "name": "Tingle's Hood",
+            "setName": "Tingle",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tingle's_Hood",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tingle's Shirt",
+            "setName": "Tingle",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tingle's_Shirt",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tingle's Tights",
+            "setName": "Tingle",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tingle's_Tights",
+            "dlc": false,
+            "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Topaz Earrings",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Topaz_Earrings",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Trousers of Awakening",
+            "setName": "Awakening",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_Awakening",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Trousers of Time",
+            "setName": "Time",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_Time",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Trousers of Twilight",
+            "setName": "Twilight",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_Twilight",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Trousers of the Hero",
+            "setName": "Hero",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Hero",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Trousers of the Sky",
+            "setName": "Sky",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Sky",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Trousers of the Wild",
+            "setName": "Wild",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Wild",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Trousers of the Wind",
+            "setName": "Wind",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Wind",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tunic of Awakening",
+            "setName": "Awakening",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Awakening",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tunic of Memories",
+            "setName": "",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Memories",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tunic of Time",
+            "setName": "Time",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Time",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tunic of Twilight",
+            "setName": "Twilight",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Twilight",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tunic of the Depths",
+            "setName": "Depths",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Depths",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tunic of the Hero",
+            "setName": "Hero",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Hero",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tunic of the Sky",
+            "setName": "Sky",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Sky",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tunic of the Wild",
+            "setName": "Wild",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Wild",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Tunic of the Wind",
+            "setName": "Wind",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Wind",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Vah Medoh Divine Helm",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Vah_Medoh_Divine_Helm",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Vah Naboris Divine Helm",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Vah_Naboris_Divine_Helm",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Vah Rudania Divine Helm",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Vah_Rudania_Divine_Helm",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Vah Ruta Divine Helm",
+            "setName": "",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Vah_Ruta_Divine_Helm",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
             "name": "Well-Worn Hair Band",
             "setName": "",
             "type": "Head",
@@ -1295,6 +1394,39 @@
             "wiki": "https://www.zeldadungeon.net/wiki/Well-Worn_Hair_Band",
             "dlc": false,
             "isUpgradable": false,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Yiga Armor",
+            "setName": "Yiga",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Yiga_Armor",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Yiga Mask",
+            "setName": "Yiga",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Yiga_Mask",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Yiga Tights",
+            "setName": "Yiga",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Yiga_Tights",
+            "dlc": false,
+            "isUpgradable": true,
             "currentLevel": 0,
             "obtained": false
         },
@@ -1308,9 +1440,175 @@
             "isUpgradable": false,
             "currentLevel": 0,
             "obtained": false
+        },
+        {
+            "name": "Zonaite Helm",
+            "setName": "Zonaite",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Zonaite_Helm",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Zonaite Shin Guards",
+            "setName": "Zonaite",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Zonaite_Shin_Guards",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Zonaite Waistguard",
+            "setName": "Zonaite",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Zonaite_Waistguard",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Zora Armor",
+            "setName": "Zora",
+            "type": "Chest",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Zora_Armor",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Zora Greaves",
+            "setName": "Zora",
+            "type": "Legs",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Zora_Greaves",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
+        },
+        {
+            "name": "Zora Helm",
+            "setName": "Zora",
+            "type": "Head",
+            "image": "",
+            "wiki": "https://www.zeldadungeon.net/wiki/Zora_Helm",
+            "dlc": false,
+            "isUpgradable": true,
+            "currentLevel": 0,
+            "obtained": false
         }
     ],
     "upgrades": {
+        "Amber Earrings": [
+            [
+                {
+                    "name": "Amber",
+                    "quantity": 10
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "name": "Amber",
+                    "quantity": 20
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "name": "Amber",
+                    "quantity": 35
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "name": "Amber",
+                    "quantity": 60
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 25
+                }
+            ]
+        ],
+        "Ancient Hero": [
+            [
+                {
+                    "name": "Silver Bokoblin Horn",
+                    "quantity": 9
+                },
+                {
+                    "name": "Hinox Guts",
+                    "quantity": 9
+                },
+                {
+                    "name": "Zonaite",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "name": "Silver Moblin Horn",
+                    "quantity": 9
+                },
+                {
+                    "name": "Frox Guts",
+                    "quantity": 9
+                },
+                {
+                    "name": "Large Zonaite",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "name": "Silver Lizalfos Horn",
+                    "quantity": 9
+                },
+                {
+                    "name": "Molduga Guts",
+                    "quantity": 9
+                },
+                {
+                    "name": "Large Zonaite",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "name": "White-Maned Lynel Saber Horn",
+                    "quantity": 9
+                },
+                {
+                    "name": "White-Maned Lynel Mace Horn",
+                    "quantity": 9
+                },
+                {
+                    "name": "Gleeok Guts",
+                    "quantity": 9
+                }
+            ]
+        ],
         "Awakening": [
             [
                 {
@@ -1400,6 +1698,110 @@
                 {
                     "name": "Bladed Rhino Beetle",
                     "quantity": 9
+                }
+            ]
+        ],
+        "Cap of the Wild": [
+            [
+                {
+                    "name": "Acorn",
+                    "quantity": 10
+                },
+                {
+                    "name": "Farosh's Scale",
+                    "quantity": 2
+                }
+            ],
+            [
+                {
+                    "name": "Courser Bee Honey",
+                    "quantity": 5
+                },
+                {
+                    "name": "Farosh's Claw",
+                    "quantity": 2
+                }
+            ],
+            [
+                {
+                    "name": "Energetic Rhino Beetle",
+                    "quantity": 3
+                },
+                {
+                    "name": "Farosh's Fang",
+                    "quantity": 2
+                },
+                {
+                    "name": "Shard of Farosh's Spike",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "name": "Farosh's Horn",
+                    "quantity": 2
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 3
+                },
+                {
+                    "name": "Shard of Farosh's Spike",
+                    "quantity": 10
+                }
+            ]
+        ],
+        "Champion's Leathers": [
+            [
+                {
+                    "name": "Silent Princess",
+                    "quantity": 3
+                },
+                {
+                    "name": "Light Dragon's Scale",
+                    "quantity": 2
+                }
+            ],
+            [
+                {
+                    "name": "Silent Princess",
+                    "quantity": 3
+                },
+                {
+                    "name": "Light Dragon's Talon",
+                    "quantity": 2
+                },
+                {
+                    "name": "Sundelion",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "name": "Silent Princess",
+                    "quantity": 5
+                },
+                {
+                    "name": "Shard of Light Dragon's Fang",
+                    "quantity": 2
+                },
+                {
+                    "name": "Sundelion",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "name": "Silent Princess",
+                    "quantity": 10
+                },
+                {
+                    "name": "Light Dragon's Horn",
+                    "quantity": 2
+                },
+                {
+                    "name": "Sundelion",
+                    "quantity": 20
                 }
             ]
         ],
@@ -1583,6 +1985,48 @@
                 }
             ]
         ],
+        "Diamond Circlet": [
+            [
+                {
+                    "name": "Diamond",
+                    "quantity": 2
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 3
+                }
+            ],
+            [
+                {
+                    "name": "Diamond",
+                    "quantity": 3
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "name": "Diamond",
+                    "quantity": 5
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Diamond",
+                    "quantity": 8
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 2
+                }
+            ]
+        ],
         "Ember": [
             [
                 {
@@ -1626,48 +2070,6 @@
                 {
                     "name": "Large Zonai Charge",
                     "quantity": 30
-                }
-            ]
-        ],
-        "Fierce Deity Mask": [
-            [
-                {
-                    "name": "Hinox Toenail",
-                    "quantity": 5
-                },
-                {
-                    "name": "Dinraal's Scale",
-                    "quantity": 1
-                }
-            ],
-            [
-                {
-                    "name": "Hinox Tooth",
-                    "quantity": 5
-                },
-                {
-                    "name": "Dinraal's Claw",
-                    "quantity": 1
-                }
-            ],
-            [
-                {
-                    "name": "Hinox Guts",
-                    "quantity": 2
-                },
-                {
-                    "name": "Shard of Dinraal's Fang",
-                    "quantity": 1
-                }
-            ],
-            [
-                {
-                    "name": "Lynel Guts",
-                    "quantity": 2
-                },
-                {
-                    "name": "Dinraal's Horn",
-                    "quantity": 1
                 }
             ]
         ],
@@ -1751,6 +2153,48 @@
                 },
                 {
                     "name": "Farosh's Horn",
+                    "quantity": 1
+                }
+            ]
+        ],
+        "Fierce Deity Mask": [
+            [
+                {
+                    "name": "Hinox Toenail",
+                    "quantity": 5
+                },
+                {
+                    "name": "Dinraal's Scale",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Hinox Tooth",
+                    "quantity": 5
+                },
+                {
+                    "name": "Dinraal's Claw",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Hinox Guts",
+                    "quantity": 2
+                },
+                {
+                    "name": "Shard of Dinraal's Fang",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Lynel Guts",
+                    "quantity": 2
+                },
+                {
+                    "name": "Dinraal's Horn",
                     "quantity": 1
                 }
             ]
@@ -2065,6 +2509,48 @@
                 }
             ]
         ],
+        "Opal Earrings": [
+            [
+                {
+                    "name": "Opal",
+                    "quantity": 6
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "name": "Opal",
+                    "quantity": 12
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 10
+                }
+            ],
+            [
+                {
+                    "name": "Opal",
+                    "quantity": 18
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "name": "Opal",
+                    "quantity": 30
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 25
+                }
+            ]
+        ],
         "Radiant": [
             [
                 {
@@ -2211,6 +2697,178 @@
                 }
             ]
         ],
+        "Ruby Circlet": [
+            [
+                {
+                    "name": "Ruby",
+                    "quantity": 2
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 3
+                }
+            ],
+            [
+                {
+                    "name": "Ruby",
+                    "quantity": 4
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "name": "Ruby",
+                    "quantity": 6
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Ruby",
+                    "quantity": 10
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 2
+                }
+            ]
+        ],
+        "Sand Boots": [
+            [
+                {
+                    "name": "Hightail Lizard",
+                    "quantity": 3
+                }
+            ],
+            [
+                {
+                    "name": "Gibdo Bone",
+                    "quantity": 20
+                },
+                {
+                    "name": "Swift Carrot",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "name": "Gibdo Guts",
+                    "quantity": 5
+                },
+                {
+                    "name": "Rushroom",
+                    "quantity": 10
+                },
+                {
+                    "name": "Molduga Fin",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "name": "Molduga Guts",
+                    "quantity": 5
+                },
+                {
+                    "name": "Swift Violet",
+                    "quantity": 10
+                },
+                {
+                    "name": "Hearty Lizard",
+                    "quantity": 5
+                }
+            ]
+        ],
+        "Sapphire Circlet": [
+            [
+                {
+                    "name": "Sapphire",
+                    "quantity": 2
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 3
+                }
+            ],
+            [
+                {
+                    "name": "Sapphire",
+                    "quantity": 4
+                },
+                {
+                    "name": "Flint",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "name": "Sapphire",
+                    "quantity": 6
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Sapphire",
+                    "quantity": 10
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 2
+                }
+            ]
+        ],
+        "Sheik's Mask": [
+            [
+                {
+                    "name": "Silent Princess",
+                    "quantity": 1
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Silent Princess",
+                    "quantity": 2
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 2
+                }
+            ],
+            [
+                {
+                    "name": "Silent Princess",
+                    "quantity": 4
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 3
+                }
+            ],
+            [
+                {
+                    "name": "Silent Princess",
+                    "quantity": 8
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 4
+                }
+            ]
+        ],
         "Sky": [
             [
                 {
@@ -2250,6 +2908,44 @@
                 {
                     "name": "Star Fragment",
                     "quantity": 3
+                }
+            ]
+        ],
+        "Snow Boots": [
+            [
+                {
+                    "name": "Hightail Lizard",
+                    "quantity": 3
+                }
+            ],
+            [
+                {
+                    "name": "Octorok Tentacle",
+                    "quantity": 5
+                },
+                {
+                    "name": "Swift Carrot",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "name": "Octo Balloon",
+                    "quantity": 5
+                },
+                {
+                    "name": "Rushroom",
+                    "quantity": 20
+                }
+            ],
+            [
+                {
+                    "name": "Naydra's Scale",
+                    "quantity": 2
+                },
+                {
+                    "name": "Swift Violet",
+                    "quantity": 20
                 }
             ]
         ],
@@ -2437,145 +3133,45 @@
                 }
             ]
         ],
-        "Twilight": [
+        "Topaz Earrings": [
             [
                 {
                     "name": "Topaz",
-                    "quantity": 3
+                    "quantity": 2
                 },
                 {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Topaz",
-                    "quantity": 12
-                },
-                {
-                    "name": "Star Fragment",
+                    "name": "Flint",
                     "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Topaz",
-                    "quantity": 18
+                    "quantity": 4
                 },
                 {
-                    "name": "Star Fragment",
-                    "quantity": 3
+                    "name": "Flint",
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Topaz",
-                    "quantity": 30
+                    "quantity": 6
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
-            ]
-        ],
-        "Cap of the Wild": [
+            ],
             [
                 {
-                    "name": "Acorn",
+                    "name": "Topaz",
                     "quantity": 10
-                },
-                {
-                    "name": "Farosh's Scale",
-                    "quantity": 2
-                }
-            ],
-            [
-                {
-                    "name": "Courser Bee Honey",
-                    "quantity": 5
-                },
-                {
-                    "name": "Farosh's Claw",
-                    "quantity": 2
-                }
-            ],
-            [
-                {
-                    "name": "Energetic Rhino Beetle",
-                    "quantity": 3
-                },
-                {
-                    "name": "Farosh's Fang",
-                    "quantity": 2
-                },
-                {
-                    "name": "Shard of Farosh's Spike",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "name": "Farosh's Horn",
-                    "quantity": 2
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
-                },
-                {
-                    "name": "Shard of Farosh's Spike",
-                    "quantity": 10
-                }
-            ]
-        ],
-        "Tunic of the Wild": [
-            [
-                {
-                    "name": "Acorn",
-                    "quantity": 10
-                },
-                {
-                    "name": "Naydra's Scale",
                     "quantity": 2
-                }
-            ],
-            [
-                {
-                    "name": "Courser Bee Honey",
-                    "quantity": 5
-                },
-                {
-                    "name": "Naydra's Claw",
-                    "quantity": 2
-                }
-            ],
-            [
-                {
-                    "name": "Energetic Rhino Beetle",
-                    "quantity": 3
-                },
-                {
-                    "name": "Naydra's Fang",
-                    "quantity": 2
-                },
-                {
-                    "name": "Shard of Naydra's Spike",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "name": "Naydra's Horn",
-                    "quantity": 2
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                },
-                {
-                    "name": "Shard of Naydra's Spike",
-                    "quantity": 10
                 }
             ]
         ],
@@ -2629,287 +3225,7 @@
                 }
             ]
         ],
-        "Wind": [
-            [
-                {
-                    "name": "Opal",
-                    "quantity": 15
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Opal",
-                    "quantity": 30
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Opal",
-                    "quantity": 45
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Opal",
-                    "quantity": 75
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ]
-        ],
-        "Yiga": [
-            [
-                {
-                    "name": "Octorok Eyeball",
-                    "quantity": 6
-                }
-            ],
-            [
-                {
-                    "name": "Fire-Breath Lizalfos Tail",
-                    "quantity": 9
-                },
-                {
-                    "name": "Puffshroom",
-                    "quantity": 9
-                }
-            ],
-            [
-                {
-                    "name": "Keese Eyeball",
-                    "quantity": 15
-                },
-                {
-                    "name": "Ice-Breath Lizalfos Tail",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "name": "Electric Lizalfos Tail",
-                    "quantity": 15
-                },
-                {
-                    "name": "Black Hinox Horn",
-                    "quantity": 9
-                },
-                {
-                    "name": "Mighty Banana",
-                    "quantity": 30
-                }
-            ]
-        ],
-        "Zonaite": [
-            [
-                {
-                    "name": "Soldier Construct Horn",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "name": "Soldier Construct II Horn",
-                    "quantity": 15
-                },
-                {
-                    "name": "Captain Construct I Horn",
-                    "quantity": 15
-                },
-                {
-                    "name": "Zonaite",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "name": "Soldier Construct III Horn",
-                    "quantity": 15
-                },
-                {
-                    "name": "Captain Construct II Horn",
-                    "quantity": 15
-                },
-                {
-                    "name": "Large Zonaite",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "name": "Soldier Construct IV Horn",
-                    "quantity": 15
-                },
-                {
-                    "name": "Captain Construct III Horn",
-                    "quantity": 15
-                },
-                {
-                    "name": "Large Zonaite",
-                    "quantity": 30
-                }
-            ]
-        ],
-        "Zora": [
-            [
-                {
-                    "name": "Lizalfos Horn",
-                    "quantity": 9
-                }
-            ],
-            [
-                {
-                    "name": "Lizalfos Talon",
-                    "quantity": 15
-                },
-                {
-                    "name": "Hyrule Bass",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "name": "Blue Lizalfos Horn",
-                    "quantity": 15
-                },
-                {
-                    "name": "Lizalfos Tail",
-                    "quantity": 9
-                },
-                {
-                    "name": "Hearty Bass",
-                    "quantity": 9
-                }
-            ],
-            [
-                {
-                    "name": "Black Lizalfos Horn",
-                    "quantity": 15
-                },
-                {
-                    "name": "Blue Lizalfos Tail",
-                    "quantity": 15
-                },
-                {
-                    "name": "Opal",
-                    "quantity": 60
-                }
-            ]
-        ],
-        "Amber Earrings": [
-            [
-                {
-                    "name": "Amber",
-                    "quantity": 10
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "name": "Amber",
-                    "quantity": 20
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 10
-                }
-            ],
-            [
-                {
-                    "name": "Amber",
-                    "quantity": 35
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "name": "Amber",
-                    "quantity": 60
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 25
-                }
-            ]
-        ],
-        "Ancient Hero's Aspect": [
-            [
-                {
-                    "name": "Silver Bokoblin Horn",
-                    "quantity": 9
-                },
-                {
-                    "name": "Hinox Guts",
-                    "quantity": 9
-                },
-                {
-                    "name": "Zonaite",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "name": "Silver Moblin Horn",
-                    "quantity": 9
-                },
-                {
-                    "name": "Frox Guts",
-                    "quantity": 9
-                },
-                {
-                    "name": "Large Zonaite",
-                    "quantity": 10
-                }
-            ],
-            [
-                {
-                    "name": "Silver Lizalfos Horn",
-                    "quantity": 9
-                },
-                {
-                    "name": "Molduga Guts",
-                    "quantity": 9
-                },
-                {
-                    "name": "Large Zonaite",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "name": "White-Maned Lynel Saber Horn",
-                    "quantity": 9
-                },
-                {
-                    "name": "White-Maned Lynel Mace Horn",
-                    "quantity": 9
-                },
-                {
-                    "name": "Gleeok Guts",
-                    "quantity": 9
-                }
-            ]
-        ],
-        "Champion's Leathers": [
+        "Tunic of Memories": [
             [
                 {
                     "name": "Silent Princess",
@@ -2917,7 +3233,7 @@
                 },
                 {
                     "name": "Light Dragon's Scale",
-                    "quantity": 2
+                    "quantity": 1
                 }
             ],
             [
@@ -2927,11 +3243,11 @@
                 },
                 {
                     "name": "Light Dragon's Talon",
-                    "quantity": 2
+                    "quantity": 1
                 },
                 {
-                    "name": "Sundelion",
-                    "quantity": 10
+                    "name": "Farosh's Horn",
+                    "quantity": 2
                 }
             ],
             [
@@ -2941,11 +3257,11 @@
                 },
                 {
                     "name": "Shard of Light Dragon's Fang",
-                    "quantity": 2
+                    "quantity": 1
                 },
                 {
-                    "name": "Sundelion",
-                    "quantity": 15
+                    "name": "Naydra's Horn",
+                    "quantity": 2
                 }
             ],
             [
@@ -2955,347 +3271,103 @@
                 },
                 {
                     "name": "Light Dragon's Horn",
-                    "quantity": 2
-                },
-                {
-                    "name": "Sundelion",
-                    "quantity": 20
-                }
-            ]
-        ],
-        "Diamond Circlet": [
-            [
-                {
-                    "name": "Diamond",
-                    "quantity": 2
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Diamond",
-                    "quantity": 3
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "name": "Diamond",
-                    "quantity": 5
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 1
-                }
-            ],
-            [
-                {
-                    "name": "Diamond",
-                    "quantity": 8
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 2
-                }
-            ]
-        ],
-        "Opal Earrings": [
-            [
-                {
-                    "name": "Opal",
-                    "quantity": 6
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "name": "Opal",
-                    "quantity": 12
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 10
-                }
-            ],
-            [
-                {
-                    "name": "Opal",
-                    "quantity": 18
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 15
-                }
-            ],
-            [
-                {
-                    "name": "Opal",
-                    "quantity": 30
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 25
-                }
-            ]
-        ],
-        "Ruby Circlet": [
-            [
-                {
-                    "name": "Ruby",
-                    "quantity": 2
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Ruby",
-                    "quantity": 4
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "name": "Ruby",
-                    "quantity": 6
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 1
-                }
-            ],
-            [
-                {
-                    "name": "Ruby",
-                    "quantity": 10
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 2
-                }
-            ]
-        ],
-        "Sand Boots": [
-            [
-                {
-                    "name": "Hightail Lizard",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Gibdo Bone",
-                    "quantity": 20
-                },
-                {
-                    "name": "Swift Carrot",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "name": "Gibdo Guts",
-                    "quantity": 5
-                },
-                {
-                    "name": "Rushroom",
-                    "quantity": 10
-                },
-                {
-                    "name": "Molduga Fin",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "name": "Molduga Guts",
-                    "quantity": 5
-                },
-                {
-                    "name": "Swift Violet",
-                    "quantity": 10
-                },
-                {
-                    "name": "Hearty Lizard",
-                    "quantity": 5
-                }
-            ]
-        ],
-        "Sapphire Circlet": [
-            [
-                {
-                    "name": "Sapphire",
-                    "quantity": 2
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Sapphire",
-                    "quantity": 4
-                },
-                {
-                    "name": "Flint",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "name": "Sapphire",
-                    "quantity": 6
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 1
-                }
-            ],
-            [
-                {
-                    "name": "Sapphire",
-                    "quantity": 10
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 2
-                }
-            ]
-        ],
-        "Sheik's Mask": [
-            [
-                {
-                    "name": "Silent Princess",
                     "quantity": 1
                 },
                 {
-                    "name": "Star Fragment",
-                    "quantity": 1
-                }
-            ],
-            [
-                {
-                    "name": "Silent Princess",
+                    "name": "Dinraal's Horn",
                     "quantity": 2
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 2
-                }
-            ],
-            [
-                {
-                    "name": "Silent Princess",
-                    "quantity": 4
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Silent Princess",
-                    "quantity": 8
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 4
                 }
             ]
         ],
-        "Snow Boots": [
+        "Tunic of the Wild": [
             [
                 {
-                    "name": "Hightail Lizard",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Octorok Tentacle",
-                    "quantity": 5
+                    "name": "Acorn",
+                    "quantity": 10
                 },
-                {
-                    "name": "Swift Carrot",
-                    "quantity": 5
-                }
-            ],
-            [
-                {
-                    "name": "Octo Balloon",
-                    "quantity": 5
-                },
-                {
-                    "name": "Rushroom",
-                    "quantity": 20
-                }
-            ],
-            [
                 {
                     "name": "Naydra's Scale",
                     "quantity": 2
-                },
-                {
-                    "name": "Swift Violet",
-                    "quantity": 20
                 }
-            ]
-        ],
-        "Topaz Earrings": [
+            ],
             [
                 {
-                    "name": "Topaz",
+                    "name": "Courser Bee Honey",
+                    "quantity": 5
+                },
+                {
+                    "name": "Naydra's Claw",
+                    "quantity": 2
+                }
+            ],
+            [
+                {
+                    "name": "Energetic Rhino Beetle",
+                    "quantity": 3
+                },
+                {
+                    "name": "Naydra's Fang",
                     "quantity": 2
                 },
                 {
-                    "name": "Flint",
+                    "name": "Shard of Naydra's Spike",
+                    "quantity": 5
+                }
+            ],
+            [
+                {
+                    "name": "Naydra's Horn",
+                    "quantity": 2
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 3
+                },
+                {
+                    "name": "Shard of Naydra's Spike",
+                    "quantity": 10
+                }
+            ]
+        ],
+        "Twilight": [
+            [
+                {
+                    "name": "Topaz",
+                    "quantity": 3
+                },
+                {
+                    "name": "Star Fragment",
                     "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Topaz",
-                    "quantity": 4
+                    "quantity": 12
                 },
                 {
-                    "name": "Flint",
-                    "quantity": 5
+                    "name": "Star Fragment",
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Topaz",
-                    "quantity": 6
+                    "quantity": 18
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 1
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Topaz",
-                    "quantity": 10
+                    "quantity": 30
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 2
+                    "quantity": 3
                 }
             ]
         ],
@@ -3499,57 +3571,183 @@
                 }
             ]
         ],
-        "Tunic of Memories": [
+        "Wind": [
             [
                 {
-                    "name": "Silent Princess",
+                    "name": "Opal",
+                    "quantity": 15
+                },
+                {
+                    "name": "Star Fragment",
                     "quantity": 3
-                },
-                {
-                    "name": "Light Dragon's Scale",
-                    "quantity": 1
                 }
             ],
             [
                 {
-                    "name": "Silent Princess",
+                    "name": "Opal",
+                    "quantity": 30
+                },
+                {
+                    "name": "Star Fragment",
                     "quantity": 3
-                },
-                {
-                    "name": "Light Dragon's Talon",
-                    "quantity": 1
-                },
-                {
-                    "name": "Farosh's Horn",
-                    "quantity": 2
                 }
             ],
             [
                 {
-                    "name": "Silent Princess",
-                    "quantity": 5
+                    "name": "Opal",
+                    "quantity": 45
                 },
                 {
-                    "name": "Shard of Light Dragon's Fang",
-                    "quantity": 1
-                },
-                {
-                    "name": "Naydra's Horn",
-                    "quantity": 2
+                    "name": "Star Fragment",
+                    "quantity": 3
                 }
             ],
             [
                 {
-                    "name": "Silent Princess",
-                    "quantity": 10
+                    "name": "Opal",
+                    "quantity": 75
                 },
                 {
-                    "name": "Light Dragon's Horn",
-                    "quantity": 1
+                    "name": "Star Fragment",
+                    "quantity": 3
+                }
+            ]
+        ],
+        "Yiga": [
+            [
+                {
+                    "name": "Octorok Eyeball",
+                    "quantity": 6
+                }
+            ],
+            [
+                {
+                    "name": "Fire-Breath Lizalfos Tail",
+                    "quantity": 9
                 },
                 {
-                    "name": "Dinraal's Horn",
-                    "quantity": 2
+                    "name": "Puffshroom",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "name": "Keese Eyeball",
+                    "quantity": 15
+                },
+                {
+                    "name": "Ice-Breath Lizalfos Tail",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "name": "Electric Lizalfos Tail",
+                    "quantity": 15
+                },
+                {
+                    "name": "Black Hinox Horn",
+                    "quantity": 9
+                },
+                {
+                    "name": "Mighty Banana",
+                    "quantity": 30
+                }
+            ]
+        ],
+        "Zonaite": [
+            [
+                {
+                    "name": "Soldier Construct Horn",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "name": "Soldier Construct II Horn",
+                    "quantity": 15
+                },
+                {
+                    "name": "Captain Construct I Horn",
+                    "quantity": 15
+                },
+                {
+                    "name": "Zonaite",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "name": "Soldier Construct III Horn",
+                    "quantity": 15
+                },
+                {
+                    "name": "Captain Construct II Horn",
+                    "quantity": 15
+                },
+                {
+                    "name": "Large Zonaite",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "name": "Soldier Construct IV Horn",
+                    "quantity": 15
+                },
+                {
+                    "name": "Captain Construct III Horn",
+                    "quantity": 15
+                },
+                {
+                    "name": "Large Zonaite",
+                    "quantity": 30
+                }
+            ]
+        ],
+        "Zora": [
+            [
+                {
+                    "name": "Lizalfos Horn",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "name": "Lizalfos Talon",
+                    "quantity": 15
+                },
+                {
+                    "name": "Hyrule Bass",
+                    "quantity": 15
+                }
+            ],
+            [
+                {
+                    "name": "Blue Lizalfos Horn",
+                    "quantity": 15
+                },
+                {
+                    "name": "Lizalfos Tail",
+                    "quantity": 9
+                },
+                {
+                    "name": "Hearty Bass",
+                    "quantity": 9
+                }
+            ],
+            [
+                {
+                    "name": "Black Lizalfos Horn",
+                    "quantity": 15
+                },
+                {
+                    "name": "Blue Lizalfos Tail",
+                    "quantity": 15
+                },
+                {
+                    "name": "Opal",
+                    "quantity": 60
                 }
             ]
         ]
