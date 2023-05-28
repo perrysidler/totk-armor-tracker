@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "The Wild Breath of Zelda";
+    src: url("the_wild_breath_of_zelda.woff2") format("woff2"),
+         url("the_wild_breath_of_zelda.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
