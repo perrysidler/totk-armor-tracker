@@ -1,1511 +1,1624 @@
 {
     "armors": [
         {
-            "name": "Ancient Hero's Armor",
-            "setName": "Ancient Hero",
-            "type": "Chest",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Ancient_Hero's_Armor",
+            "name": "Amber Earrings",
+            "setName": "",
+            "bodyPart": "Head",
+            "image": "Amber_Earrings.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Amber_Earrings",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 78
         },
         {
             "name": "Ancient Hero's Aspect",
             "setName": "Ancient Hero",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Ancient_Heros_Aspect.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ancient_Hero's_Aspect",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Ancient Hero's Trousers",
-            "setName": "Ancient Hero",
-            "type": "Legs",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Ancient_Hero's_Trousers",
-            "dlc": false,
-            "isUpgradable": true,
-            "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 134
         },
         {
             "name": "Archaic Legwear",
             "setName": "Archaic",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Archaic_Legwear.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Archaic_Legwear",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 1
         },
         {
             "name": "Archaic Tunic",
             "setName": "Archaic",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Archaic_Tunic.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Archaic_Tunic",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 0
         },
         {
             "name": "Archaic Warm Greaves",
             "setName": "",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Archaic_Warm_Greaves.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Archaic_Warm_Greaves",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 2
         },
         {
             "name": "Barbarian Armor",
             "setName": "Barbarian",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Barbarian_Armor.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Barbarian_Armor",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 31
         },
         {
             "name": "Barbarian Helm",
             "setName": "Barbarian",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Barbarian_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Barbarian_Helm",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 30
         },
         {
             "name": "Barbarian Leg Wraps",
             "setName": "Barbarian",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Barbarian_Leg_Wraps.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Barbarian_Leg_Wraps",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 32
         },
         {
             "name": "Bokoblin Mask",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Bokoblin_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Bokoblin_Mask",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 84
         },
         {
             "name": "Cap of Time",
             "setName": "Time",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Cap_of_Time.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_Time",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 122
         },
         {
             "name": "Cap of Twilight",
             "setName": "Twilight",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Cap_of_Twilight.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_Twilight",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 128
         },
         {
             "name": "Cap of the Hero",
             "setName": "Hero",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Cap_of_the_Hero.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Hero",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 119
         },
         {
             "name": "Cap of the Sky",
             "setName": "Sky",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Cap_of_the_Sky.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Sky",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 131
         },
         {
             "name": "Cap of the Wild",
             "setName": "Wild",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Cap_of_the_Wild.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Wild",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 116
         },
         {
             "name": "Cap of the Wind",
             "setName": "Wind",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Cap_of_the_Wind.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Cap_of_the_Wind",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 125
         },
         {
             "name": "Cece Hat",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Cece_Hat.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Cece_Hat",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 80
         },
         {
             "name": "Champion's Leathers",
             "setName": "",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Champions_Leathers.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Champion's_Leathers",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 90
         },
         {
             "name": "Charged Headdress",
             "setName": "Charged",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Charged_Headdress.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Charged_Headdress",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 57
         },
         {
             "name": "Charged Shirt",
             "setName": "Charged",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Charged_Shirt.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Charged_Shirt",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 58
         },
         {
             "name": "Charged Trousers",
             "setName": "Charged",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Charged_Trousers.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Charged_Trousers",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 59
         },
         {
             "name": "Climber's Bandanna",
             "setName": "Climbing Gear",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Climbers_Bandanna.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Climber's_Bandanna",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 27
         },
         {
             "name": "Climbing Boots",
             "setName": "Climbing Gear",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Climbing_Boots.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Climbing_Boots",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 29
         },
         {
             "name": "Climbing Gear",
             "setName": "Climbing Gear",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Climbing_Gear.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Climbing_Gear",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 28
         },
         {
             "name": "Dark Hood",
             "setName": "Dark",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Dark_Hood.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Dark_Hood",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 107
         },
         {
             "name": "Dark Trousers",
             "setName": "Dark",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Dark_Trousers.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Dark_Trousers",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 109
         },
         {
             "name": "Dark Tunic",
             "setName": "Dark",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Dark_Tunic.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Dark_Tunic",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 108
         },
         {
             "name": "Desert Voe Headband",
             "setName": "Desert Voe",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Desert_Voe_Headband.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Desert_Voe_Headband",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 18
         },
         {
             "name": "Desert Voe Spaulder",
             "setName": "Desert Voe",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Desert_Voe_Spaulder.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Desert_Voe_Spaulder",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 19
         },
         {
             "name": "Desert Voe Trousers",
             "setName": "Desert Voe",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Desert_Voe_Trousers.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Desert_Voe_Trousers",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 20
         },
         {
             "name": "Diamond Circlet",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Diamond_Circlet.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Diamond_Circlet",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 73
         },
         {
             "name": "Ember Headdress",
             "setName": "Ember",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Ember_Headdress.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ember_Headdress",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 54
         },
         {
             "name": "Ember Shirt",
             "setName": "Ember",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Ember_Shirt.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ember_Shirt",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 55
         },
         {
             "name": "Ember Trousers",
             "setName": "Ember",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Ember_Trousers.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ember_Trousers",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 56
         },
         {
             "name": "Evil Spirit Armor",
             "setName": "Evil Spirit",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Evil_Spirit_Armor.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Armor",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 104
         },
         {
             "name": "Evil Spirit Greaves",
             "setName": "Evil Spirit",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Evil_Spirit_Greaves.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Greaves",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 105
         },
         {
             "name": "Evil Spirit Mask",
             "setName": "Evil Spirit",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Evil_Spirit_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Mask",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 103
         },
         {
             "name": "Fierce Deity Armor",
             "setName": "Fierce Deity",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Fierce_Deity_Armor.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Fierce_Deity_Armor",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 111
         },
         {
             "name": "Fierce Deity Boots",
             "setName": "Fierce Deity",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Fierce_Deity_Boots.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Fierce_Deity_Boots",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 112
         },
         {
             "name": "Fierce Deity Mask",
             "setName": "Fierce Deity",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Fierce_Deity_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Fierce_Deity_Mask",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 110
         },
         {
             "name": "Flamebreaker Armor",
             "setName": "Flamebreaker",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Flamebreaker_Armor.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Flamebreaker_Armor",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 13
         },
         {
             "name": "Flamebreaker Boots",
             "setName": "Flamebreaker",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Flamebreaker_Boots.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Flamebreaker_Boots",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 14
         },
         {
             "name": "Flamebreaker Helm",
             "setName": "Flamebreaker",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Flamebreaker_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Flamebreaker_Helm",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 12
         },
         {
             "name": "Froggy Hood",
             "setName": "Froggy",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Froggy_Hood.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Froggy_Hood",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 39
         },
         {
             "name": "Froggy Leggings",
             "setName": "Froggy",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Froggy_Leggings.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Froggy_Leggings",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 41
         },
         {
             "name": "Froggy Sleeve",
             "setName": "Froggy",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Froggy_Sleeve.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Froggy_Sleeve",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 40
         },
         {
             "name": "Frostbite Headdress",
             "setName": "Frostbite",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Frostbite_Headdress.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Frostbite_Headdress",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 60
         },
         {
             "name": "Frostbite Shirt",
             "setName": "Frostbite",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Frostbite_Shirt.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Frostbite_Shirt",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 61
         },
         {
             "name": "Frostbite Trousers",
             "setName": "Frostbite",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Frostbite_Trousers.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Frostbite_Trousers",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 62
         },
         {
             "name": "Gaiters of the Depths",
             "setName": "Depths",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Gaiters_of_the_Depths.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Gaiters_of_the_Depths",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 47
         },
         {
             "name": "Glide Mask",
             "setName": "Glide",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Glide_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Glide_Mask",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 42
         },
         {
             "name": "Glide Shirt",
             "setName": "Glide",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Glide_Shirt.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Glide_Shirt",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 43
         },
         {
             "name": "Glide Tights",
             "setName": "Glide",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Glide_Tights.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Glide_Tights",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 44
         },
         {
             "name": "Hood of the Depths",
             "setName": "Depths",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Hood_of_the_Depths.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hood_of_the_Depths",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 45
         },
         {
             "name": "Horriblin Mask",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Horriblin_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Horriblin_Mask",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 85
         },
         {
             "name": "Hylian Hood",
             "setName": "Hylian",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Hylian_Hood.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hylian_Hood",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 3
         },
         {
             "name": "Hylian Trousers",
             "setName": "Hylian",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Hylian_Trousers.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hylian_Trousers",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 5
         },
         {
             "name": "Hylian Tunic",
             "setName": "Hylian",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Hylian_Tunic.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hylian_Tunic",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 4
         },
         {
             "name": "Island Lobster Shirt",
             "setName": "",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Island_Lobster_Shirt.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Island_Lobster_Shirt",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 91
         },
         {
             "name": "Korok Mask",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Korok_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Korok_Mask",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 96
         },
         {
             "name": "Lightning Helm",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Lightning_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Thunder_Helm",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 81
         },
         {
             "name": "Lizalfos Mask",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Lizalfos_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Lizalfos_Mask",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 87
         },
         {
             "name": "Lynel Mask",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Lynel_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Lynel_Mask",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 88
         },
         {
             "name": "Majora's Mask",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Majoras_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Majora's_Mask",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 95
         },
         {
             "name": "Mask of Awakening",
             "setName": "Awakening",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Mask_of_Awakening.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Mask_of_Awakening",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 113
         },
         {
             "name": "Midna's Helmet",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Midnas_Helmet.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Midna's_Helmet",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 94
         },
         {
             "name": "Miner's Mask",
             "setName": "Miner's",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Miners_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Miner's_Mask",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 48
         },
         {
             "name": "Miner's Top",
             "setName": "Miner's",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Miners_Top.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Miner's_Top",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 49
         },
         {
             "name": "Miner's Trousers",
             "setName": "Miner's",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Miners_Trousers.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Miner's_Trousers",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 50
         },
         {
             "name": "Moblin Mask",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Moblin_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Moblin_Mask",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 86
         },
         {
             "name": "Mystic Headpiece",
             "setName": "Mystic",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Mystic_Headpiece.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Mystic_Headpiece",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 51
         },
         {
             "name": "Mystic Robe",
             "setName": "Mystic",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Mystic_Robe.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Mystic_Robe",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 52
         },
         {
             "name": "Mystic Trousers",
             "setName": "Mystic",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Mystic_Trousers.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Mystic_Trousers",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 53
         },
         {
             "name": "Opal Earrings",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Opal_Earrings.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Opal_Earrings",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 77
         },
         {
             "name": "Phantom Armor",
             "setName": "Phantom",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Phantom_Armor.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Armor",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 101
         },
         {
             "name": "Phantom Greaves",
             "setName": "Phantom",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Phantom_Greaves.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Greaves",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 102
         },
         {
             "name": "Phantom Helmet",
             "setName": "Phantom",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Phantom_Helmet.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Helmet",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 100
         },
         {
             "name": "Radiant Mask",
             "setName": "Radiant",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Radiant_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Radiant_Mask",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 33
         },
         {
             "name": "Radiant Shirt",
             "setName": "Radiant",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Radiant_Shirt.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Radiant_Shirt",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 34
         },
         {
             "name": "Radiant Tights",
             "setName": "Radiant",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Radiant_Tights.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Radiant_Tights",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 35
         },
         {
             "name": "Ravio's Hood",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Ravios_Hood.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ravio's_Hood",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 92
         },
         {
             "name": "Royal Guard Boots",
             "setName": "Royal Guard",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Royal_Guard_Boots.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Royal_Guard_Boots",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 38
         },
         {
             "name": "Royal Guard Cap",
             "setName": "Royal Guard",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Royal_Guard_Cap.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Royal_Guard_Cap",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 36
         },
         {
             "name": "Royal Guard Uniform",
             "setName": "Royal Guard",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Royal_Guard_Uniform.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Royal_Guard_Uniform",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 37
         },
         {
             "name": "Rubber Armor",
             "setName": "Rubber",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Rubber_Armor.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Rubber_Armor",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 22
         },
         {
             "name": "Rubber Helm",
             "setName": "Rubber",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Rubber_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Rubber_Helm",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 21
         },
         {
             "name": "Rubber Tights",
             "setName": "Rubber",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Rubber_Tights.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Rubber_Tights",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 23
         },
         {
             "name": "Ruby Circlet",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Ruby_Circlet.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ruby_Circlet",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 74
         },
         {
             "name": "Sand Boots",
             "setName": "",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Sand_Boots.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sand_Boots",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 82
         },
         {
             "name": "Sapphire Circlet",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Sapphire_Circlet.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sapphire_Circlet",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 75
         },
         {
             "name": "Sheik's Mask",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Sheiks_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sheik's_Mask",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 106
         },
         {
             "name": "Snow Boots",
             "setName": "",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Snow_Boots.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Snow_Boots",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 83
         },
         {
             "name": "Snowquill Headdress",
             "setName": "Snowquill",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Snowquill_Headdress.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Snowquill_Headdress",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 9
         },
         {
             "name": "Snowquill Trousers",
             "setName": "Snowquill",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Snowquill_Trousers.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Snowquill_Trousers",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 11
         },
         {
             "name": "Snowquill Tunic",
             "setName": "Snowquill",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Snowquill_Tunic.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Snowquill_Tunic",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 10
         },
         {
             "name": "Soldier's Armor",
             "setName": "Soldier's",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Soldiers_Armor.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Soldier's_Armor",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 7
         },
         {
             "name": "Soldier's Greaves",
             "setName": "Soldier's",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Soldiers_Greaves.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Soldier's_Greaves",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 8
         },
         {
             "name": "Soldier's Helm",
             "setName": "Soldier's",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Soldiers_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Soldier's_Helm",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 6
         },
         {
             "name": "Stealth Chest Guard",
             "setName": "Stealth",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Stealth_Chest_Guard.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Stealth_Chest_Guard",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 25
         },
         {
             "name": "Stealth Mask",
             "setName": "Stealth",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Stealth_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Stealth_Mask",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 24
         },
         {
             "name": "Stealth Tights",
             "setName": "Stealth",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Stealth_Tights.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Stealth_Tights",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
-        },
-        {
-            "name": "Thunder Helm",
-            "setName": "",
-            "type": "Head",
-            "image": "",
-            "wiki": "https://www.zeldadungeon.net/wiki/Thunder_Helm",
-            "dlc": false,
-            "isUpgradable": false,
-            "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 26
         },
         {
             "name": "Tingle's Hood",
             "setName": "Tingle",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Tingles_Hood.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tingle's_Hood",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 97
         },
         {
             "name": "Tingle's Shirt",
             "setName": "Tingle",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Tingles_Shirt.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tingle's_Shirt",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 98
         },
         {
             "name": "Tingle's Tights",
             "setName": "Tingle",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Tingles_Tights.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tingle's_Tights",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 99
         },
         {
             "name": "Topaz Earrings",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Topaz_Earrings.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Topaz_Earrings",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 76
         },
         {
             "name": "Trousers of Awakening",
             "setName": "Awakening",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Trousers_of_Awakening.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_Awakening",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 115
         },
         {
             "name": "Trousers of Time",
             "setName": "Time",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Trousers_of_Time.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_Time",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 124
         },
         {
             "name": "Trousers of Twilight",
             "setName": "Twilight",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Trousers_of_Twilight.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_Twilight",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 130
         },
         {
             "name": "Trousers of the Hero",
             "setName": "Hero",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Trousers_of_the_Hero.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Hero",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 121
         },
         {
             "name": "Trousers of the Sky",
             "setName": "Sky",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Trousers_of_the_Sky.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Sky",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 133
         },
         {
             "name": "Trousers of the Wild",
             "setName": "Wild",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Trousers_of_the_Wild.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Wild",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 118
         },
         {
             "name": "Trousers of the Wind",
             "setName": "Wind",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Trousers_of_the_Wind.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Trousers_of_the_Wind",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 127
         },
         {
             "name": "Tunic of Awakening",
             "setName": "Awakening",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Tunic_of_Awakening.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Awakening",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 114
         },
         {
             "name": "Tunic of Memories",
             "setName": "",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Tunic_of_Memories.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Memories",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 89
         },
         {
             "name": "Tunic of Time",
             "setName": "Time",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Tunic_of_Time.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Time",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 123
         },
         {
             "name": "Tunic of Twilight",
             "setName": "Twilight",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Tunic_of_Twilight.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_Twilight",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 129
         },
         {
             "name": "Tunic of the Depths",
             "setName": "Depths",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Tunic_of_the_Depths.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Depths",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 46
         },
         {
             "name": "Tunic of the Hero",
             "setName": "Hero",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Tunic_of_the_Hero.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Hero",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 120
         },
         {
             "name": "Tunic of the Sky",
             "setName": "Sky",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Tunic_of_the_Sky.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Sky",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 132
         },
         {
             "name": "Tunic of the Wild",
             "setName": "Wild",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Tunic_of_the_Wild.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Wild",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 117
         },
         {
             "name": "Tunic of the Wind",
             "setName": "Wind",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Tunic_of_the_Wind.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Tunic_of_the_Wind",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 126
         },
         {
             "name": "Vah Medoh Divine Helm",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Vah_Medoh_Divine_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Vah_Medoh_Divine_Helm",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 66
         },
         {
             "name": "Vah Naboris Divine Helm",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Vah_Naboris_Divine_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Vah_Naboris_Divine_Helm",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 69
         },
         {
             "name": "Vah Rudania Divine Helm",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Vah_Rudania_Divine_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Vah_Rudania_Divine_Helm",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 67
         },
         {
             "name": "Vah Ruta Divine Helm",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Vah_Ruta_Divine_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Vah_Ruta_Divine_Helm",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 68
         },
         {
             "name": "Well-Worn Hair Band",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Well-Worn_Hair_Band.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Well-Worn_Hair_Band",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 79
         },
         {
             "name": "Yiga Armor",
             "setName": "Yiga",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Yiga_Armor.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Yiga_Armor",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 64
         },
         {
             "name": "Yiga Mask",
             "setName": "Yiga",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Yiga_Mask.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Yiga_Mask",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 63
         },
         {
             "name": "Yiga Tights",
             "setName": "Yiga",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Yiga_Tights.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Yiga_Tights",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 65
         },
         {
             "name": "Zant's Helmet",
             "setName": "",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Zants_Helmet.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Zant's_Helmet",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 93
         },
         {
             "name": "Zonaite Helm",
             "setName": "Zonaite",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Zonaite_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Zonaite_Helm",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 70
         },
         {
             "name": "Zonaite Shin Guards",
             "setName": "Zonaite",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Zonaite_Shin_Guards.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Zonaite_Shin_Guards",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 72
         },
         {
             "name": "Zonaite Waistguard",
             "setName": "Zonaite",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Zonaite_Waistguard.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Zonaite_Waistguard",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 71
         },
         {
             "name": "Zora Armor",
             "setName": "Zora",
-            "type": "Chest",
-            "image": "",
+            "bodyPart": "Chest",
+            "image": "Zora_Armor.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Zora_Armor",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 16
         },
         {
             "name": "Zora Greaves",
             "setName": "Zora",
-            "type": "Legs",
-            "image": "",
+            "bodyPart": "Legs",
+            "image": "Zora_Greaves.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Zora_Greaves",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 17
         },
         {
             "name": "Zora Helm",
             "setName": "Zora",
-            "type": "Head",
-            "image": "",
+            "bodyPart": "Head",
+            "image": "Zora_Helm.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Zora_Helm",
             "dlc": false,
             "isUpgradable": true,
             "currentLevel": 0,
-            "obtained": false
+            "obtained": false,
+            "sortOrder": 15
         }
     ],
     "upgrades": {
