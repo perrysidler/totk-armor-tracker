@@ -38,6 +38,23 @@ export const ArmorList = () => {
                     .map(armor => (
                     <ArmorCard key={armor.name} armorData={armor}/>
                 ))}
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
+                <li className="invisible w-44"></li>
             </ul>
         </Fragment>
     );
