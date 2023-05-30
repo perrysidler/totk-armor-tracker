@@ -31,6 +31,10 @@ body {
     @apply h-full;
 }
 
-.logo {
+.site-title {
     font-family: "The Wild Breath of Zelda", sans-serif;
+}
+
+main {
+    background-image: url("../../public/images/bg-test-2.jpg");
 }
