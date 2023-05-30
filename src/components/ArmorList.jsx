@@ -32,34 +32,20 @@ export const ArmorList = () => {
     return (
         <Fragment>
             <div className="container mx-auto">
-                <button className="w-36 bg-neutral-800 p-2 rounded mb-4" type="button" onClick={switchSortOrder}
-                        data-sort-by={sortBy}>
-                    {sortBy}
-                </button>
-                <input type="text" className="ml-8 h-10 rounded bg-white border-2 border-black w-64 text-black p-2"
-                       placeholder="Search armors" value={searchTerm} onChange={searchChangeHandler}/>
+                <div className="armor-filters-container mx-auto">
+                    <button className="w-36 bg-neutral-800 p-2 rounded mb-4" type="button" onClick={switchSortOrder}
+                            data-sort-by={sortBy}>
+                        {sortBy}
+                    </button>
+                    <input type="text" className="ml-8 h-10 rounded bg-white border-2 border-black w-64 text-black p-2"
+                           placeholder="Search armors" value={searchTerm} onChange={searchChangeHandler} />
+                </div>
                 <ul className="flex gap-6 flex-wrap justify-center container">
                     {filteredArmors
                         .map(armor => (
-                            <ArmorCard key={armor.name} armorData={armor}/>
+                            <ArmorCard key={armor.name} armorData={armor} />
                         ))}
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
-                    <li className="invisible w-64"></li>
+                    {/*<li className="invisible w-64"></li>*/}
                 </ul>
             </div>
         </Fragment>
