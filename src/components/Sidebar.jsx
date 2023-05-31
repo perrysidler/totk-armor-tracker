@@ -5,18 +5,18 @@ import Image from "next/image";
 
 export const Sidebar = () => {
     return (
-        <div className="fixed w-72 bg-neutral-800 h-full p-6 flex flex-col grow gap-y-5">
+        <div className="fixed flex h-full w-72 grow flex-col gap-y-5 bg-neutral-800 p-6">
             <div className="flex flex-wrap items-center justify-center">
                 <Image className="mr-4" src="/triforce-crest.svg" width="56" height="56" alt="Triforce Crest" />
-                <span className="site-title text-xl pt-0.5">TOTK Armor Tracker</span>
+                <span className="text-xl site-title pt-0.5">TOTK Armor Tracker</span>
             </div>
-            <div className="flex flex-1 flex-col gap-y-7 flex-grow">
+            <div className="flex flex-1 flex-grow flex-col gap-y-7">
                 <div className="mt-auto flex items-center">
-                    <a className="w-8 h-8 flex flex-col items-center justify-center mr-auto text-lg"
+                    <a className="mr-auto flex h-8 w-8 flex-col items-center justify-center text-lg"
                        href="https://github.com/perrysidler/totk-armor-tracker" target="_blank">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <button className="p-1 flex items-center justify-center" type="button">
+                    <button className="flex items-center justify-center p-1" type="button">
                         <FontAwesomeIcon className="p-1" icon={faGear} />
                         <span className="pl-1">Options</span>
                     </button>
