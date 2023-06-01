@@ -1,13 +1,9 @@
 import "@/styles/globals.css";
 import { ArmorSortMethod } from "@/types/Armor";
-import { config } from "@fortawesome/fontawesome-svg-core";
-import "@fortawesome/fontawesome-svg-core/styles.css";
 import { AppProps } from "next/app";
 import Head from "next/head";
 import { Fragment } from "react";
 import { create } from "zustand";
-
-config.autoAddCss = false;
 
 interface ITrackerStoreState {
     searchTerm: string,

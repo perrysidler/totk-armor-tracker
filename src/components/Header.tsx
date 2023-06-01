@@ -1,9 +1,9 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faGear, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { FaBars, FaGithub } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
+import { BsGearFill } from "react-icons/bs";
 
 export const Header = () => {
     const [ menuOpen, setMenuOpen ] = useState(false);
@@ -15,15 +15,15 @@ export const Header = () => {
                     <span className="text-xl site-title pt-0.5">TOTK Armor Tracker</span>
                 </div>
                 <ul className="sm:flex hidden gap-1 ml-auto">
-                    <li>
+                    <li className="flex">
                         <button className="inline-block px-3 py-2 text-xl" type="button">
-                            <FontAwesomeIcon icon={faGear} />
+                            <BsGearFill />
                         </button>
                     </li>
-                    <li>
+                    <li className="flex">
                         <Link className="inline-block px-3 py-2 text-xl" href="https://github.com/perrysidler/totk-armor-tracker"
                               target="_blank">
-                            <FontAwesomeIcon icon={faGithub} />
+                            <FaGithub />
                         </Link>
                     </li>
                 </ul>
@@ -31,15 +31,15 @@ export const Header = () => {
                     <button className="flex items-center justify-center w-8 h-8" type="button" onClick={() => setMenuOpen((prev) => !prev)}>
                         <span className="sr-only">Open menu</span>
                         {!menuOpen ? (
-                            <FontAwesomeIcon icon={faBars} className="mt-1 text-4xl" aria-hidden="true" />
+                            <FaBars className="mt-1 text-4xl" aria-hidden="true" />
                         ) : (
-                             <FontAwesomeIcon icon={faXmark} className="mx-auto mt-1 text-4xl" aria-hidden="true" />
+                            <IoClose className="mx-auto mt-1 text-4xl" aria-hidden="true" />
                          )}
                     </button>
                 </div>
             </nav>
             {menuOpen ? (
-                <nav className="top-full bg-neutral-700 container absolute left-0 z-20 p-2">
+                <nav className="top-full bg-neutral-700 container absolute left-0 z-20 p-2 sm:hidden">
                     <ul className="flex flex-col gap-2 text-left">
                         <li>
                             <button className="inline-block px-3 py-2 text-left text-lg min-w-[12rem]" type="button">
