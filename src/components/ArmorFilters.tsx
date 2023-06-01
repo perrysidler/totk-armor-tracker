@@ -1,8 +1,10 @@
 import { useTrackerStore } from "@/pages/_app";
+import { ArmorSortMethod } from "@/types/Armor";
+import { ChangeEvent } from "react";
 
 const sortByNames = {
-    "set": "By Set",
-    "bodyPart": "By Body Part",
+    [ArmorSortMethod.Set]: "By Set",
+    [ArmorSortMethod.BodyPart]: "By Body Part",
 };
 
 export const ArmorFilters = () => {
@@ -10,10 +12,10 @@ export const ArmorFilters = () => {
     const { searchTerm, setSearchTerm } = useTrackerStore();
 
     const switchSortOrder = () => {
-        setSortBy(sortBy !== "set" ? "set" : "bodyPart");
+        setSortBy(sortBy !== ArmorSortMethod.Set ? ArmorSortMethod.Set : ArmorSortMethod.BodyPart);
     };
 
-    const searchChangeHandler = (event) => {
+    const searchChangeHandler = (event: ChangeEvent<HTMLInputElement>) => {
         setSearchTerm(event.target.value);
     };
 

@@ -21,7 +21,8 @@ export const Header = () => {
                         </button>
                     </li>
                     <li>
-                        <Link className="inline-block px-3 py-2 text-xl" href="https://github.com/perrysidler/totk-armor-tracker" target="_blank">
+                        <Link className="inline-block px-3 py-2 text-xl" href="https://github.com/perrysidler/totk-armor-tracker"
+                              target="_blank">
                             <FontAwesomeIcon icon={faGithub} />
                         </Link>
                     </li>
@@ -32,8 +33,8 @@ export const Header = () => {
                         {!menuOpen ? (
                             <FontAwesomeIcon icon={faBars} className="mt-1 text-4xl" aria-hidden="true" />
                         ) : (
-                            <FontAwesomeIcon icon={faXmark} className="mx-auto mt-1 text-4xl" aria-hidden="true" />
-                        )}
+                             <FontAwesomeIcon icon={faXmark} className="mx-auto mt-1 text-4xl" aria-hidden="true" />
+                         )}
                     </button>
                 </div>
             </nav>
@@ -46,7 +47,8 @@ export const Header = () => {
                             </button>
                         </li>
                         <li>
-                            <Link className="inline-block px-3 py-2 text-lg" href="https://github.com/perrysidler/totk-armor-tracker" target="_blank">
+                            <Link className="inline-block px-3 py-2 text-lg" href="https://github.com/perrysidler/totk-armor-tracker"
+                                  target="_blank">
                                 Feedback
                             </Link>
                         </li>

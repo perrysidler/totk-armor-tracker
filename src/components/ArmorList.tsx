@@ -1,17 +1,18 @@
 import { ArmorCard } from "@/components/ArmorCard";
 import { ArmorFilters } from "@/components/ArmorFilters";
 import { useTrackerStore } from "@/pages/_app";
-import { Fragment, useState } from "react";
+import { Armor, ArmorSortMethod } from "@/types/Armor";
+import { Fragment } from "react";
 import data from "../data/data.json";
 
 const bodyPartOrder = [ "Head", "Chest", "Legs" ];
-const sortBySet = (a, b) => {
+const sortBySet = (a: Armor, b: Armor) => {
     return a["sortOrder"] - b["sortOrder"];
 };
-const sortByBodyPart = (a, b) => {
-    const typeOrder = bodyPartOrder.indexOf(a["bodyPart"]) - bodyPartOrder.indexOf(b["bodyPart"]);
+const sortByBodyPart = (a: Armor, b: Armor) => {
+    const typeOrder = bodyPartOrder.indexOf(a.bodyPart) - bodyPartOrder.indexOf(b.bodyPart);
     if (typeOrder < 0) return -1;
-    if (typeOrder === 0) return a["sortOrder"] - b["sortOrder"];
+    if (typeOrder === 0) return a.sortOrder - b.sortOrder;
     return 0;
 };
 
@@ -19,7 +20,7 @@ export const ArmorList = () => {
     const { sortBy, searchTerm } = useTrackerStore();
 
     const filteredArmors = data.armors.filter(armor => armor.name.search(new RegExp(searchTerm, "i")) >= 0)
-        .sort(sortBy === "set" ? sortBySet : sortByBodyPart);
+        .sort(sortBy === ArmorSortMethod.Set ? sortBySet : sortByBodyPart);
 
     return (
         <Fragment>
