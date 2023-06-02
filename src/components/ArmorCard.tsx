@@ -14,6 +14,7 @@ export const ArmorCard = ({ armorData }: IArmorCardProps) => {
             <span className="z-10 w-48">{armorData.name}</span>
             <span className="hidden w-48 pl-4">{armorData.setName}</span>
             <span className="z-10 w-48 pl-4">{armorData.bodyPart}</span>
+            <span className="z-10 w-48 pl-4">{armorData.currentLevel}</span>
             <span className="z-10 w-48 pl-4"><a href={armorData.wiki} target="_blank">Wiki</a></span>
         </li>
     );

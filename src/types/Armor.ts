@@ -11,6 +11,12 @@ export type Armor = {
     sortOrder: number,
 }
 
+export type ArmorSaveData = {
+    name: string,
+    currentLevel: number,
+    obtained: boolean,
+}
+
 export enum ArmorSortMethod {
     Set,
     BodyPart,
