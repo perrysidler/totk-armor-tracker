@@ -1,5 +1,5 @@
-import { useTrackerStore } from "@/pages/_app";
 import { ArmorSortMethod } from "@/types/Armor";
+import { trackerStore } from "@/store/TrackerStore";
 import { ChangeEvent } from "react";
 
 const sortByNames = {
@@ -8,8 +8,8 @@ const sortByNames = {
 };
 
 export const ArmorFilters = () => {
-    const { sortBy, setSortBy } = useTrackerStore();
-    const { searchTerm, setSearchTerm } = useTrackerStore();
+    const { sortBy, setSortBy } = trackerStore();
+    const { searchTerm, setSearchTerm } = trackerStore();
 
     const switchSortOrder = () => {
         setSortBy(sortBy !== ArmorSortMethod.Set ? ArmorSortMethod.Set : ArmorSortMethod.BodyPart);
