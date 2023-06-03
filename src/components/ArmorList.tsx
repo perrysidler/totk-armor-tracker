@@ -32,15 +32,25 @@ export const ArmorList = () => {
             saveData(result);
         }
     };
+    
+    const obtainedChangeHandler = (name: string, isObtained: boolean) => {
+        let result = armors;
+        let updatedArmor = result.find(a => a.name === name);
+        if (updatedArmor) {
+            updatedArmor.obtained = isObtained;
+            setArmors(result);
+            saveData(result);
+        }
+    }
 
     return (
         <Fragment>
             <div className="container mx-auto">
                 <ArmorFilters />
-                <ul className="sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 grid grid-cols-1 gap-6">
+                <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
                     {filteredArmors
                         .map(armor => (
-                            <ArmorCard key={armor.name} armorData={armor} onLevelIncrement={levelIncrementHandler} />
+                            <ArmorCard key={armor.name} armorData={armor} onLevelIncrement={levelIncrementHandler} onObtainedChange={obtainedChangeHandler} />
                         ))}
                     {!filteredArmors.length && <h2 className="px-2 py-6">No matching armors</h2>}
                 </ul>
