@@ -22,9 +22,9 @@ export const ArmorObtained = ({ name, obtained, onObtainedChange }: IArmorObtain
                 type="checkbox"
                 onChange={onChange}
                 checked={obtained}
-                className="h-4 w-4 rounded-sm bg-transparent checked:bg-neutral-500 focus:text-transparent focus:ring-0 focus:ring-offset-0 checked:hover:bg-neutral-500 checked:focus:bg-neutral-500"
+                className="h-5 w-5 rounded-sm bg-transparent checked:bg-neutral-500 focus:text-transparent focus:ring-0 focus:ring-offset-0 checked:hover:bg-neutral-500 checked:focus:bg-neutral-500"
             />
-            <span id={`${armorIdName}-obtained-tooltip`} className="absolute left-1/2 z-20 m-4 mx-auto hidden -translate-x-1/2 translate-y-full whitespace-nowrap rounded-sm bg-neutral-700 px-1 text-sm text-gray-100 opacity-0 transition-opacity group-hover:block group-hover:opacity-100">
+            <span id={`${armorIdName}-obtained-tooltip`} className="absolute -top-3 left-1/2 z-20 m-4 mx-auto hidden -translate-x-1/2 translate-y-full whitespace-nowrap rounded-sm bg-neutral-700 px-1.5 py-0.5 text-sm text-gray-100 opacity-0 transition-opacity group-hover:block group-hover:opacity-100">
                 {obtained ? "In your inventory" : "Not in inventory"}
             </span>
         </div>

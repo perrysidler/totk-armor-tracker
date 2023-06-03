@@ -51,7 +51,7 @@ export const ArmorLevel = ({ level, obtained, onLevelChange }: IArmorLevelProps)
                     </button>
                 ))}
                 {!obtained ? (
-                    <span className="absolute top-4 left-1/2 z-20 m-4 mx-auto hidden -translate-x-1/2 translate-y-full whitespace-nowrap rounded-sm bg-neutral-700 px-1 text-sm text-gray-100 opacity-0 transition-opacity group-hover:block group-hover:opacity-100">
+                    <span className="absolute top-2 left-1/2 z-20 m-4 mx-auto hidden -translate-x-1/2 translate-y-full whitespace-nowrap rounded-sm bg-neutral-700 px-1.5 py-0.5 text-sm text-gray-100 opacity-0 transition-opacity group-hover:block group-hover:opacity-100">
                         Add item to inventory first
                     </span>
                 ) : ""

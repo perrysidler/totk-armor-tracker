@@ -10,7 +10,7 @@ const sortByNames = {
 export const ArmorFilters = () => {
     const { sortBy, setSortBy } = trackerStore();
     const { searchTerm, setSearchTerm } = trackerStore();
-
+    
     const switchSortOrder = () => {
         setSortBy(sortBy !== ArmorSortMethod.Set ? ArmorSortMethod.Set : ArmorSortMethod.BodyPart);
     };
@@ -21,11 +21,11 @@ export const ArmorFilters = () => {
 
     return (
         <div className="mx-auto text-center armor-filters-container sm:text-left">
-            <button className="mb-4 w-36 rounded bg-neutral-800 p-2" type="button" onClick={switchSortOrder}
+            <button className="mb-4 w-36 rounded bg-neutral-800 text-sm font-semibold text-white shadow-sm px-3.5 py-2.5 hover:bg-neutral-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-800" type="button" onClick={switchSortOrder}
                     data-sort-by={sortByNames[sortBy]}>
                 {sortByNames[sortBy]}
             </button>
-            <input type="text" className="ml-8 h-10 w-64 rounded border-2 border-black bg-white p-2 text-black"
+            <input type="text" className="mx-auto mb-4 block h-10 w-full xs:w-64 rounded border-0 border-2 border-black bg-white p-2 text-black focus:ring-transparent sm:mr-0 sm:ml-8 sm:inline-block"
                    placeholder="Search armors" value={searchTerm} onChange={searchChangeHandler} />
         </div>
     );

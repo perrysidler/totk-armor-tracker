@@ -3,7 +3,7 @@ import { ArmorLevel } from "@/components/ArmorLevel";
 import { Armor } from "@/types/Armor";
 import { Clamp } from "@/utils/utils";
 import Image from "next/image";
-import { Fragment, MouseEvent, useState } from "react";
+import { useState } from "react";
 
 interface IArmorCardProps {
     armorData: Armor,
@@ -22,7 +22,10 @@ export const ArmorCard = ({ armorData, onLevelIncrement, onObtainedChange }: IAr
     };
 
     const obtainedHandler = (isObtained: boolean) => {
-        // console.log(`${armorData.name} - ${isObtained}`);
+        if (!isObtained) {
+            levelHandler(0);
+        }
+        
         setObtained(isObtained);
         onObtainedChange(armorData.name, isObtained);
     };
@@ -36,17 +39,11 @@ export const ArmorCard = ({ armorData, onLevelIncrement, onObtainedChange }: IAr
                     <ArmorObtained name={armorData.name} obtained={armorData.obtained} onObtainedChange={obtainedHandler} />
                 </div>
             </div>
-            <span className="mb-2 w-48">{armorData.name}</span>
+            <span className="my-2 w-48">{armorData.name}</span>
             {armorData.isUpgradable ? (
-                <Fragment>
-                    <ArmorLevel level={armorData.currentLevel} obtained={armorData.obtained} onLevelChange={levelHandler}/>
-                    {/*<div className="flex items-center justify-center gap-2">*/}
-                    {/*    <button className="flex h-8 w-8 items-center justify-center rounded-md bg-neutral-800" data-increment={-1} onClick={levelIncrementHandler} type="button">-</button>*/}
-                    {/*    <button className="flex h-8 w-8 items-center justify-center rounded-md bg-neutral-800" data-increment={1} onClick={levelIncrementHandler} type="button">+</button>*/}
-                    {/*</div>*/}
-                </Fragment>
+                <ArmorLevel level={armorData.currentLevel} obtained={armorData.obtained} onLevelChange={levelHandler}/>
             ) : (
-                <div className="mb-auto text-neutral-400 mt-2.5">
+                <div className="mb-[1.125rem] xl:mb-auto text-neutral-400 mt-2.5">
                     Cannot be upgraded
                 </div>
             ) }
