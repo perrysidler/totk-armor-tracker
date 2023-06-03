@@ -1,4 +1,5 @@
 import { MouseEvent, useState } from "react";
+import { isMobile } from "react-device-detect";
 import { FaRegStar, FaStar } from "react-icons/fa";
 
 const levelText: string[] = [
@@ -45,7 +46,7 @@ export const ArmorLevel = ({ level, obtained, onLevelChange }: IArmorLevelProps)
             <span className="w-10 hidden">{level > 0 ? level : "Base"}</span>
             <div className="flex p-1 text-neutral-300">
                 {[ ...Array(4) ].map((_, index) => (
-                    <button key={index} className="p-0.5 py-1.5 first:pl-1.5 last:pr-1.5 disabled:opacity-25" data-index={index} type="button" onMouseEnter={beginHover} onMouseLeave={endHover} onClick={levelClickHandler} disabled={obtained}>
+                    <button key={index} className="p-0.5 py-1.5 first:pl-1.5 last:pr-1.5 disabled:opacity-25" data-index={index} type="button" onMouseEnter={isMobile ? () => { return false; } : beginHover} onMouseLeave={isMobile ? () => { return false; } : endHover} onClick={levelClickHandler} disabled={obtained}>
                         {level >= index + 1 || hoverIndex >= index ? (
                             <FaStar className="text-xl" />
                         ) : (
