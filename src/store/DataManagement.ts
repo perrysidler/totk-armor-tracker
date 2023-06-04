@@ -1,21 +1,28 @@
 import data from "@/data/data.json";
 import { trackerStore } from "@/store/TrackerStore";
-import { Armor, ArmorSaveData } from "@/types/Armor";
+import { Armor, ArmorSaveData, ArmorUpgrade, ArmorUpgrades, UpgradeCost } from "@/types/Armor";
 
-export const loadData = () => {
+export const loadArmorData = () => {
     let armorData: Armor[] = data.armors;
-    let loadedData = window.localStorage.getItem("armorData");
+    let upgradeData: ArmorUpgrades = data.upgrades;
+    let loadedArmorData = window.localStorage.getItem("armorData");
 
-    if (loadedData !== null) {
-        let loadedArmors: ArmorSaveData[] = JSON.parse(loadedData);
+    if (loadedArmorData !== null) {
+        let loadedArmors: ArmorSaveData[] = JSON.parse(loadedArmorData);
         for (let armor of armorData) {
             let matchedArmor = loadedArmors.find(x => x.name === armor.name);
             if (typeof matchedArmor !== "undefined") {
                 armor.currentLevel = matchedArmor.currentLevel;
                 armor.obtained = matchedArmor.obtained;
             }
+            if (armor.isUpgradable) {
+                if (armor.setName !== "" && typeof upgradeData[armor.setName] !== "undefined") {
+                    armor.upgrades = upgradeData[armor.setName];
+                } else if (typeof upgradeData[armor.name] !== "undefined") {
+                    armor.upgrades = upgradeData[armor.name];
+                }
+            }
         }
-
     } else {
         let saveData: ArmorSaveData[] = [];
         for (const armor of armorData) {
@@ -24,6 +31,13 @@ export const loadData = () => {
                 currentLevel: 0,
                 obtained: false,
             } as ArmorSaveData);
+            if (armor.isUpgradable) {
+                if (armor.setName !== "" && typeof upgradeData[armor.setName] !== "undefined") {
+                    armor.upgrades = upgradeData[armor.setName];
+                } else if (typeof upgradeData[armor.name] !== "undefined") {
+                    armor.upgrades = upgradeData[armor.name];
+                }
+            }
         }
         window.localStorage.setItem("armorData", JSON.stringify(saveData));
     }
@@ -31,7 +45,7 @@ export const loadData = () => {
     trackerStore.setState({ armors: armorData});
 };
 
-export const saveData = (armorData: Armor[]) => {
+export const saveArmorData = (armorData: Armor[]) => {
     const armorSaveData: ArmorSaveData[] = armorData.map(armor => {
         return {
             name: armor.name,
@@ -41,4 +55,4 @@ export const saveData = (armorData: Armor[]) => {
     });
     
     window.localStorage.setItem("armorData", JSON.stringify(armorSaveData));
-}
+};

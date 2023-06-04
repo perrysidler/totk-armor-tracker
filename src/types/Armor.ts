@@ -9,6 +9,7 @@ export type Armor = {
     currentLevel: number,
     obtained: boolean,
     sortOrder: number,
+    upgrades?: UpgradeCost[][]
 }
 
 export type ArmorSaveData = {
@@ -20,4 +21,18 @@ export type ArmorSaveData = {
 export enum ArmorSortMethod {
     Set,
     BodyPart,
+}
+
+export type ArmorUpgrades = {
+    [key: string]: UpgradeCost[][],
+}
+
+export type ArmorUpgrade = {
+    name: string,
+    cost: UpgradeCost[][],
+}
+
+export type UpgradeCost = {
+    name: string,
+    quantity: number,
 }

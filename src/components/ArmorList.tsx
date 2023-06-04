@@ -1,6 +1,6 @@
 import { ArmorCard } from "@/components/ArmorCard";
 import { ArmorFilters } from "@/components/ArmorFilters";
-import { saveData } from "@/store/DataManagement";
+import { saveArmorData } from "@/store/DataManagement";
 import { Armor, ArmorSortMethod } from "@/types/Armor";
 import { trackerStore } from "@/store/TrackerStore";
 import { Clamp } from "@/utils/utils";
@@ -29,7 +29,7 @@ export const ArmorList = () => {
         if (updatedArmor) {
             updatedArmor.currentLevel = Clamp(updatedArmor.currentLevel + increment, 0, 4);
             setArmors(result);
-            saveData(result);
+            saveArmorData(result);
         }
     };
     
@@ -39,7 +39,7 @@ export const ArmorList = () => {
         if (updatedArmor) {
             updatedArmor.obtained = isObtained;
             setArmors(result);
-            saveData(result);
+            saveArmorData(result);
         }
     }
 
