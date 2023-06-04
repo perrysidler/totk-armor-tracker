@@ -12,14 +12,14 @@ export const ArmorLevel = ({ level, obtained, onLevelChange }: IArmorLevelProps)
     const [ hoverIndex, setHoverIndex ] = useState(-1);
     
     const beginHover = (e: MouseEvent<HTMLButtonElement>) => {
-        if (!obtained)
+        if (!obtained || isMobile)
             return;
 
         const index: number = parseInt(e.currentTarget.dataset.index || "0");
         setHoverIndex(index);
     };
     const endHover = (e: MouseEvent<HTMLButtonElement>) => {
-        if (!obtained)
+        if (!obtained || isMobile)
             return;
 
         const index: number = parseInt(e.currentTarget.dataset.index || "0");
@@ -42,7 +42,7 @@ export const ArmorLevel = ({ level, obtained, onLevelChange }: IArmorLevelProps)
             <span className="hidden w-10">{level > 0 ? level : "Base"}</span>
             <div className="flex px-2 py-1 text-neutral-300 group">
                 {[ ...Array(4) ].map((_, index) => (
-                    <button key={index} className="p-0.5 py-1.5 disabled:opacity-25" data-index={index} type="button" onMouseEnter={isMobile ? () => { return false; } : beginHover} onMouseLeave={isMobile ? () => { return false; } : endHover} onClick={levelClickHandler} disabled={!obtained}>
+                    <button key={index} className="p-0.5 py-1.5 disabled:opacity-25" data-index={index} type="button" onMouseEnter={beginHover} onMouseLeave={endHover} onClick={levelClickHandler} disabled={!obtained}>
                         {level >= index + 1 || hoverIndex >= index ? (
                             <FaStar className="text-xl" />
                         ) : (
