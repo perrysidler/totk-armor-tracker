@@ -1,19 +1,19 @@
-import { Armor, ArmorSortMethod } from "@/types/Armor";
+import { ArmorData, SortColumn } from "@/types/Armors";
 import { create } from "zustand";
 
 interface ITrackerStoreState {
-    armors: Armor[],
+    armors: ArmorData,
     searchTerm: string,
-    sortBy: ArmorSortMethod,
-    setArmors: (armors: Armor[]) => void,
+    sortBy: SortColumn,
+    setArmors: (armors: ArmorData) => void,
     setSearchTerm: (searchTerm: string) => void,
-    setSortBy: (sortBy: ArmorSortMethod) => void,
+    setSortBy: (sortBy: SortColumn) => void,
 }
 
 export const trackerStore = create<ITrackerStoreState>(set => ({
-    armors: [],
+    armors: {},
     searchTerm: "",
-    sortBy: ArmorSortMethod.Set,
+    sortBy: SortColumn.Set,
     setArmors: (armors) => set(state => ({ armors: armors })),
     setSearchTerm: (searchTerm) => set(state => ({ searchTerm: searchTerm })),
     setSortBy: (sortBy) => set(state => ({ sortBy: sortBy })),

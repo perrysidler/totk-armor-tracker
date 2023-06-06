@@ -1,7 +1,7 @@
 import { ArmorCard } from "@/components/ArmorCard";
 import { ArmorFilters } from "@/components/ArmorFilters";
 import { saveArmorData } from "@/store/DataManagement";
-import { Armor, ArmorSortMethod } from "@/types/Armor";
+import { Armor, SortColumn } from "@/types/Armors";
 import { trackerStore } from "@/store/TrackerStore";
 import { Clamp } from "@/utils/utils";
 import { Fragment } from "react";
@@ -20,12 +20,12 @@ const sortByBodyPart = (a: Armor, b: Armor) => {
 export const ArmorList = () => {
     const { armors, sortBy, searchTerm, setArmors } = trackerStore();
 
-    const filteredArmors = armors.filter(armor => armor.name.search(new RegExp(searchTerm, "i")) >= 0)
-        .sort(sortBy === ArmorSortMethod.Set ? sortBySet : sortByBodyPart);
+    const filteredArmors = Object.values(armors).filter(armor => armor.name.search(new RegExp(searchTerm, "i")) >= 0)
+        .sort(sortBy === SortColumn.Set ? sortBySet : sortByBodyPart);
     
     const levelIncrementHandler = (name: string, increment: number) => {
         let result = armors;
-        let updatedArmor = result.find(a => a.name === name);
+        let updatedArmor = result[name];
         if (updatedArmor) {
             updatedArmor.currentLevel = Clamp(updatedArmor.currentLevel + increment, 0, 4);
             setArmors(result);
@@ -35,7 +35,7 @@ export const ArmorList = () => {
     
     const obtainedChangeHandler = (name: string, isObtained: boolean) => {
         let result = armors;
-        let updatedArmor = result.find(a => a.name === name);
+        let updatedArmor = result[name];
         if (updatedArmor) {
             updatedArmor.obtained = isObtained;
             setArmors(result);

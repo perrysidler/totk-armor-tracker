@@ -1,6 +1,6 @@
 import { ArmorObtained } from "@/components/ArmorObtained";
 import { ArmorLevel } from "@/components/ArmorLevel";
-import { Armor } from "@/types/Armor";
+import { Armor } from "@/types/Armors";
 import { Clamp } from "@/utils/utils";
 import Image from "next/image";
 import { useState } from "react";
@@ -48,16 +48,16 @@ export const ArmorCard = ({ armorData, onLevelIncrement, onObtainedChange }: IAr
                 </div>
             ) }
             <ul>
-            {armorData.upgrades ? armorData.upgrades.map((upgradeLevel, index) => {
-                if (armorData.name === "Hylian Hood") {
-                    console.log(`${index} - ${JSON.stringify(upgradeLevel)}`);
-                }
+            {armorData.upgrades ? Object.values(armorData.upgrades).map((upgradeLevel, index) => {
+                // if (armorData.name === "Hylian Hood") {
+                //     console.log(`${index} - ${JSON.stringify(upgradeLevel)}`);
+                // }
                 if (armorData.currentLevel !== index) {
                     return "";
                 }
                 return (
                 <li key={Math.random()}>
-                    {upgradeLevel.map(upgrade => (
+                    {upgradeLevel[index].map(upgrade => (
                     <span key={upgrade.name} className="block">{`${index+1} ${upgrade.name} - ${upgrade.quantity}`}</span>
                     ))}</li>
             )}) : ""}

@@ -1,3 +1,9 @@
+import { UpgradeCost } from "@/types/Upgrades";
+
+export type ArmorData = {
+    [key: string]: Armor,
+}
+
 export type Armor = {
     name: string,
     setName: string,
@@ -9,7 +15,7 @@ export type Armor = {
     currentLevel: number,
     obtained: boolean,
     sortOrder: number,
-    upgrades?: UpgradeCost[][]
+    upgrades?: UpgradeCost[][],
 }
 
 export type ArmorSaveData = {
@@ -18,21 +24,7 @@ export type ArmorSaveData = {
     obtained: boolean,
 }
 
-export enum ArmorSortMethod {
+export enum SortColumn {
     Set,
     BodyPart,
-}
-
-export type ArmorUpgrades = {
-    [key: string]: UpgradeCost[][],
-}
-
-export type ArmorUpgrade = {
-    name: string,
-    cost: UpgradeCost[][],
-}
-
-export type UpgradeCost = {
-    name: string,
-    quantity: number,
 }

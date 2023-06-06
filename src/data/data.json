@@ -1,6 +1,6 @@
 {
-    "armors": [
-        {
+    "armors": {
+        "Amber Earrings": {
             "name": "Amber Earrings",
             "setName": "",
             "bodyPart": "Head",
@@ -12,7 +12,7 @@
             "obtained": false,
             "sortOrder": 78
         },
-        {
+        "Ancient Hero's Aspect": {
             "name": "Ancient Hero's Aspect",
             "setName": "Ancient Hero",
             "bodyPart": "Head",
@@ -24,7 +24,7 @@
             "obtained": false,
             "sortOrder": 134
         },
-        {
+        "Archaic Legwear": {
             "name": "Archaic Legwear",
             "setName": "Archaic",
             "bodyPart": "Legs",
@@ -36,7 +36,7 @@
             "obtained": false,
             "sortOrder": 1
         },
-        {
+        "Archaic Tunic": {
             "name": "Archaic Tunic",
             "setName": "Archaic",
             "bodyPart": "Chest",
@@ -48,7 +48,7 @@
             "obtained": false,
             "sortOrder": 0
         },
-        {
+        "Archaic Warm Greaves": {
             "name": "Archaic Warm Greaves",
             "setName": "",
             "bodyPart": "Legs",
@@ -60,7 +60,7 @@
             "obtained": false,
             "sortOrder": 2
         },
-        {
+        "Barbarian Armor": {
             "name": "Barbarian Armor",
             "setName": "Barbarian",
             "bodyPart": "Chest",
@@ -72,7 +72,7 @@
             "obtained": false,
             "sortOrder": 31
         },
-        {
+        "Barbarian Helm": {
             "name": "Barbarian Helm",
             "setName": "Barbarian",
             "bodyPart": "Head",
@@ -84,7 +84,7 @@
             "obtained": false,
             "sortOrder": 30
         },
-        {
+        "Barbarian Leg Wraps": {
             "name": "Barbarian Leg Wraps",
             "setName": "Barbarian",
             "bodyPart": "Legs",
@@ -96,7 +96,7 @@
             "obtained": false,
             "sortOrder": 32
         },
-        {
+        "Bokoblin Mask": {
             "name": "Bokoblin Mask",
             "setName": "",
             "bodyPart": "Head",
@@ -108,7 +108,7 @@
             "obtained": false,
             "sortOrder": 84
         },
-        {
+        "Cap of Time": {
             "name": "Cap of Time",
             "setName": "Time",
             "bodyPart": "Head",
@@ -120,7 +120,7 @@
             "obtained": false,
             "sortOrder": 122
         },
-        {
+        "Cap of Twilight": {
             "name": "Cap of Twilight",
             "setName": "Twilight",
             "bodyPart": "Head",
@@ -132,7 +132,7 @@
             "obtained": false,
             "sortOrder": 128
         },
-        {
+        "Cap of the Hero": {
             "name": "Cap of the Hero",
             "setName": "Hero",
             "bodyPart": "Head",
@@ -144,7 +144,7 @@
             "obtained": false,
             "sortOrder": 119
         },
-        {
+        "Cap of the Sky": {
             "name": "Cap of the Sky",
             "setName": "Sky",
             "bodyPart": "Head",
@@ -156,7 +156,7 @@
             "obtained": false,
             "sortOrder": 131
         },
-        {
+        "Cap of the Wild": {
             "name": "Cap of the Wild",
             "setName": "Wild",
             "bodyPart": "Head",
@@ -168,7 +168,7 @@
             "obtained": false,
             "sortOrder": 116
         },
-        {
+        "Cap of the Wind": {
             "name": "Cap of the Wind",
             "setName": "Wind",
             "bodyPart": "Head",
@@ -180,7 +180,7 @@
             "obtained": false,
             "sortOrder": 125
         },
-        {
+        "Cece Hat": {
             "name": "Cece Hat",
             "setName": "",
             "bodyPart": "Head",
@@ -192,7 +192,7 @@
             "obtained": false,
             "sortOrder": 80
         },
-        {
+        "Champion's Leathers": {
             "name": "Champion's Leathers",
             "setName": "",
             "bodyPart": "Chest",
@@ -204,7 +204,7 @@
             "obtained": false,
             "sortOrder": 90
         },
-        {
+        "Charged Headdress": {
             "name": "Charged Headdress",
             "setName": "Charged",
             "bodyPart": "Head",
@@ -216,7 +216,7 @@
             "obtained": false,
             "sortOrder": 57
         },
-        {
+        "Charged Shirt": {
             "name": "Charged Shirt",
             "setName": "Charged",
             "bodyPart": "Chest",
@@ -228,7 +228,7 @@
             "obtained": false,
             "sortOrder": 58
         },
-        {
+        "Charged Trousers": {
             "name": "Charged Trousers",
             "setName": "Charged",
             "bodyPart": "Legs",
@@ -240,7 +240,7 @@
             "obtained": false,
             "sortOrder": 59
         },
-        {
+        "Climber's Bandanna": {
             "name": "Climber's Bandanna",
             "setName": "Climbing Gear",
             "bodyPart": "Head",
@@ -252,7 +252,7 @@
             "obtained": false,
             "sortOrder": 27
         },
-        {
+        "Climbing Boots": {
             "name": "Climbing Boots",
             "setName": "Climbing Gear",
             "bodyPart": "Legs",
@@ -264,7 +264,7 @@
             "obtained": false,
             "sortOrder": 29
         },
-        {
+        "Climbing Gear": {
             "name": "Climbing Gear",
             "setName": "Climbing Gear",
             "bodyPart": "Chest",
@@ -276,7 +276,7 @@
             "obtained": false,
             "sortOrder": 28
         },
-        {
+        "Dark Hood": {
             "name": "Dark Hood",
             "setName": "Dark",
             "bodyPart": "Head",
@@ -288,7 +288,7 @@
             "obtained": false,
             "sortOrder": 107
         },
-        {
+        "Dark Trousers": {
             "name": "Dark Trousers",
             "setName": "Dark",
             "bodyPart": "Legs",
@@ -300,7 +300,7 @@
             "obtained": false,
             "sortOrder": 109
         },
-        {
+        "Dark Tunic": {
             "name": "Dark Tunic",
             "setName": "Dark",
             "bodyPart": "Chest",
@@ -312,7 +312,7 @@
             "obtained": false,
             "sortOrder": 108
         },
-        {
+        "Desert Voe Headband": {
             "name": "Desert Voe Headband",
             "setName": "Desert Voe",
             "bodyPart": "Head",
@@ -324,7 +324,7 @@
             "obtained": false,
             "sortOrder": 18
         },
-        {
+        "Desert Voe Spaulder": {
             "name": "Desert Voe Spaulder",
             "setName": "Desert Voe",
             "bodyPart": "Chest",
@@ -336,7 +336,7 @@
             "obtained": false,
             "sortOrder": 19
         },
-        {
+        "Desert Voe Trousers": {
             "name": "Desert Voe Trousers",
             "setName": "Desert Voe",
             "bodyPart": "Legs",
@@ -348,7 +348,7 @@
             "obtained": false,
             "sortOrder": 20
         },
-        {
+        "Diamond Circlet": {
             "name": "Diamond Circlet",
             "setName": "",
             "bodyPart": "Head",
@@ -360,7 +360,7 @@
             "obtained": false,
             "sortOrder": 73
         },
-        {
+        "Ember Headdress": {
             "name": "Ember Headdress",
             "setName": "Ember",
             "bodyPart": "Head",
@@ -372,7 +372,7 @@
             "obtained": false,
             "sortOrder": 54
         },
-        {
+        "Ember Shirt": {
             "name": "Ember Shirt",
             "setName": "Ember",
             "bodyPart": "Chest",
@@ -384,7 +384,7 @@
             "obtained": false,
             "sortOrder": 55
         },
-        {
+        "Ember Trousers": {
             "name": "Ember Trousers",
             "setName": "Ember",
             "bodyPart": "Legs",
@@ -396,7 +396,7 @@
             "obtained": false,
             "sortOrder": 56
         },
-        {
+        "Evil Spirit Armor": {
             "name": "Evil Spirit Armor",
             "setName": "Evil Spirit",
             "bodyPart": "Chest",
@@ -408,7 +408,7 @@
             "obtained": false,
             "sortOrder": 104
         },
-        {
+        "Evil Spirit Greaves": {
             "name": "Evil Spirit Greaves",
             "setName": "Evil Spirit",
             "bodyPart": "Legs",
@@ -420,7 +420,7 @@
             "obtained": false,
             "sortOrder": 105
         },
-        {
+        "Evil Spirit Mask": {
             "name": "Evil Spirit Mask",
             "setName": "Evil Spirit",
             "bodyPart": "Head",
@@ -432,7 +432,7 @@
             "obtained": false,
             "sortOrder": 103
         },
-        {
+        "Fierce Deity Armor": {
             "name": "Fierce Deity Armor",
             "setName": "Fierce Deity",
             "bodyPart": "Chest",
@@ -444,7 +444,7 @@
             "obtained": false,
             "sortOrder": 111
         },
-        {
+        "Fierce Deity Boots": {
             "name": "Fierce Deity Boots",
             "setName": "Fierce Deity",
             "bodyPart": "Legs",
@@ -456,7 +456,7 @@
             "obtained": false,
             "sortOrder": 112
         },
-        {
+        "Fierce Deity Mask": {
             "name": "Fierce Deity Mask",
             "setName": "Fierce Deity",
             "bodyPart": "Head",
@@ -468,7 +468,7 @@
             "obtained": false,
             "sortOrder": 110
         },
-        {
+        "Flamebreaker Armor": {
             "name": "Flamebreaker Armor",
             "setName": "Flamebreaker",
             "bodyPart": "Chest",
@@ -480,7 +480,7 @@
             "obtained": false,
             "sortOrder": 13
         },
-        {
+        "Flamebreaker Boots": {
             "name": "Flamebreaker Boots",
             "setName": "Flamebreaker",
             "bodyPart": "Legs",
@@ -492,7 +492,7 @@
             "obtained": false,
             "sortOrder": 14
         },
-        {
+        "Flamebreaker Helm": {
             "name": "Flamebreaker Helm",
             "setName": "Flamebreaker",
             "bodyPart": "Head",
@@ -504,7 +504,7 @@
             "obtained": false,
             "sortOrder": 12
         },
-        {
+        "Froggy Hood": {
             "name": "Froggy Hood",
             "setName": "Froggy",
             "bodyPart": "Head",
@@ -516,7 +516,7 @@
             "obtained": false,
             "sortOrder": 39
         },
-        {
+        "Froggy Leggings": {
             "name": "Froggy Leggings",
             "setName": "Froggy",
             "bodyPart": "Legs",
@@ -528,7 +528,7 @@
             "obtained": false,
             "sortOrder": 41
         },
-        {
+        "Froggy Sleeve": {
             "name": "Froggy Sleeve",
             "setName": "Froggy",
             "bodyPart": "Chest",
@@ -540,7 +540,7 @@
             "obtained": false,
             "sortOrder": 40
         },
-        {
+        "Frostbite Headdress": {
             "name": "Frostbite Headdress",
             "setName": "Frostbite",
             "bodyPart": "Head",
@@ -552,7 +552,7 @@
             "obtained": false,
             "sortOrder": 60
         },
-        {
+        "Frostbite Shirt": {
             "name": "Frostbite Shirt",
             "setName": "Frostbite",
             "bodyPart": "Chest",
@@ -564,7 +564,7 @@
             "obtained": false,
             "sortOrder": 61
         },
-        {
+        "Frostbite Trousers": {
             "name": "Frostbite Trousers",
             "setName": "Frostbite",
             "bodyPart": "Legs",
@@ -576,7 +576,7 @@
             "obtained": false,
             "sortOrder": 62
         },
-        {
+        "Gaiters of the Depths": {
             "name": "Gaiters of the Depths",
             "setName": "Depths",
             "bodyPart": "Legs",
@@ -588,7 +588,7 @@
             "obtained": false,
             "sortOrder": 47
         },
-        {
+        "Glide Mask": {
             "name": "Glide Mask",
             "setName": "Glide",
             "bodyPart": "Head",
@@ -600,7 +600,7 @@
             "obtained": false,
             "sortOrder": 42
         },
-        {
+        "Glide Shirt": {
             "name": "Glide Shirt",
             "setName": "Glide",
             "bodyPart": "Chest",
@@ -612,7 +612,7 @@
             "obtained": false,
             "sortOrder": 43
         },
-        {
+        "Glide Tights": {
             "name": "Glide Tights",
             "setName": "Glide",
             "bodyPart": "Legs",
@@ -624,7 +624,7 @@
             "obtained": false,
             "sortOrder": 44
         },
-        {
+        "Hood of the Depths": {
             "name": "Hood of the Depths",
             "setName": "Depths",
             "bodyPart": "Head",
@@ -636,7 +636,7 @@
             "obtained": false,
             "sortOrder": 45
         },
-        {
+        "Horriblin Mask": {
             "name": "Horriblin Mask",
             "setName": "",
             "bodyPart": "Head",
@@ -648,7 +648,7 @@
             "obtained": false,
             "sortOrder": 85
         },
-        {
+        "Hylian Hood": {
             "name": "Hylian Hood",
             "setName": "Hylian",
             "bodyPart": "Head",
@@ -660,7 +660,7 @@
             "obtained": false,
             "sortOrder": 3
         },
-        {
+        "Hylian Trousers": {
             "name": "Hylian Trousers",
             "setName": "Hylian",
             "bodyPart": "Legs",
@@ -672,7 +672,7 @@
             "obtained": false,
             "sortOrder": 5
         },
-        {
+        "Hylian Tunic": {
             "name": "Hylian Tunic",
             "setName": "Hylian",
             "bodyPart": "Chest",
@@ -684,7 +684,7 @@
             "obtained": false,
             "sortOrder": 4
         },
-        {
+        "Island Lobster Shirt": {
             "name": "Island Lobster Shirt",
             "setName": "",
             "bodyPart": "Chest",
@@ -696,7 +696,7 @@
             "obtained": false,
             "sortOrder": 91
         },
-        {
+        "Korok Mask": {
             "name": "Korok Mask",
             "setName": "",
             "bodyPart": "Head",
@@ -708,7 +708,7 @@
             "obtained": false,
             "sortOrder": 96
         },
-        {
+        "Lightning Helm": {
             "name": "Lightning Helm",
             "setName": "",
             "bodyPart": "Head",
@@ -720,7 +720,7 @@
             "obtained": false,
             "sortOrder": 81
         },
-        {
+        "Lizalfos Mask": {
             "name": "Lizalfos Mask",
             "setName": "",
             "bodyPart": "Head",
@@ -732,7 +732,7 @@
             "obtained": false,
             "sortOrder": 87
         },
-        {
+        "Lynel Mask": {
             "name": "Lynel Mask",
             "setName": "",
             "bodyPart": "Head",
@@ -744,7 +744,7 @@
             "obtained": false,
             "sortOrder": 88
         },
-        {
+        "Majora's Mask": {
             "name": "Majora's Mask",
             "setName": "",
             "bodyPart": "Head",
@@ -756,7 +756,7 @@
             "obtained": false,
             "sortOrder": 95
         },
-        {
+        "Mask of Awakening": {
             "name": "Mask of Awakening",
             "setName": "Awakening",
             "bodyPart": "Head",
@@ -768,7 +768,7 @@
             "obtained": false,
             "sortOrder": 113
         },
-        {
+        "Midna's Helmet": {
             "name": "Midna's Helmet",
             "setName": "",
             "bodyPart": "Head",
@@ -780,7 +780,7 @@
             "obtained": false,
             "sortOrder": 94
         },
-        {
+        "Miner's Mask": {
             "name": "Miner's Mask",
             "setName": "Miner's",
             "bodyPart": "Head",
@@ -792,7 +792,7 @@
             "obtained": false,
             "sortOrder": 48
         },
-        {
+        "Miner's Top": {
             "name": "Miner's Top",
             "setName": "Miner's",
             "bodyPart": "Chest",
@@ -804,7 +804,7 @@
             "obtained": false,
             "sortOrder": 49
         },
-        {
+        "Miner's Trousers": {
             "name": "Miner's Trousers",
             "setName": "Miner's",
             "bodyPart": "Legs",
@@ -816,7 +816,7 @@
             "obtained": false,
             "sortOrder": 50
         },
-        {
+        "Moblin Mask": {
             "name": "Moblin Mask",
             "setName": "",
             "bodyPart": "Head",
@@ -828,7 +828,7 @@
             "obtained": false,
             "sortOrder": 86
         },
-        {
+        "Mystic Headpiece": {
             "name": "Mystic Headpiece",
             "setName": "Mystic",
             "bodyPart": "Head",
@@ -840,7 +840,7 @@
             "obtained": false,
             "sortOrder": 51
         },
-        {
+        "Mystic Robe": {
             "name": "Mystic Robe",
             "setName": "Mystic",
             "bodyPart": "Chest",
@@ -852,7 +852,7 @@
             "obtained": false,
             "sortOrder": 52
         },
-        {
+        "Mystic Trousers": {
             "name": "Mystic Trousers",
             "setName": "Mystic",
             "bodyPart": "Legs",
@@ -864,7 +864,7 @@
             "obtained": false,
             "sortOrder": 53
         },
-        {
+        "Opal Earrings": {
             "name": "Opal Earrings",
             "setName": "",
             "bodyPart": "Head",
@@ -876,7 +876,7 @@
             "obtained": false,
             "sortOrder": 77
         },
-        {
+        "Phantom Armor": {
             "name": "Phantom Armor",
             "setName": "Phantom",
             "bodyPart": "Chest",
@@ -888,7 +888,7 @@
             "obtained": false,
             "sortOrder": 101
         },
-        {
+        "Phantom Greaves": {
             "name": "Phantom Greaves",
             "setName": "Phantom",
             "bodyPart": "Legs",
@@ -900,7 +900,7 @@
             "obtained": false,
             "sortOrder": 102
         },
-        {
+        "Phantom Helmet": {
             "name": "Phantom Helmet",
             "setName": "Phantom",
             "bodyPart": "Head",
@@ -912,7 +912,7 @@
             "obtained": false,
             "sortOrder": 100
         },
-        {
+        "Radiant Mask": {
             "name": "Radiant Mask",
             "setName": "Radiant",
             "bodyPart": "Head",
@@ -924,7 +924,7 @@
             "obtained": false,
             "sortOrder": 33
         },
-        {
+        "Radiant Shirt": {
             "name": "Radiant Shirt",
             "setName": "Radiant",
             "bodyPart": "Chest",
@@ -936,7 +936,7 @@
             "obtained": false,
             "sortOrder": 34
         },
-        {
+        "Radiant Tights": {
             "name": "Radiant Tights",
             "setName": "Radiant",
             "bodyPart": "Legs",
@@ -948,7 +948,7 @@
             "obtained": false,
             "sortOrder": 35
         },
-        {
+        "Ravio's Hood": {
             "name": "Ravio's Hood",
             "setName": "",
             "bodyPart": "Head",
@@ -960,7 +960,7 @@
             "obtained": false,
             "sortOrder": 92
         },
-        {
+        "Royal Guard Boots": {
             "name": "Royal Guard Boots",
             "setName": "Royal Guard",
             "bodyPart": "Legs",
@@ -972,7 +972,7 @@
             "obtained": false,
             "sortOrder": 38
         },
-        {
+        "Royal Guard Cap": {
             "name": "Royal Guard Cap",
             "setName": "Royal Guard",
             "bodyPart": "Head",
@@ -984,7 +984,7 @@
             "obtained": false,
             "sortOrder": 36
         },
-        {
+        "Royal Guard Uniform": {
             "name": "Royal Guard Uniform",
             "setName": "Royal Guard",
             "bodyPart": "Chest",
@@ -996,7 +996,7 @@
             "obtained": false,
             "sortOrder": 37
         },
-        {
+        "Rubber Armor": {
             "name": "Rubber Armor",
             "setName": "Rubber",
             "bodyPart": "Chest",
@@ -1008,7 +1008,7 @@
             "obtained": false,
             "sortOrder": 22
         },
-        {
+        "Rubber Helm": {
             "name": "Rubber Helm",
             "setName": "Rubber",
             "bodyPart": "Head",
@@ -1020,7 +1020,7 @@
             "obtained": false,
             "sortOrder": 21
         },
-        {
+        "Rubber Tights": {
             "name": "Rubber Tights",
             "setName": "Rubber",
             "bodyPart": "Legs",
@@ -1032,7 +1032,7 @@
             "obtained": false,
             "sortOrder": 23
         },
-        {
+        "Ruby Circlet": {
             "name": "Ruby Circlet",
             "setName": "",
             "bodyPart": "Head",
@@ -1044,7 +1044,7 @@
             "obtained": false,
             "sortOrder": 74
         },
-        {
+        "Sand Boots": {
             "name": "Sand Boots",
             "setName": "",
             "bodyPart": "Legs",
@@ -1056,7 +1056,7 @@
             "obtained": false,
             "sortOrder": 82
         },
-        {
+        "Sapphire Circlet": {
             "name": "Sapphire Circlet",
             "setName": "",
             "bodyPart": "Head",
@@ -1068,7 +1068,7 @@
             "obtained": false,
             "sortOrder": 75
         },
-        {
+        "Sheik's Mask": {
             "name": "Sheik's Mask",
             "setName": "",
             "bodyPart": "Head",
@@ -1080,7 +1080,7 @@
             "obtained": false,
             "sortOrder": 106
         },
-        {
+        "Snow Boots": {
             "name": "Snow Boots",
             "setName": "",
             "bodyPart": "Legs",
@@ -1092,7 +1092,7 @@
             "obtained": false,
             "sortOrder": 83
         },
-        {
+        "Snowquill Headdress": {
             "name": "Snowquill Headdress",
             "setName": "Snowquill",
             "bodyPart": "Head",
@@ -1104,7 +1104,7 @@
             "obtained": false,
             "sortOrder": 9
         },
-        {
+        "Snowquill Trousers": {
             "name": "Snowquill Trousers",
             "setName": "Snowquill",
             "bodyPart": "Legs",
@@ -1116,7 +1116,7 @@
             "obtained": false,
             "sortOrder": 11
         },
-        {
+        "Snowquill Tunic": {
             "name": "Snowquill Tunic",
             "setName": "Snowquill",
             "bodyPart": "Chest",
@@ -1128,7 +1128,7 @@
             "obtained": false,
             "sortOrder": 10
         },
-        {
+        "Soldier's Armor": {
             "name": "Soldier's Armor",
             "setName": "Soldier's",
             "bodyPart": "Chest",
@@ -1140,7 +1140,7 @@
             "obtained": false,
             "sortOrder": 7
         },
-        {
+        "Soldier's Greaves": {
             "name": "Soldier's Greaves",
             "setName": "Soldier's",
             "bodyPart": "Legs",
@@ -1152,7 +1152,7 @@
             "obtained": false,
             "sortOrder": 8
         },
-        {
+        "Soldier's Helm": {
             "name": "Soldier's Helm",
             "setName": "Soldier's",
             "bodyPart": "Head",
@@ -1164,7 +1164,7 @@
             "obtained": false,
             "sortOrder": 6
         },
-        {
+        "Stealth Chest Guard": {
             "name": "Stealth Chest Guard",
             "setName": "Stealth",
             "bodyPart": "Chest",
@@ -1176,7 +1176,7 @@
             "obtained": false,
             "sortOrder": 25
         },
-        {
+        "Stealth Mask": {
             "name": "Stealth Mask",
             "setName": "Stealth",
             "bodyPart": "Head",
@@ -1188,7 +1188,7 @@
             "obtained": false,
             "sortOrder": 24
         },
-        {
+        "Stealth Tights": {
             "name": "Stealth Tights",
             "setName": "Stealth",
             "bodyPart": "Legs",
@@ -1200,7 +1200,7 @@
             "obtained": false,
             "sortOrder": 26
         },
-        {
+        "Tingle's Hood": {
             "name": "Tingle's Hood",
             "setName": "Tingle",
             "bodyPart": "Head",
@@ -1212,7 +1212,7 @@
             "obtained": false,
             "sortOrder": 97
         },
-        {
+        "Tingle's Shirt": {
             "name": "Tingle's Shirt",
             "setName": "Tingle",
             "bodyPart": "Chest",
@@ -1224,7 +1224,7 @@
             "obtained": false,
             "sortOrder": 98
         },
-        {
+        "Tingle's Tights": {
             "name": "Tingle's Tights",
             "setName": "Tingle",
             "bodyPart": "Legs",
@@ -1236,7 +1236,7 @@
             "obtained": false,
             "sortOrder": 99
         },
-        {
+        "Topaz Earrings": {
             "name": "Topaz Earrings",
             "setName": "",
             "bodyPart": "Head",
@@ -1248,7 +1248,7 @@
             "obtained": false,
             "sortOrder": 76
         },
-        {
+        "Trousers of Awakening": {
             "name": "Trousers of Awakening",
             "setName": "Awakening",
             "bodyPart": "Legs",
@@ -1260,7 +1260,7 @@
             "obtained": false,
             "sortOrder": 115
         },
-        {
+        "Trousers of Time": {
             "name": "Trousers of Time",
             "setName": "Time",
             "bodyPart": "Legs",
@@ -1272,7 +1272,7 @@
             "obtained": false,
             "sortOrder": 124
         },
-        {
+        "Trousers of Twilight": {
             "name": "Trousers of Twilight",
             "setName": "Twilight",
             "bodyPart": "Legs",
@@ -1284,7 +1284,7 @@
             "obtained": false,
             "sortOrder": 130
         },
-        {
+        "Trousers of the Hero": {
             "name": "Trousers of the Hero",
             "setName": "Hero",
             "bodyPart": "Legs",
@@ -1296,7 +1296,7 @@
             "obtained": false,
             "sortOrder": 121
         },
-        {
+        "Trousers of the Sky": {
             "name": "Trousers of the Sky",
             "setName": "Sky",
             "bodyPart": "Legs",
@@ -1308,7 +1308,7 @@
             "obtained": false,
             "sortOrder": 133
         },
-        {
+        "Trousers of the Wild": {
             "name": "Trousers of the Wild",
             "setName": "Wild",
             "bodyPart": "Legs",
@@ -1320,7 +1320,7 @@
             "obtained": false,
             "sortOrder": 118
         },
-        {
+        "Trousers of the Wind": {
             "name": "Trousers of the Wind",
             "setName": "Wind",
             "bodyPart": "Legs",
@@ -1332,7 +1332,7 @@
             "obtained": false,
             "sortOrder": 127
         },
-        {
+        "Tunic of Awakening": {
             "name": "Tunic of Awakening",
             "setName": "Awakening",
             "bodyPart": "Chest",
@@ -1344,7 +1344,7 @@
             "obtained": false,
             "sortOrder": 114
         },
-        {
+        "Tunic of Memories": {
             "name": "Tunic of Memories",
             "setName": "",
             "bodyPart": "Chest",
@@ -1356,7 +1356,7 @@
             "obtained": false,
             "sortOrder": 89
         },
-        {
+        "Tunic of Time": {
             "name": "Tunic of Time",
             "setName": "Time",
             "bodyPart": "Chest",
@@ -1368,7 +1368,7 @@
             "obtained": false,
             "sortOrder": 123
         },
-        {
+        "Tunic of Twilight": {
             "name": "Tunic of Twilight",
             "setName": "Twilight",
             "bodyPart": "Chest",
@@ -1380,7 +1380,7 @@
             "obtained": false,
             "sortOrder": 129
         },
-        {
+        "Tunic of the Depths": {
             "name": "Tunic of the Depths",
             "setName": "Depths",
             "bodyPart": "Chest",
@@ -1392,7 +1392,7 @@
             "obtained": false,
             "sortOrder": 46
         },
-        {
+        "Tunic of the Hero": {
             "name": "Tunic of the Hero",
             "setName": "Hero",
             "bodyPart": "Chest",
@@ -1404,7 +1404,7 @@
             "obtained": false,
             "sortOrder": 120
         },
-        {
+        "Tunic of the Sky": {
             "name": "Tunic of the Sky",
             "setName": "Sky",
             "bodyPart": "Chest",
@@ -1416,7 +1416,7 @@
             "obtained": false,
             "sortOrder": 132
         },
-        {
+        "Tunic of the Wild": {
             "name": "Tunic of the Wild",
             "setName": "Wild",
             "bodyPart": "Chest",
@@ -1428,7 +1428,7 @@
             "obtained": false,
             "sortOrder": 117
         },
-        {
+        "Tunic of the Wind": {
             "name": "Tunic of the Wind",
             "setName": "Wind",
             "bodyPart": "Chest",
@@ -1440,7 +1440,7 @@
             "obtained": false,
             "sortOrder": 126
         },
-        {
+        "Vah Medoh Divine Helm": {
             "name": "Vah Medoh Divine Helm",
             "setName": "",
             "bodyPart": "Head",
@@ -1452,7 +1452,7 @@
             "obtained": false,
             "sortOrder": 66
         },
-        {
+        "Vah Naboris Divine Helm": {
             "name": "Vah Naboris Divine Helm",
             "setName": "",
             "bodyPart": "Head",
@@ -1464,7 +1464,7 @@
             "obtained": false,
             "sortOrder": 69
         },
-        {
+        "Vah Rudania Divine Helm": {
             "name": "Vah Rudania Divine Helm",
             "setName": "",
             "bodyPart": "Head",
@@ -1476,7 +1476,7 @@
             "obtained": false,
             "sortOrder": 67
         },
-        {
+        "Vah Ruta Divine Helm": {
             "name": "Vah Ruta Divine Helm",
             "setName": "",
             "bodyPart": "Head",
@@ -1488,7 +1488,7 @@
             "obtained": false,
             "sortOrder": 68
         },
-        {
+        "Well-Worn Hair Band": {
             "name": "Well-Worn Hair Band",
             "setName": "",
             "bodyPart": "Head",
@@ -1500,7 +1500,7 @@
             "obtained": false,
             "sortOrder": 79
         },
-        {
+        "Yiga Armor": {
             "name": "Yiga Armor",
             "setName": "Yiga",
             "bodyPart": "Chest",
@@ -1512,7 +1512,7 @@
             "obtained": false,
             "sortOrder": 64
         },
-        {
+        "Yiga Mask": {
             "name": "Yiga Mask",
             "setName": "Yiga",
             "bodyPart": "Head",
@@ -1524,7 +1524,7 @@
             "obtained": false,
             "sortOrder": 63
         },
-        {
+        "Yiga Tights": {
             "name": "Yiga Tights",
             "setName": "Yiga",
             "bodyPart": "Legs",
@@ -1536,7 +1536,7 @@
             "obtained": false,
             "sortOrder": 65
         },
-        {
+        "Zant's Helmet": {
             "name": "Zant's Helmet",
             "setName": "",
             "bodyPart": "Head",
@@ -1548,7 +1548,7 @@
             "obtained": false,
             "sortOrder": 93
         },
-        {
+        "Zonaite Helm": {
             "name": "Zonaite Helm",
             "setName": "Zonaite",
             "bodyPart": "Head",
@@ -1560,7 +1560,7 @@
             "obtained": false,
             "sortOrder": 70
         },
-        {
+        "Zonaite Shin Guards": {
             "name": "Zonaite Shin Guards",
             "setName": "Zonaite",
             "bodyPart": "Legs",
@@ -1572,7 +1572,7 @@
             "obtained": false,
             "sortOrder": 72
         },
-        {
+        "Zonaite Waistguard": {
             "name": "Zonaite Waistguard",
             "setName": "Zonaite",
             "bodyPart": "Chest",
@@ -1584,7 +1584,7 @@
             "obtained": false,
             "sortOrder": 71
         },
-        {
+        "Zora Armor": {
             "name": "Zora Armor",
             "setName": "Zora",
             "bodyPart": "Chest",
@@ -1596,7 +1596,7 @@
             "obtained": false,
             "sortOrder": 16
         },
-        {
+        "Zora Greaves": {
             "name": "Zora Greaves",
             "setName": "Zora",
             "bodyPart": "Legs",
@@ -1608,7 +1608,7 @@
             "obtained": false,
             "sortOrder": 17
         },
-        {
+        "Zora Helm": {
             "name": "Zora Helm",
             "setName": "Zora",
             "bodyPart": "Head",
@@ -1620,7 +1620,7 @@
             "obtained": false,
             "sortOrder": 15
         }
-    ],
+    },
     "upgrades": {
         "Amber Earrings": [
             [
@@ -3864,5 +3864,1051 @@
                 }
             ]
         ]
+    },
+    "materials": {
+        "Acorn": {
+            "name": "Acorn",
+            "image": "Acorn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Acorn",
+            "sortOrder": 0
+        },
+        "Aerocuda Eyeball": {
+            "name": "Aerocuda Eyeball",
+            "image": "Aerocuda_Eyeball.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Aerocuda_Eyeball",
+            "sortOrder": 0
+        },
+        "Aerocuda Wing": {
+            "name": "Aerocuda Wing",
+            "image": "Aerocuda_Wing.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Aerocuda_Wing",
+            "sortOrder": 0
+        },
+        "Black Bokoblin Horn": {
+            "name": "Black Bokoblin Horn",
+            "image": "Black_Bokoblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Black_Bokoblin_Horn",
+            "sortOrder": 0
+        },
+        "Black Boss Bokoblin Horn": {
+            "name": "Black Boss Bokoblin Horn",
+            "image": "Black_Boss_Bokoblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Black_Boss_Bokoblin_Horn",
+            "sortOrder": 0
+        },
+        "Black Hinox Horn": {
+            "name": "Black Hinox Horn",
+            "image": "Black_Hinox_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Black_Hinox_Horn",
+            "sortOrder": 0
+        },
+        "Black Horriblin Horn": {
+            "name": "Black Horriblin Horn",
+            "image": "Black_Horriblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Black_Horriblin_Horn",
+            "sortOrder": 0
+        },
+        "Black Lizalfos Horn": {
+            "name": "Black Lizalfos Horn",
+            "image": "Black_Lizalfos_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Black_Lizalfos_Horn",
+            "sortOrder": 0
+        },
+        "Black Moblin Horn": {
+            "name": "Black Moblin Horn",
+            "image": "Black_Moblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Black_Moblin_Horn",
+            "sortOrder": 0
+        },
+        "Bladed Rhino Beetle": {
+            "name": "Bladed Rhino Beetle",
+            "image": "Bladed_Rhino_Beetle.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Bladed_Rhino_Beetle",
+            "sortOrder": 0
+        },
+        "Blue Bokoblin Horn": {
+            "name": "Blue Bokoblin Horn",
+            "image": "Blue_Bokoblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Blue_Bokoblin_Horn",
+            "sortOrder": 0
+        },
+        "Blue Boss Bokoblin Horn": {
+            "name": "Blue Boss Bokoblin Horn",
+            "image": "Blue_Boss_Bokoblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Blue_Boss_Bokoblin_Horn",
+            "sortOrder": 0
+        },
+        "Blue Horriblin Horn": {
+            "name": "Blue Horriblin Horn",
+            "image": "Blue_Horriblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Blue_Horriblin_Horn",
+            "sortOrder": 0
+        },
+        "Blue Lizalfos Horn": {
+            "name": "Blue Lizalfos Horn",
+            "image": "Blue_Lizalfos_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Blue_Lizalfos_Horn",
+            "sortOrder": 0
+        },
+        "Blue Lizalfos Tail": {
+            "name": "Blue Lizalfos Tail",
+            "image": "Blue_Lizalfos_Tail.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Blue_Lizalfos_Tail",
+            "sortOrder": 0
+        },
+        "Blue Moblin Horn": {
+            "name": "Blue Moblin Horn",
+            "image": "Blue_Moblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Blue_Moblin_Horn",
+            "sortOrder": 0
+        },
+        "Blue Nightshade": {
+            "name": "Blue Nightshade",
+            "image": "Blue_Nightshade.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Blue_Nightshade",
+            "sortOrder": 0
+        },
+        "Blue-Maned Lynel Mace Horn": {
+            "name": "Blue-Maned Lynel Mace Horn",
+            "image": "Blue-Maned_Lynel_Mace_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Blue-Maned_Lynel_Mace_Horn",
+            "sortOrder": 0
+        },
+        "Blue-Maned Lynel Saber Horn": {
+            "name": "Blue-Maned Lynel Saber Horn",
+            "image": "Blue-Maned_Lynel_Saber_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Blue-Maned_Lynel_Saber_Horn",
+            "sortOrder": 0
+        },
+        "Blue-White Frox Fang": {
+            "name": "Blue-White Frox Fang",
+            "image": "Blue-White_Frox_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Blue-White_Frox_Fang",
+            "sortOrder": 0
+        },
+        "Bokoblin Fang": {
+            "name": "Bokoblin Fang",
+            "image": "Bokoblin_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Bokoblin_Fang",
+            "sortOrder": 0
+        },
+        "Bokoblin Guts": {
+            "name": "Bokoblin Guts",
+            "image": "Bokoblin_Guts.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Bokoblin_Guts",
+            "sortOrder": 0
+        },
+        "Bokoblin Horn": {
+            "name": "Bokoblin Horn",
+            "image": "Bokoblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Bokoblin_Horn",
+            "sortOrder": 0
+        },
+        "Boss Bokoblin Guts": {
+            "name": "Boss Bokoblin Guts",
+            "image": "Boss_Bokoblin_Guts.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Boss_Bokoblin_Guts",
+            "sortOrder": 0
+        },
+        "Boss Bokoblin Horn": {
+            "name": "Boss Bokoblin Horn",
+            "image": "Boss_Bokoblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Boss_Bokoblin_Horn",
+            "sortOrder": 0
+        },
+        "Bright Cap": {
+            "name": "Bright Cap",
+            "image": "Bright_Cap.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Bright_Cap",
+            "sortOrder": 0
+        },
+        "Brightbloom Seed": {
+            "name": "Brightbloom Seed",
+            "image": "Brightbloom_Seed.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Brightbloom_Seed",
+            "sortOrder": 0
+        },
+        "Captain Construct I Horn": {
+            "name": "Captain Construct I Horn",
+            "image": "Captain_Construct_I_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Captain_Construct_I_Horn",
+            "sortOrder": 0
+        },
+        "Captain Construct II Horn": {
+            "name": "Captain Construct II Horn",
+            "image": "Captain_Construct_II_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Captain_Construct_II_Horn",
+            "sortOrder": 0
+        },
+        "Captain Construct III Horn": {
+            "name": "Captain Construct III Horn",
+            "image": "Captain_Construct_III_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Captain_Construct_III_Horn",
+            "sortOrder": 0
+        },
+        "Chillfin Trout": {
+            "name": "Chillfin Trout",
+            "image": "Chillfin_Trout.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Chillfin_Trout",
+            "sortOrder": 0
+        },
+        "Chillshroom": {
+            "name": "Chillshroom",
+            "image": "Chillshroom.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Chillshroom",
+            "sortOrder": 0
+        },
+        "Chuchu Jelly": {
+            "name": "Chuchu Jelly",
+            "image": "Chuchu_Jelly.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Chuchu_Jelly",
+            "sortOrder": 0
+        },
+        "Cold Darner": {
+            "name": "Cold Darner",
+            "image": "Cold_Darner.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Cold_Darner",
+            "sortOrder": 0
+        },
+        "Cool Safflina": {
+            "name": "Cool Safflina",
+            "image": "Cool_Safflina.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Cool_Safflina",
+            "sortOrder": 0
+        },
+        "Courser Bee Honey": {
+            "name": "Courser Bee Honey",
+            "image": "Courser_Bee_Honey.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Courser_Bee_Honey",
+            "sortOrder": 0
+        },
+        "Dark Clump": {
+            "name": "Dark Clump",
+            "image": "Dark_Clump.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Dark_Clump",
+            "sortOrder": 0
+        },
+        "Dazzlefruit": {
+            "name": "Dazzlefruit",
+            "image": "Dazzlefruit.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Dazzlefruit",
+            "sortOrder": 0
+        },
+        "Deep Firefly": {
+            "name": "Deep Firefly",
+            "image": "Deep_Firefly.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Deep_Firefly",
+            "sortOrder": 0
+        },
+        "Diamond": {
+            "name": "Diamond",
+            "image": "Diamond.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Diamond",
+            "sortOrder": 0
+        },
+        "Dinraal's Claw": {
+            "name": "Dinraal's Claw",
+            "image": "Dinraals_Claw.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Dinraal's_Claw",
+            "sortOrder": 0
+        },
+        "Dinraal's Fang": {
+            "name": "Dinraal's Fang",
+            "image": "Dinraals_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Dinraal's_Fang",
+            "sortOrder": 0
+        },
+        "Dinraal's Horn": {
+            "name": "Dinraal's Horn",
+            "image": "Dinraals_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Dinraal's_Horn",
+            "sortOrder": 0
+        },
+        "Dinraal's Scale": {
+            "name": "Dinraal's Scale",
+            "image": "Dinraals_Scale.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Dinraal's_Scale",
+            "sortOrder": 0
+        },
+        "Electric Darner": {
+            "name": "Electric Darner",
+            "image": "Electric_Darner.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Electric_Darner",
+            "sortOrder": 0
+        },
+        "Electric Keese Wing": {
+            "name": "Electric Keese Wing",
+            "image": "Electric_Keese_Wing.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Electric_Keese_Wing",
+            "sortOrder": 0
+        },
+        "Electric Lizal Horn": {
+            "name": "Electric Lizal Horn",
+            "image": "Electric_Lizal_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Electric_Lizal_Horn",
+            "sortOrder": 0
+        },
+        "Electric Lizalfos Horn": {
+            "name": "Electric Lizalfos Horn",
+            "image": "Electric_Lizalfos_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Electric_Lizalfos_Horn",
+            "sortOrder": 0
+        },
+        "Electric Lizalfos Tail": {
+            "name": "Electric Lizalfos Tail",
+            "image": "Electric_Lizalfos_Tail.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Electric_Lizalfos_Tail",
+            "sortOrder": 0
+        },
+        "Electric Safflina": {
+            "name": "Electric Safflina",
+            "image": "Electric_Safflina.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Electric_Safflina",
+            "sortOrder": 0
+        },
+        "Energetic Rhino Beetle": {
+            "name": "Energetic Rhino Beetle",
+            "image": "Energetic_Rhino_Beetle.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Energetic_Rhino_Beetle",
+            "sortOrder": 0
+        },
+        "Farosh's Claw": {
+            "name": "Farosh's Claw",
+            "image": "Faroshs_Claw.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Farosh's_Claw",
+            "sortOrder": 0
+        },
+        "Farosh's Fang": {
+            "name": "Farosh's Fang",
+            "image": "Faroshs_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Farosh's_Fang",
+            "sortOrder": 0
+        },
+        "Farosh's Horn": {
+            "name": "Farosh's Horn",
+            "image": "Faroshs_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Farosh's_Horn",
+            "sortOrder": 0
+        },
+        "Farosh's Scale": {
+            "name": "Farosh's Scale",
+            "image": "Faroshs_Scale.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Farosh's_Scale",
+            "sortOrder": 0
+        },
+        "Fire Fruit": {
+            "name": "Fire Fruit",
+            "image": "Fire_Fruit.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Fire_Fruit",
+            "sortOrder": 0
+        },
+        "Fire Keese Wing": {
+            "name": "Fire Keese Wing",
+            "image": "Fire_Keese_Wing.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Fire_Keese_Wing",
+            "sortOrder": 0
+        },
+        "Fire Like Stone": {
+            "name": "Fire Like Stone",
+            "image": "Fire_Like_Stone.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Fire_Like_Stone",
+            "sortOrder": 0
+        },
+        "Fire-Breath Lizalfos Horn": {
+            "name": "Fire-Breath Lizalfos Horn",
+            "image": "Fire-Breath_Lizalfos_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Fire-Breath_Lizalfos_Horn",
+            "sortOrder": 0
+        },
+        "Fire-Breath Lizalfos Tail": {
+            "name": "Fire-Breath Lizalfos Tail",
+            "image": "Fire-Breath_Lizalfos_Tail.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Fire-Breath_Lizalfos_Tail",
+            "sortOrder": 0
+        },
+        "Fireproof Lizard": {
+            "name": "Fireproof Lizard",
+            "image": "Fireproof_Lizard.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Fireproof_Lizard",
+            "sortOrder": 0
+        },
+        "Flint": {
+            "name": "Flint",
+            "image": "Flint.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Flint",
+            "sortOrder": 0
+        },
+        "Frox Fang": {
+            "name": "Frox Fang",
+            "image": "Frox_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Frox_Fang",
+            "sortOrder": 0
+        },
+        "Frox Fingernail": {
+            "name": "Frox Fingernail",
+            "image": "Frox_Fingernail.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Frox_Fingernail",
+            "sortOrder": 0
+        },
+        "Frox Guts": {
+            "name": "Frox Guts",
+            "image": "Frox_Guts.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Frox_Guts",
+            "sortOrder": 0
+        },
+        "Giant Brightbloom Seed": {
+            "name": "Giant Brightbloom Seed",
+            "image": "Giant_Brightbloom_Seed.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Giant_Brightbloom_Seed",
+            "sortOrder": 0
+        },
+        "Gibdo Bone": {
+            "name": "Gibdo Bone",
+            "image": "Gibdo_Bone.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Gibdo_Bone",
+            "sortOrder": 0
+        },
+        "Gibdo Guts": {
+            "name": "Gibdo Guts",
+            "image": "Gibdo_Guts.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Gibdo_Guts",
+            "sortOrder": 0
+        },
+        "Gibdo Wing": {
+            "name": "Gibdo Wing",
+            "image": "Gibdo_Wing.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Gibdo_Wing",
+            "sortOrder": 0
+        },
+        "Gleeok Electric Horn": {
+            "name": "Gleeok Electric Horn",
+            "image": "Gleeok_Electric_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Electric_Horn",
+            "sortOrder": 0
+        },
+        "Gleeok Flame Horn": {
+            "name": "Gleeok Flame Horn",
+            "image": "Gleeok_Flame_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Flame_Horn",
+            "sortOrder": 0
+        },
+        "Gleeok Frost Horn": {
+            "name": "Gleeok Frost Horn",
+            "image": "Gleeok_Frost_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Frost_Horn",
+            "sortOrder": 0
+        },
+        "Gleeok Guts": {
+            "name": "Gleeok Guts",
+            "image": "Gleeok_Guts.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Guts",
+            "sortOrder": 0
+        },
+        "Gleeok Wing": {
+            "name": "Gleeok Wing",
+            "image": "Gleeok_Wing.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Wing",
+            "sortOrder": 0
+        },
+        "Glowing Cave Fish": {
+            "name": "Glowing Cave Fish",
+            "image": "Glowing_Cave_Fish.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Glowing_Cave_Fish",
+            "sortOrder": 0
+        },
+        "Hearty Bass": {
+            "name": "Hearty Bass",
+            "image": "Hearty_Bass.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hearty_Bass",
+            "sortOrder": 0
+        },
+        "Hearty Lizard": {
+            "name": "Hearty Lizard",
+            "image": "Hearty_Lizard.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hearty_Lizard",
+            "sortOrder": 0
+        },
+        "Hightail Lizard": {
+            "name": "Hightail Lizard",
+            "image": "Hightail_Lizard.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hightail_Lizard",
+            "sortOrder": 0
+        },
+        "Hinox Guts": {
+            "name": "Hinox Guts",
+            "image": "Hinox_Guts.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hinox_Guts",
+            "sortOrder": 0
+        },
+        "Hinox Toenail": {
+            "name": "Hinox Toenail",
+            "image": "Hinox_Toenail.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hinox_Toenail",
+            "sortOrder": 0
+        },
+        "Hinox Tooth": {
+            "name": "Hinox Tooth",
+            "image": "Hinox_Tooth.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hinox_Tooth",
+            "sortOrder": 0
+        },
+        "Horriblin Guts": {
+            "name": "Horriblin Guts",
+            "image": "Horriblin_Guts.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Horriblin_Guts",
+            "sortOrder": 0
+        },
+        "Horriblin Horn": {
+            "name": "Horriblin Horn",
+            "image": "Horriblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Horriblin_Horn",
+            "sortOrder": 0
+        },
+        "Hot-Footed Frog": {
+            "name": "Hot-Footed Frog",
+            "image": "Hot-Footed_Frog.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hot-Footed_Frog",
+            "sortOrder": 0
+        },
+        "Hyrule Bass": {
+            "name": "Hyrule Bass",
+            "image": "Hyrule_Bass.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Hyrule_Bass",
+            "sortOrder": 0
+        },
+        "Ice Fruit": {
+            "name": "Ice Fruit",
+            "image": "Ice_Fruit.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Ice_Fruit",
+            "sortOrder": 0
+        },
+        "Ice Keese Wing": {
+            "name": "Ice Keese Wing",
+            "image": "Ice_Keese_Wing.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Ice_Keese_Wing",
+            "sortOrder": 0
+        },
+        "Ice Like Stone": {
+            "name": "Ice Like Stone",
+            "image": "Ice_Like_Stone.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Ice_Like_Stone",
+            "sortOrder": 0
+        },
+        "Ice-Breath Lizalfos Horn": {
+            "name": "Ice-Breath Lizalfos Horn",
+            "image": "Ice-Breath_Lizalfos_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Ice-Breath_Lizalfos_Horn",
+            "sortOrder": 0
+        },
+        "Ice-Breath Lizalfos Tail": {
+            "name": "Ice-Breath Lizalfos Tail",
+            "image": "Ice-Breath_Lizalfos_Tail.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Ice-Breath_Lizalfos_Tail",
+            "sortOrder": 0
+        },
+        "Keese Eyeball": {
+            "name": "Keese Eyeball",
+            "image": "Keese_Eyeball.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Keese_Eyeball",
+            "sortOrder": 0
+        },
+        "Keese Wing": {
+            "name": "Keese Wing",
+            "image": "Keese_Wing.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Keese_Wing",
+            "sortOrder": 0
+        },
+        "Large Zonai Charge": {
+            "name": "Large Zonai Charge",
+            "image": "Large_Zonai_Charge.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Large_Zonai_Charge",
+            "sortOrder": 0
+        },
+        "Large Zonaite": {
+            "name": "Large Zonaite",
+            "image": "Large_Zonaite.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Large_Zonaite",
+            "sortOrder": 0
+        },
+        "Light Dragon's Horn": {
+            "name": "Light Dragon's Horn",
+            "image": "Light_Dragons_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Light_Dragon's_Horn",
+            "sortOrder": 0
+        },
+        "Light Dragon's Scale": {
+            "name": "Light Dragon's Scale",
+            "image": "Light_Dragons_Scale.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Light_Dragon's_Scale",
+            "sortOrder": 0
+        },
+        "Light Dragon's Talon": {
+            "name": "Light Dragon's Talon",
+            "image": "Light_Dragons_Talon.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Light_Dragon's_Talon",
+            "sortOrder": 0
+        },
+        "Lizalfos Horn": {
+            "name": "Lizalfos Horn",
+            "image": "Lizalfos_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Lizalfos_Horn",
+            "sortOrder": 0
+        },
+        "Lizalfos Tail": {
+            "name": "Lizalfos Tail",
+            "image": "Lizalfos_Tail.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Lizalfos_Tail",
+            "sortOrder": 0
+        },
+        "Lizalfos Talon": {
+            "name": "Lizalfos Talon",
+            "image": "Lizalfos_Talon.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Lizalfos_Talon",
+            "sortOrder": 0
+        },
+        "Luminous Stone": {
+            "name": "Luminous Stone",
+            "image": "Luminous_Stone.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Luminous_Stone",
+            "sortOrder": 0
+        },
+        "Lynel Guts": {
+            "name": "Lynel Guts",
+            "image": "Lynel_Guts.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Lynel_Guts",
+            "sortOrder": 0
+        },
+        "Lynel Hoof": {
+            "name": "Lynel Hoof",
+            "image": "Lynel_Hoof.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Lynel_Hoof",
+            "sortOrder": 0
+        },
+        "Lynel Mace Horn": {
+            "name": "Lynel Mace Horn",
+            "image": "Lynel_Mace_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Lynel_Mace_Horn",
+            "sortOrder": 0
+        },
+        "Lynel Saber Horn": {
+            "name": "Lynel Saber Horn",
+            "image": "Lynel_Saber_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Lynel_Saber_Horn",
+            "sortOrder": 0
+        },
+        "Mighty Banana": {
+            "name": "Mighty Banana",
+            "image": "Mighty_Banana.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Mighty_Banana",
+            "sortOrder": 0
+        },
+        "Mighty Thistle": {
+            "name": "Mighty Thistle",
+            "image": "Mighty_Thistle.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Mighty_Thistle",
+            "sortOrder": 0
+        },
+        "Moblin Fang": {
+            "name": "Moblin Fang",
+            "image": "Moblin_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Moblin_Fang",
+            "sortOrder": 0
+        },
+        "Moblin Guts": {
+            "name": "Moblin Guts",
+            "image": "Moblin_Guts.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Moblin_Guts",
+            "sortOrder": 0
+        },
+        "Moblin Horn": {
+            "name": "Moblin Horn",
+            "image": "Moblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Moblin_Horn",
+            "sortOrder": 0
+        },
+        "Molduga Fin": {
+            "name": "Molduga Fin",
+            "image": "Molduga_Fin.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Molduga_Fin",
+            "sortOrder": 0
+        },
+        "Molduga Guts": {
+            "name": "Molduga Guts",
+            "image": "Molduga_Guts.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Molduga_Guts",
+            "sortOrder": 0
+        },
+        "Molduga Jaw": {
+            "name": "Molduga Jaw",
+            "image": "Molduga_Jaw.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Molduga_Jaw",
+            "sortOrder": 0
+        },
+        "Naydra's Claw": {
+            "name": "Naydra's Claw",
+            "image": "Naydras_Claw.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Naydra's_Claw",
+            "sortOrder": 0
+        },
+        "Naydra's Fang": {
+            "name": "Naydra's Fang",
+            "image": "Naydras_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Naydra's_Fang",
+            "sortOrder": 0
+        },
+        "Naydra's Horn": {
+            "name": "Naydra's Horn",
+            "image": "Naydras_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Naydra's_Horn",
+            "sortOrder": 0
+        },
+        "Naydra's Scale": {
+            "name": "Naydra's Scale",
+            "image": "Naydras_Scale.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Naydra's_Scale",
+            "sortOrder": 0
+        },
+        "Obsidian Frox Fang": {
+            "name": "Obsidian Frox Fang",
+            "image": "Obsidian_Frox_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Obsidian_Frox_Fang",
+            "sortOrder": 0
+        },
+        "Octo Balloon": {
+            "name": "Octo Balloon",
+            "image": "Octo_Balloon.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Octo_Balloon",
+            "sortOrder": 0
+        },
+        "Octorok Eyeball": {
+            "name": "Octorok Eyeball",
+            "image": "Octorok_Eyeball.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Octorok_Eyeball",
+            "sortOrder": 0
+        },
+        "Octorok Tentacle": {
+            "name": "Octorok Tentacle",
+            "image": "Octorok_Tentacle.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Octorok_Tentacle",
+            "sortOrder": 0
+        },
+        "Opal": {
+            "name": "Opal",
+            "image": "Opal.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Opal",
+            "sortOrder": 0
+        },
+        "Puffshroom": {
+            "name": "Puffshroom",
+            "image": "Puffshroom.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Puffshroom",
+            "sortOrder": 0
+        },
+        "Razorclaw Crab": {
+            "name": "Razorclaw Crab",
+            "image": "Razorclaw_Crab.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Razorclaw_Crab",
+            "sortOrder": 0
+        },
+        "Razorshroom": {
+            "name": "Razorshroom",
+            "image": "Razorshroom.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Razorshroom",
+            "sortOrder": 0
+        },
+        "Red Chuchu Jelly": {
+            "name": "Red Chuchu Jelly",
+            "image": "Red_Chuchu_Jelly.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Red_Chuchu_Jelly",
+            "sortOrder": 0
+        },
+        "Ruby": {
+            "name": "Ruby",
+            "image": "Ruby.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Ruby",
+            "sortOrder": 0
+        },
+        "Rushroom": {
+            "name": "Rushroom",
+            "image": "Rushroom.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Rushroom",
+            "sortOrder": 0
+        },
+        "Sapphire": {
+            "name": "Sapphire",
+            "image": "Sapphire.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sapphire",
+            "sortOrder": 0
+        },
+        "Shard of Dinraal's Fang": {
+            "name": "Shard of Dinraal's Fang",
+            "image": "Shard_of_Dinraals_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Dinraal's_Fang",
+            "sortOrder": 0
+        },
+        "Shard of Dinraal's Spike": {
+            "name": "Shard of Dinraal's Spike",
+            "image": "Shard_of_Dinraals_Spike.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Dinraal's_Spike",
+            "sortOrder": 0
+        },
+        "Shard of Farosh's Fang": {
+            "name": "Shard of Farosh's Fang",
+            "image": "Shard_of_Faroshs_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Farosh's_Fang",
+            "sortOrder": 0
+        },
+        "Shard of Farosh's Spike": {
+            "name": "Shard of Farosh's Spike",
+            "image": "Shard_of_Faroshs_Spike.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Farosh's_Spike",
+            "sortOrder": 0
+        },
+        "Shard of Light Dragon's Fang": {
+            "name": "Shard of Light Dragon's Fang",
+            "image": "Shard_of_Light_Dragons_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Light_Dragon's_Fang",
+            "sortOrder": 0
+        },
+        "Shard of Naydra's Fang": {
+            "name": "Shard of Naydra's Fang",
+            "image": "Shard_of_Naydras_Fang.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Naydra's_Fang",
+            "sortOrder": 0
+        },
+        "Shard of Naydra's Spike": {
+            "name": "Shard of Naydra's Spike",
+            "image": "Shard_of_Naydras_Spike.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Naydra's_Spike",
+            "sortOrder": 0
+        },
+        "Shock Fruit": {
+            "name": "Shock Fruit",
+            "image": "Shock_Fruit.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Shock_Fruit",
+            "sortOrder": 0
+        },
+        "Shock Like Stone": {
+            "name": "Shock Like Stone",
+            "image": "Shock_Like_Stone.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Shock_Like_Stone",
+            "sortOrder": 0
+        },
+        "Silent Princess": {
+            "name": "Silent Princess",
+            "image": "Silent_Princess.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Silent_Princess",
+            "sortOrder": 0
+        },
+        "Silent Shroom": {
+            "name": "Silent Shroom",
+            "image": "Silent_Shroom.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Silent_Shroom",
+            "sortOrder": 0
+        },
+        "Silver Bokoblin Horn": {
+            "name": "Silver Bokoblin Horn",
+            "image": "Silver_Bokoblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Silver_Bokoblin_Horn",
+            "sortOrder": 0
+        },
+        "Silver Boss Bokoblin Horn": {
+            "name": "Silver Boss Bokoblin Horn",
+            "image": "Silver_Boss_Bokoblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Silver_Boss_Bokoblin_Horn",
+            "sortOrder": 0
+        },
+        "Silver Lizalfos Horn": {
+            "name": "Silver Lizalfos Horn",
+            "image": "Silver_Lizalfos_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Silver_Lizalfos_Horn",
+            "sortOrder": 0
+        },
+        "Silver Moblin Horn": {
+            "name": "Silver Moblin Horn",
+            "image": "Silver_Moblin_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Silver_Moblin_Horn",
+            "sortOrder": 0
+        },
+        "Sizzlefin Trout": {
+            "name": "Sizzlefin Trout",
+            "image": "Sizzlefin_Trout.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sizzlefin_Trout",
+            "sortOrder": 0
+        },
+        "Smotherwing Butterfly": {
+            "name": "Smotherwing Butterfly",
+            "image": "Smotherwing_Butterfly.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Smotherwing_Butterfly",
+            "sortOrder": 0
+        },
+        "Sneaky River Snail": {
+            "name": "Sneaky River Snail",
+            "image": "Sneaky_River_Snail.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sneaky_River_Snail",
+            "sortOrder": 0
+        },
+        "Soldier Construct Horn": {
+            "name": "Soldier Construct Horn",
+            "image": "Soldier_Construct_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Soldier_Construct_Horn",
+            "sortOrder": 0
+        },
+        "Soldier Construct II Horn": {
+            "name": "Soldier Construct II Horn",
+            "image": "Soldier_Construct_II_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Soldier_Construct_II_Horn",
+            "sortOrder": 0
+        },
+        "Soldier Construct III Horn": {
+            "name": "Soldier Construct III Horn",
+            "image": "Soldier_Construct_III_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Soldier_Construct_III_Horn",
+            "sortOrder": 0
+        },
+        "Soldier Construct IV Horn": {
+            "name": "Soldier Construct IV Horn",
+            "image": "Soldier_Construct_IV_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Soldier_Construct_IV_Horn",
+            "sortOrder": 0
+        },
+        "Star Fragment": {
+            "name": "Star Fragment",
+            "image": "Star_Fragment.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Star_Fragment",
+            "sortOrder": 0
+        },
+        "Stealthfin Trout": {
+            "name": "Stealthfin Trout",
+            "image": "Stealthfin_Trout.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Stealthfin_Trout",
+            "sortOrder": 0
+        },
+        "Sticky Frog": {
+            "name": "Sticky Frog",
+            "image": "Sticky_Frog.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sticky_Frog",
+            "sortOrder": 0
+        },
+        "Sticky Lizard": {
+            "name": "Sticky Lizard",
+            "image": "Sticky_Lizard.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sticky_Lizard",
+            "sortOrder": 0
+        },
+        "Summerwing Butterfly": {
+            "name": "Summerwing Butterfly",
+            "image": "Summerwing_Butterfly.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Summerwing_Butterfly",
+            "sortOrder": 0
+        },
+        "Sundelion": {
+            "name": "Sundelion",
+            "image": "Sundelion.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sundelion",
+            "sortOrder": 0
+        },
+        "Sunset Firefly": {
+            "name": "Sunset Firefly",
+            "image": "Sunset_Firefly.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sunset_Firefly",
+            "sortOrder": 0
+        },
+        "Sunshroom": {
+            "name": "Sunshroom",
+            "image": "Sunshroom.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Sunshroom",
+            "sortOrder": 0
+        },
+        "Swift Carrot": {
+            "name": "Swift Carrot",
+            "image": "Swift_Carrot.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Swift_Carrot",
+            "sortOrder": 0
+        },
+        "Swift Violet": {
+            "name": "Swift Violet",
+            "image": "Swift_Violet.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Swift_Violet",
+            "sortOrder": 0
+        },
+        "Thunderwing Butterfly": {
+            "name": "Thunderwing Butterfly",
+            "image": "Thunderwing_Butterfly.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Thunderwing_Butterfly",
+            "sortOrder": 0
+        },
+        "Topaz": {
+            "name": "Topaz",
+            "image": "Topaz.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Topaz",
+            "sortOrder": 0
+        },
+        "Voltfin Trout": {
+            "name": "Voltfin Trout",
+            "image": "Voltfin_Trout.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Voltfin_Trout",
+            "sortOrder": 0
+        },
+        "Voltfruit": {
+            "name": "Voltfruit",
+            "image": "Voltfruit.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Voltfruit",
+            "sortOrder": 0
+        },
+        "Warm Darner": {
+            "name": "Warm Darner",
+            "image": "Warm_Darner.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Warm_Darner",
+            "sortOrder": 0
+        },
+        "Warm Safflina": {
+            "name": "Warm Safflina",
+            "image": "Warm_Safflina.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Warm_Safflina",
+            "sortOrder": 0
+        },
+        "White Chuchu Jelly": {
+            "name": "White Chuchu Jelly",
+            "image": "White_Chuchu_Jelly.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/White_Chuchu_Jelly",
+            "sortOrder": 0
+        },
+        "White-Maned Lynel Mace Horn": {
+            "name": "White-Maned Lynel Mace Horn",
+            "image": "White-Maned_Lynel_Mace_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/White-Maned_Lynel_Mace_Horn",
+            "sortOrder": 0
+        },
+        "White-Maned Lynel Saber Horn": {
+            "name": "White-Maned Lynel Saber Horn",
+            "image": "White-Maned_Lynel_Saber_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/White-Maned_Lynel_Saber_Horn",
+            "sortOrder": 0
+        },
+        "Winterwing Butterfly": {
+            "name": "Winterwing Butterfly",
+            "image": "Winterwing_Butterfly.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Winterwing_Butterfly",
+            "sortOrder": 0
+        },
+        "Yellow Chuchu Jelly": {
+            "name": "Yellow Chuchu Jelly",
+            "image": "Yellow_Chuchu_Jelly.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Yellow_Chuchu_Jelly",
+            "sortOrder": 0
+        },
+        "Zapshroom": {
+            "name": "Zapshroom",
+            "image": "Zapshroom.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Zapshroom",
+            "sortOrder": 0
+        },
+        "Zonaite": {
+            "name": "Zonaite",
+            "image": "Zonaite.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Zonaite",
+            "sortOrder": 0
+        }
     }
 }
