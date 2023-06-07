@@ -15,14 +15,3 @@ export type MaterialSaveData = {
     name: string,
     quantityInventory: number,
 }
-
-// export type MaterialsJson = {
-//     [key: string]: MaterialJson,
-// }
-//
-// export type MaterialJson = {
-//     name: string,
-//     image: string,
-//     wiki: string,
-//     sortOrder: number,
-// }

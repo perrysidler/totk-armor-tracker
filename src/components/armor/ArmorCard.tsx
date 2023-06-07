@@ -1,5 +1,5 @@
-import { ArmorLevel } from "@/components/ArmorLevel";
-import { ArmorObtained } from "@/components/ArmorObtained";
+import { ArmorLevel } from "@/components/armor/ArmorLevel";
+import { ArmorObtained } from "@/components/armor/ArmorObtained";
 import { Armor } from "@/types/Armors";
 import { Clamp } from "@/utils/utils";
 import Image from "next/image";
@@ -21,10 +21,6 @@ export const ArmorCard = ({ armorData, onLevelIncrement, onObtainedChange }: IAr
     };
 
     const obtainedHandler = (isObtained: boolean) => {
-        if (!isObtained) {
-            levelHandler(0);
-        }
-
         onObtainedChange(armorData.name, isObtained);
     };
 
@@ -38,30 +34,30 @@ export const ArmorCard = ({ armorData, onLevelIncrement, onObtainedChange }: IAr
                 </div>
             </div>
             <span className="my-2 w-48">{armorData.name}</span>
-            {armorData.isUpgradable ? (
-                <ArmorLevel level={armorData.currentLevel} obtained={armorData.obtained} onLevelChange={levelHandler} />
-            ) : (
+            {armorData.isUpgradable
+             ? (
+                 <ArmorLevel level={armorData.currentLevel} obtained={armorData.obtained} onLevelChange={levelHandler} />
+             )
+             : (
                  <div className="mb-[1.125rem] xl:mb-auto text-neutral-400 mt-2.5">
                      Cannot be upgraded
                  </div>
              )}
-            <ul>
-                {armorData.upgrades ? Object.values(armorData.upgrades).map((upgradeLevel, index) => {
-                    // if (armorData.name === "Hylian Hood") {
-                    //     console.log(`${index} - ${JSON.stringify(upgradeLevel)}`);
-                    // }
-                    if (armorData.currentLevel !== index) {
-                        return "";
-                    }
-                    return (
+            <ul className="mb-auto min-h-[3rem] sm:h-[4.5rem] pb-2">
+                {armorData.upgrades && armorData.upgrades[level]
+                 ? armorData.upgrades[level].map(upgrade => (
                         <li key={Math.random()}>
-                            {upgradeLevel.map(upgrade => (
-                                <span key={upgrade.name} className="block">{`${upgrade.name} - ${upgrade.quantity}`}</span>
-                            ))}</li>
-                    );
-                }) : ""}
+                            <span>{`${upgrade.name} - ${upgrade.quantity}`}</span>
+                        </li>
+                    ))
+                 : armorData.upgrades && level === 4
+                   ? (
+                       <li>
+                           <span className="block text-neutral-400">Fully upgraded</span>
+                       </li>
+                   )
+                   : ""}
             </ul>
-            {/*<span className="w-48 pl-4"><a href={armorData.wiki} target="_blank">Wiki</a></span>*/}
         </li>
     );
 };

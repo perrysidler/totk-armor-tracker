@@ -1,5 +1,5 @@
-import { ArmorCard } from "@/components/ArmorCard";
-import { ArmorFilters } from "@/components/ArmorFilters";
+import { ArmorCard } from "@/components/armor/ArmorCard";
+import { ArmorFilters } from "@/components/armor/ArmorFilters";
 import { saveArmorData } from "@/store/DataManagement";
 import { trackerStore } from "@/store/TrackerStore";
 import { Armor, SortColumn } from "@/types/Armors";
@@ -18,10 +18,10 @@ const sortByBodyPart = (a: Armor, b: Armor) => {
 };
 
 export const ArmorList = () => {
-    const { armors, sortBy, searchTerm, setArmors } = trackerStore();
+    const { armors, sortColumn, searchTerm, setArmors } = trackerStore();
 
     const filteredArmors = Object.values(armors).filter(armor => armor.name.search(new RegExp(searchTerm, "i")) >= 0)
-        .sort(sortBy === SortColumn.Set ? sortBySet : sortByBodyPart);
+        .sort(sortColumn === SortColumn.Set ? sortBySet : sortByBodyPart);
 
     const levelIncrementHandler = (name: string, increment: number) => {
         let result = armors;

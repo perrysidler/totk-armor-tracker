@@ -6,12 +6,17 @@ import { Upgrades } from "@/types/Upgrades";
 
 const currentDataVersion = 2;
 
+/**
+ * Loads the armor, upgrade, and material data, and combines
+ * with any available local storage saved data.
+ */
 export const loadData = () => {
     const dataVersion = window.localStorage.getItem("dataVersion");
 
     if (typeof dataVersion === "undefined" || dataVersion === null
         || isNaN(parseInt(dataVersion)) || parseInt(dataVersion) < currentDataVersion) {
         window.localStorage.removeItem("armorData");
+        window.localStorage.removeItem("materialData");
         window.localStorage.setItem("dataVersion", currentDataVersion.toString());
     }
 
@@ -30,64 +35,67 @@ export const loadData = () => {
             armorData[armor.name].currentLevel = armor.currentLevel;
             armorData[armor.name].obtained = armor.obtained;
         }
+    } else {
+        let armorSaveData: ArmorSaveData[] = [];
+        for (const key in armorData) {
+            armorSaveData.push({
+                name: armorData[key].name,
+                currentLevel: 0,
+                obtained: false,
+            } as ArmorSaveData);
+        }
+        window.localStorage.setItem("armorData", JSON.stringify(armorSaveData));
     }
 
     if (loadedMaterialData !== null) {
-        for (let material in materialData) {
-            
+        for (let material of loadedMaterialData) {
+            materialData[material.name].quantityInventory = material.quantityInventory;
         }
+    } else {
+        let materialSaveData: MaterialSaveData[] = [];
+        for (const key in materialData) {
+            materialSaveData.push({
+                name: materialData[key].name,
+                quantityInventory: 0,
+            } as MaterialSaveData);
+        }
+        window.localStorage.setItem("materialData", JSON.stringify(materialSaveData));
     }
 
-    // let armorData: OldArmor[] = data.armors;
-    // let upgradeData: ArmorUpgrades = data.upgrades;
-    // let loadedArmorData = window.localStorage.getItem("armorData");
-    //
-    // if (loadedArmorData !== null) {
-    //     let loadedArmors: ArmorSaveData[] = JSON.parse(loadedArmorData);
-    //     for (let armor of armorData) {
-    //         let matchedArmor = loadedArmors.find(x => x.name === armor.name);
-    //         if (typeof matchedArmor !== "undefined") {
-    //             armor.currentLevel = matchedArmor.currentLevel;
-    //             armor.obtained = matchedArmor.obtained;
-    //         }
-    //         if (armor.isUpgradable) {
-    //             if (armor.setName !== "" && typeof upgradeData[armor.setName] !== "undefined") {
-    //                 armor.upgrades = upgradeData[armor.setName];
-    //             } else if (typeof upgradeData[armor.name] !== "undefined") {
-    //                 armor.upgrades = upgradeData[armor.name];
-    //             }
-    //         }
-    //     }
-    // } else {
-    //     let saveData: ArmorSaveData[] = [];
-    //     for (const armor of armorData) {
-    //         saveData.push({
-    //             name: armor.name,
-    //             currentLevel: 0,
-    //             obtained: false,
-    //         } as ArmorSaveData);
-    //         if (armor.isUpgradable) {
-    //             if (armor.setName !== "" && typeof upgradeData[armor.setName] !== "undefined") {
-    //                 armor.upgrades = upgradeData[armor.setName];
-    //             } else if (typeof upgradeData[armor.name] !== "undefined") {
-    //                 armor.upgrades = upgradeData[armor.name];
-    //             }
-    //         }
-    //     }
-    //     window.localStorage.setItem("armorData", JSON.stringify(saveData));
-    // }
-    //
+    trackerStore.setState({ armors: armorData });
+    trackerStore.setState({ armors: armorData });
     trackerStore.setState({ armors: armorData });
 };
 
+/**
+ * Saves the current armor data to local storage.
+ * 
+ * @param {ArmorData} armorData
+ */
 export const saveArmorData = (armorData: ArmorData) => {
-    // const armorSaveData: ArmorSaveData[] = armorData.map(armor => {
-    //     return {
-    //         name: armor.name,
-    //         currentLevel: armor.currentLevel,
-    //         obtained: armor.obtained,
-    //     } as ArmorSaveData;
-    // });
-    //
-    // window.localStorage.setItem("armorData", JSON.stringify(armorSaveData));
+    const armorSaveData: ArmorSaveData[] = Object.values(armorData).map(armor => {
+        return {
+            name: armor.name,
+            currentLevel: armor.currentLevel,
+            obtained: armor.obtained,
+        } as ArmorSaveData;
+    });
+
+    window.localStorage.setItem("armorData", JSON.stringify(armorSaveData));
+};
+
+/**
+ * Saves the current material data to local storage.
+ * 
+ * @param {MaterialData} materialData
+ */
+export const saveMaterialData = (materialData: MaterialData) => {
+    const materialSaveData: MaterialSaveData[] = Object.values(materialData).map(material => {
+        return {
+            name: material.name,
+            quantityInventory: material.quantityInventory,
+        } as MaterialSaveData;
+    });
+
+    window.localStorage.setItem("armorData", JSON.stringify(materialSaveData));
 };

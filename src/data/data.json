@@ -1841,7 +1841,7 @@
                     "quantity": 3
                 },
                 {
-                    "name": "Farosh's Fang",
+                    "name": "Shard of Farosh's Fang",
                     "quantity": 2
                 },
                 {
@@ -1927,7 +1927,7 @@
             ],
             [
                 {
-                    "name": "Electric Lizal Horn",
+                    "name": "Electric Lizalfos Horn",
                     "quantity": 15
                 },
                 {
@@ -1951,7 +1951,7 @@
             ],
             [
                 {
-                    "name": "Gleeok Electric Horn",
+                    "name": "Gleeok Thunder Horn",
                     "quantity": 15
                 },
                 {
@@ -2589,7 +2589,7 @@
                     "quantity": 60
                 },
                 {
-                    "name": "Bright Cap",
+                    "name": "Brightcap",
                     "quantity": 15
                 }
             ],
@@ -3315,7 +3315,7 @@
                     "quantity": 3
                 },
                 {
-                    "name": "Dinraal's Fang",
+                    "name": "Shard of Dinraal's Fang",
                     "quantity": 2
                 },
                 {
@@ -3419,7 +3419,7 @@
                     "quantity": 3
                 },
                 {
-                    "name": "Naydra's Fang",
+                    "name": "Shard of Naydra's Fang",
                     "quantity": 2
                 },
                 {
@@ -3763,7 +3763,7 @@
                     "quantity": 9
                 },
                 {
-                    "name": "Mighty Banana",
+                    "name": "Mighty Bananas",
                     "quantity": 30
                 }
             ]
@@ -3870,1045 +3870,1021 @@
             "name": "Acorn",
             "image": "Acorn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Acorn",
-            "sortOrder": 0
+            "sortOrder": 62
         },
         "Aerocuda Eyeball": {
             "name": "Aerocuda Eyeball",
             "image": "Aerocuda_Eyeball.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Aerocuda_Eyeball",
-            "sortOrder": 0
+            "sortOrder": 140
         },
         "Aerocuda Wing": {
             "name": "Aerocuda Wing",
             "image": "Aerocuda_Wing.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Aerocuda_Wing",
-            "sortOrder": 0
+            "sortOrder": 145
         },
         "Black Bokoblin Horn": {
             "name": "Black Bokoblin Horn",
             "image": "Black_Bokoblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Black_Bokoblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 151
         },
         "Black Boss Bokoblin Horn": {
             "name": "Black Boss Bokoblin Horn",
             "image": "Black_Boss_Bokoblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Black_Boss_Bokoblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 155
         },
         "Black Hinox Horn": {
             "name": "Black Hinox Horn",
             "image": "Black_Hinox_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Black_Hinox_Horn",
-            "sortOrder": 0
+            "sortOrder": 203
         },
         "Black Horriblin Horn": {
             "name": "Black Horriblin Horn",
             "image": "Black_Horriblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Black_Horriblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 194
         },
         "Black Lizalfos Horn": {
             "name": "Black Lizalfos Horn",
             "image": "Black_Lizalfos_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Black_Lizalfos_Horn",
-            "sortOrder": 0
+            "sortOrder": 159
         },
         "Black Moblin Horn": {
             "name": "Black Moblin Horn",
             "image": "Black_Moblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Black_Moblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 190
         },
         "Bladed Rhino Beetle": {
             "name": "Bladed Rhino Beetle",
             "image": "Bladed_Rhino_Beetle.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Bladed_Rhino_Beetle",
-            "sortOrder": 0
+            "sortOrder": 100
         },
         "Blue Bokoblin Horn": {
             "name": "Blue Bokoblin Horn",
             "image": "Blue_Bokoblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Blue_Bokoblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 150
         },
         "Blue Boss Bokoblin Horn": {
             "name": "Blue Boss Bokoblin Horn",
             "image": "Blue_Boss_Bokoblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Blue_Boss_Bokoblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 154
         },
         "Blue Horriblin Horn": {
             "name": "Blue Horriblin Horn",
             "image": "Blue_Horriblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Blue_Horriblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 193
         },
         "Blue Lizalfos Horn": {
             "name": "Blue Lizalfos Horn",
             "image": "Blue_Lizalfos_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Blue_Lizalfos_Horn",
-            "sortOrder": 0
+            "sortOrder": 158
         },
         "Blue Lizalfos Tail": {
             "name": "Blue Lizalfos Tail",
             "image": "Blue_Lizalfos_Tail.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Blue_Lizalfos_Tail",
-            "sortOrder": 0
+            "sortOrder": 214
         },
         "Blue Moblin Horn": {
             "name": "Blue Moblin Horn",
             "image": "Blue_Moblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Blue_Moblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 189
         },
         "Blue Nightshade": {
             "name": "Blue Nightshade",
             "image": "Blue_Nightshade.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Blue_Nightshade",
-            "sortOrder": 0
+            "sortOrder": 46
         },
         "Blue-Maned Lynel Mace Horn": {
             "name": "Blue-Maned Lynel Mace Horn",
             "image": "Blue-Maned_Lynel_Mace_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Blue-Maned_Lynel_Mace_Horn",
-            "sortOrder": 0
+            "sortOrder": 198
         },
         "Blue-Maned Lynel Saber Horn": {
             "name": "Blue-Maned Lynel Saber Horn",
             "image": "Blue-Maned_Lynel_Saber_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Blue-Maned_Lynel_Saber_Horn",
-            "sortOrder": 0
+            "sortOrder": 165
         },
         "Blue-White Frox Fang": {
             "name": "Blue-White Frox Fang",
             "image": "Blue-White_Frox_Fang.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Blue-White_Frox_Fang",
-            "sortOrder": 0
+            "sortOrder": 208
         },
         "Bokoblin Fang": {
             "name": "Bokoblin Fang",
             "image": "Bokoblin_Fang.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Bokoblin_Fang",
-            "sortOrder": 0
+            "sortOrder": 222
         },
         "Bokoblin Guts": {
             "name": "Bokoblin Guts",
             "image": "Bokoblin_Guts.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Bokoblin_Guts",
-            "sortOrder": 0
+            "sortOrder": 120
         },
         "Bokoblin Horn": {
             "name": "Bokoblin Horn",
             "image": "Bokoblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Bokoblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 149
         },
         "Boss Bokoblin Guts": {
             "name": "Boss Bokoblin Guts",
             "image": "Boss_Bokoblin_Guts.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Boss_Bokoblin_Guts",
-            "sortOrder": 0
+            "sortOrder": 124
         },
         "Boss Bokoblin Horn": {
             "name": "Boss Bokoblin Horn",
             "image": "Boss_Bokoblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Boss_Bokoblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 153
         },
-        "Bright Cap": {
-            "name": "Bright Cap",
-            "image": "Bright_Cap.png",
-            "wiki": "https://www.zeldadungeon.net/wiki/Bright_Cap",
-            "sortOrder": 0
+        "Brightcap": {
+            "name": "Brightcap",
+            "image": "Brightcap.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Brightcap",
+            "sortOrder": 22
         },
         "Brightbloom Seed": {
             "name": "Brightbloom Seed",
             "image": "Brightbloom_Seed.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Brightbloom_Seed",
-            "sortOrder": 0
+            "sortOrder": 243
         },
         "Captain Construct I Horn": {
             "name": "Captain Construct I Horn",
             "image": "Captain_Construct_I_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Captain_Construct_I_Horn",
-            "sortOrder": 0
+            "sortOrder": 172
         },
         "Captain Construct II Horn": {
             "name": "Captain Construct II Horn",
             "image": "Captain_Construct_II_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Captain_Construct_II_Horn",
-            "sortOrder": 0
+            "sortOrder": 173
         },
         "Captain Construct III Horn": {
             "name": "Captain Construct III Horn",
             "image": "Captain_Construct_III_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Captain_Construct_III_Horn",
-            "sortOrder": 0
+            "sortOrder": 174
         },
         "Chillfin Trout": {
             "name": "Chillfin Trout",
             "image": "Chillfin_Trout.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Chillfin_Trout",
-            "sortOrder": 0
+            "sortOrder": 76
         },
         "Chillshroom": {
             "name": "Chillshroom",
             "image": "Chillshroom.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Chillshroom",
-            "sortOrder": 0
+            "sortOrder": 24
         },
         "Chuchu Jelly": {
             "name": "Chuchu Jelly",
             "image": "Chuchu_Jelly.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Chuchu_Jelly",
-            "sortOrder": 0
+            "sortOrder": 133
         },
         "Cold Darner": {
             "name": "Cold Darner",
             "image": "Cold_Darner.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Cold_Darner",
-            "sortOrder": 0
+            "sortOrder": 96
         },
         "Cool Safflina": {
             "name": "Cool Safflina",
             "image": "Cool_Safflina.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Cool_Safflina",
-            "sortOrder": 0
+            "sortOrder": 42
         },
         "Courser Bee Honey": {
             "name": "Courser Bee Honey",
             "image": "Courser_Bee_Honey.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Courser_Bee_Honey",
-            "sortOrder": 0
+            "sortOrder": 56
         },
         "Dark Clump": {
             "name": "Dark Clump",
             "image": "Dark_Clump.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Dark_Clump",
-            "sortOrder": 0
+            "sortOrder": 69
         },
         "Dazzlefruit": {
             "name": "Dazzlefruit",
             "image": "Dazzlefruit.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Dazzlefruit",
-            "sortOrder": 0
+            "sortOrder": 14
         },
         "Deep Firefly": {
             "name": "Deep Firefly",
             "image": "Deep_Firefly.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Deep_Firefly",
-            "sortOrder": 0
+            "sortOrder": 103
         },
         "Diamond": {
             "name": "Diamond",
             "image": "Diamond.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Diamond",
-            "sortOrder": 0
+            "sortOrder": 112
         },
         "Dinraal's Claw": {
             "name": "Dinraal's Claw",
             "image": "Dinraals_Claw.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Dinraal's_Claw",
-            "sortOrder": 0
-        },
-        "Dinraal's Fang": {
-            "name": "Dinraal's Fang",
-            "image": "Dinraals_Fang.png",
-            "wiki": "https://www.zeldadungeon.net/wiki/Dinraal's_Fang",
-            "sortOrder": 0
+            "sortOrder": 233
         },
         "Dinraal's Horn": {
             "name": "Dinraal's Horn",
             "image": "Dinraals_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Dinraal's_Horn",
-            "sortOrder": 0
+            "sortOrder": 180
         },
         "Dinraal's Scale": {
             "name": "Dinraal's Scale",
             "image": "Dinraals_Scale.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Dinraal's_Scale",
-            "sortOrder": 0
+            "sortOrder": 229
         },
         "Electric Darner": {
             "name": "Electric Darner",
             "image": "Electric_Darner.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Electric_Darner",
-            "sortOrder": 0
+            "sortOrder": 98
         },
         "Electric Keese Wing": {
             "name": "Electric Keese Wing",
             "image": "Electric_Keese_Wing.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Electric_Keese_Wing",
-            "sortOrder": 0
-        },
-        "Electric Lizal Horn": {
-            "name": "Electric Lizal Horn",
-            "image": "Electric_Lizal_Horn.png",
-            "wiki": "https://www.zeldadungeon.net/wiki/Electric_Lizal_Horn",
-            "sortOrder": 0
+            "sortOrder": 144
         },
         "Electric Lizalfos Horn": {
             "name": "Electric Lizalfos Horn",
             "image": "Electric_Lizalfos_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Electric_Lizalfos_Horn",
-            "sortOrder": 0
+            "sortOrder": 163
         },
         "Electric Lizalfos Tail": {
             "name": "Electric Lizalfos Tail",
             "image": "Electric_Lizalfos_Tail.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Electric_Lizalfos_Tail",
-            "sortOrder": 0
+            "sortOrder": 219
         },
         "Electric Safflina": {
             "name": "Electric Safflina",
             "image": "Electric_Safflina.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Electric_Safflina",
-            "sortOrder": 0
+            "sortOrder": 47
         },
         "Energetic Rhino Beetle": {
             "name": "Energetic Rhino Beetle",
             "image": "Energetic_Rhino_Beetle.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Energetic_Rhino_Beetle",
-            "sortOrder": 0
+            "sortOrder": 99
         },
         "Farosh's Claw": {
             "name": "Farosh's Claw",
             "image": "Faroshs_Claw.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Farosh's_Claw",
-            "sortOrder": 0
-        },
-        "Farosh's Fang": {
-            "name": "Farosh's Fang",
-            "image": "Faroshs_Fang.png",
-            "wiki": "https://www.zeldadungeon.net/wiki/Farosh's_Fang",
-            "sortOrder": 0
+            "sortOrder": 235
         },
         "Farosh's Horn": {
             "name": "Farosh's Horn",
             "image": "Faroshs_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Farosh's_Horn",
-            "sortOrder": 0
+            "sortOrder": 182
         },
         "Farosh's Scale": {
             "name": "Farosh's Scale",
             "image": "Faroshs_Scale.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Farosh's_Scale",
-            "sortOrder": 0
+            "sortOrder": 231
         },
         "Fire Fruit": {
             "name": "Fire Fruit",
             "image": "Fire_Fruit.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Fire_Fruit",
-            "sortOrder": 0
+            "sortOrder": 10
         },
         "Fire Keese Wing": {
             "name": "Fire Keese Wing",
             "image": "Fire_Keese_Wing.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Fire_Keese_Wing",
-            "sortOrder": 0
+            "sortOrder": 142
         },
         "Fire Like Stone": {
             "name": "Fire Like Stone",
             "image": "Fire_Like_Stone.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Fire_Like_Stone",
-            "sortOrder": 0
+            "sortOrder": 185
         },
         "Fire-Breath Lizalfos Horn": {
             "name": "Fire-Breath Lizalfos Horn",
             "image": "Fire-Breath_Lizalfos_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Fire-Breath_Lizalfos_Horn",
-            "sortOrder": 0
+            "sortOrder": 161
         },
         "Fire-Breath Lizalfos Tail": {
             "name": "Fire-Breath Lizalfos Tail",
             "image": "Fire-Breath_Lizalfos_Tail.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Fire-Breath_Lizalfos_Tail",
-            "sortOrder": 0
+            "sortOrder": 217
         },
         "Fireproof Lizard": {
             "name": "Fireproof Lizard",
             "image": "Fireproof_Lizard.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Fireproof_Lizard",
-            "sortOrder": 0
+            "sortOrder": 110
         },
         "Flint": {
             "name": "Flint",
             "image": "Flint.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Flint",
-            "sortOrder": 0
+            "sortOrder": 119
         },
         "Frox Fang": {
             "name": "Frox Fang",
             "image": "Frox_Fang.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Frox_Fang",
-            "sortOrder": 0
+            "sortOrder": 206
         },
         "Frox Fingernail": {
             "name": "Frox Fingernail",
             "image": "Frox_Fingernail.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Frox_Fingernail",
-            "sortOrder": 0
+            "sortOrder": 228
         },
         "Frox Guts": {
             "name": "Frox Guts",
             "image": "Frox_Guts.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Frox_Guts",
-            "sortOrder": 0
+            "sortOrder": 127
         },
         "Giant Brightbloom Seed": {
             "name": "Giant Brightbloom Seed",
             "image": "Giant_Brightbloom_Seed.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Giant_Brightbloom_Seed",
-            "sortOrder": 0
+            "sortOrder": 244
         },
         "Gibdo Bone": {
             "name": "Gibdo Bone",
             "image": "Gibdo_Bone.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Gibdo_Bone",
-            "sortOrder": 0
+            "sortOrder": 220
         },
         "Gibdo Guts": {
             "name": "Gibdo Guts",
             "image": "Gibdo_Guts.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Gibdo_Guts",
-            "sortOrder": 0
+            "sortOrder": 123
         },
         "Gibdo Wing": {
             "name": "Gibdo Wing",
             "image": "Gibdo_Wing.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Gibdo_Wing",
-            "sortOrder": 0
+            "sortOrder": 146
         },
-        "Gleeok Electric Horn": {
-            "name": "Gleeok Electric Horn",
-            "image": "Gleeok_Electric_Horn.png",
-            "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Electric_Horn",
-            "sortOrder": 0
+        "Gleeok Thunder Horn": {
+            "name": "Gleeok Thunder Horn",
+            "image": "Gleeok_Thunder_Horn.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Thunder_Horn",
+            "sortOrder": 179
         },
         "Gleeok Flame Horn": {
             "name": "Gleeok Flame Horn",
             "image": "Gleeok_Flame_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Flame_Horn",
-            "sortOrder": 0
+            "sortOrder": 177
         },
         "Gleeok Frost Horn": {
             "name": "Gleeok Frost Horn",
             "image": "Gleeok_Frost_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Frost_Horn",
-            "sortOrder": 0
+            "sortOrder": 178
         },
         "Gleeok Guts": {
             "name": "Gleeok Guts",
             "image": "Gleeok_Guts.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Guts",
-            "sortOrder": 0
+            "sortOrder": 126
         },
         "Gleeok Wing": {
             "name": "Gleeok Wing",
             "image": "Gleeok_Wing.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Gleeok_Wing",
-            "sortOrder": 0
+            "sortOrder": 147
         },
         "Glowing Cave Fish": {
             "name": "Glowing Cave Fish",
             "image": "Glowing_Cave_Fish.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Glowing_Cave_Fish",
-            "sortOrder": 0
+            "sortOrder": 84
         },
         "Hearty Bass": {
             "name": "Hearty Bass",
             "image": "Hearty_Bass.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hearty_Bass",
-            "sortOrder": 0
+            "sortOrder": 73
         },
         "Hearty Lizard": {
             "name": "Hearty Lizard",
             "image": "Hearty_Lizard.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hearty_Lizard",
-            "sortOrder": 0
+            "sortOrder": 108
         },
         "Hightail Lizard": {
             "name": "Hightail Lizard",
             "image": "Hightail_Lizard.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hightail_Lizard",
-            "sortOrder": 0
+            "sortOrder": 109
         },
         "Hinox Guts": {
             "name": "Hinox Guts",
             "image": "Hinox_Guts.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hinox_Guts",
-            "sortOrder": 0
+            "sortOrder": 129
         },
         "Hinox Toenail": {
             "name": "Hinox Toenail",
             "image": "Hinox_Toenail.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hinox_Toenail",
-            "sortOrder": 0
+            "sortOrder": 176
         },
         "Hinox Tooth": {
             "name": "Hinox Tooth",
             "image": "Hinox_Tooth.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hinox_Tooth",
-            "sortOrder": 0
+            "sortOrder": 225
         },
         "Horriblin Guts": {
             "name": "Horriblin Guts",
             "image": "Horriblin_Guts.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Horriblin_Guts",
-            "sortOrder": 0
+            "sortOrder": 122
         },
         "Horriblin Horn": {
             "name": "Horriblin Horn",
             "image": "Horriblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Horriblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 192
         },
         "Hot-Footed Frog": {
             "name": "Hot-Footed Frog",
             "image": "Hot-Footed_Frog.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hot-Footed_Frog",
-            "sortOrder": 0
+            "sortOrder": 106
         },
         "Hyrule Bass": {
             "name": "Hyrule Bass",
             "image": "Hyrule_Bass.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Hyrule_Bass",
-            "sortOrder": 0
+            "sortOrder": 74
         },
         "Ice Fruit": {
             "name": "Ice Fruit",
             "image": "Ice_Fruit.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ice_Fruit",
-            "sortOrder": 0
+            "sortOrder": 11
         },
         "Ice Keese Wing": {
             "name": "Ice Keese Wing",
             "image": "Ice_Keese_Wing.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ice_Keese_Wing",
-            "sortOrder": 0
+            "sortOrder": 143
         },
         "Ice Like Stone": {
             "name": "Ice Like Stone",
             "image": "Ice_Like_Stone.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ice_Like_Stone",
-            "sortOrder": 0
+            "sortOrder": 186
         },
         "Ice-Breath Lizalfos Horn": {
             "name": "Ice-Breath Lizalfos Horn",
             "image": "Ice-Breath_Lizalfos_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ice-Breath_Lizalfos_Horn",
-            "sortOrder": 0
+            "sortOrder": 162
         },
         "Ice-Breath Lizalfos Tail": {
             "name": "Ice-Breath Lizalfos Tail",
             "image": "Ice-Breath_Lizalfos_Tail.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ice-Breath_Lizalfos_Tail",
-            "sortOrder": 0
+            "sortOrder": 218
         },
         "Keese Eyeball": {
             "name": "Keese Eyeball",
             "image": "Keese_Eyeball.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Keese_Eyeball",
-            "sortOrder": 0
+            "sortOrder": 135
         },
         "Keese Wing": {
             "name": "Keese Wing",
             "image": "Keese_Wing.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Keese_Wing",
-            "sortOrder": 0
+            "sortOrder": 141
         },
         "Large Zonai Charge": {
             "name": "Large Zonai Charge",
             "image": "Large_Zonai_Charge.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Large_Zonai_Charge",
-            "sortOrder": 0
+            "sortOrder": 250
         },
         "Large Zonaite": {
             "name": "Large Zonaite",
             "image": "Large_Zonaite.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Large_Zonaite",
-            "sortOrder": 0
+            "sortOrder": 248
         },
         "Light Dragon's Horn": {
             "name": "Light Dragon's Horn",
             "image": "Light_Dragons_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Light_Dragon's_Horn",
-            "sortOrder": 0
+            "sortOrder": 183
         },
         "Light Dragon's Scale": {
             "name": "Light Dragon's Scale",
             "image": "Light_Dragons_Scale.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Light_Dragon's_Scale",
-            "sortOrder": 0
+            "sortOrder": 232
         },
         "Light Dragon's Talon": {
             "name": "Light Dragon's Talon",
             "image": "Light_Dragons_Talon.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Light_Dragon's_Talon",
-            "sortOrder": 0
+            "sortOrder": 236
         },
         "Lizalfos Horn": {
             "name": "Lizalfos Horn",
             "image": "Lizalfos_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Lizalfos_Horn",
-            "sortOrder": 0
+            "sortOrder": 157
         },
         "Lizalfos Tail": {
             "name": "Lizalfos Tail",
             "image": "Lizalfos_Tail.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Lizalfos_Tail",
-            "sortOrder": 0
+            "sortOrder": 213
         },
         "Lizalfos Talon": {
             "name": "Lizalfos Talon",
             "image": "Lizalfos_Talon.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Lizalfos_Talon",
-            "sortOrder": 0
+            "sortOrder": 227
         },
         "Luminous Stone": {
             "name": "Luminous Stone",
             "image": "Luminous_Stone.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Luminous_Stone",
-            "sortOrder": 0
+            "sortOrder": 118
         },
         "Lynel Guts": {
             "name": "Lynel Guts",
             "image": "Lynel_Guts.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Lynel_Guts",
-            "sortOrder": 0
+            "sortOrder": 125
         },
         "Lynel Hoof": {
             "name": "Lynel Hoof",
             "image": "Lynel_Hoof.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Lynel_Hoof",
-            "sortOrder": 0
+            "sortOrder": 196
         },
         "Lynel Mace Horn": {
             "name": "Lynel Mace Horn",
             "image": "Lynel_Mace_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Lynel_Mace_Horn",
-            "sortOrder": 0
+            "sortOrder": 197
         },
         "Lynel Saber Horn": {
             "name": "Lynel Saber Horn",
             "image": "Lynel_Saber_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Lynel_Saber_Horn",
-            "sortOrder": 0
+            "sortOrder": 164
         },
-        "Mighty Banana": {
-            "name": "Mighty Banana",
-            "image": "Mighty_Banana.png",
-            "wiki": "https://www.zeldadungeon.net/wiki/Mighty_Banana",
-            "sortOrder": 0
+        "Mighty Bananas": {
+            "name": "Mighty Bananas",
+            "image": "Mighty_Bananas.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Mighty_Bananas",
+            "sortOrder": 8
         },
         "Mighty Thistle": {
             "name": "Mighty Thistle",
             "image": "Mighty_Thistle.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Mighty_Thistle",
-            "sortOrder": 0
+            "sortOrder": 44
         },
         "Moblin Fang": {
             "name": "Moblin Fang",
             "image": "Moblin_Fang.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Moblin_Fang",
-            "sortOrder": 0
+            "sortOrder": 223
         },
         "Moblin Guts": {
             "name": "Moblin Guts",
             "image": "Moblin_Guts.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Moblin_Guts",
-            "sortOrder": 0
+            "sortOrder": 121
         },
         "Moblin Horn": {
             "name": "Moblin Horn",
             "image": "Moblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Moblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 188
         },
         "Molduga Fin": {
             "name": "Molduga Fin",
             "image": "Molduga_Fin.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Molduga_Fin",
-            "sortOrder": 0
+            "sortOrder": 148
         },
         "Molduga Guts": {
             "name": "Molduga Guts",
             "image": "Molduga_Guts.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Molduga_Guts",
-            "sortOrder": 0
+            "sortOrder": 128
         },
         "Molduga Jaw": {
             "name": "Molduga Jaw",
             "image": "Molduga_Jaw.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Molduga_Jaw",
-            "sortOrder": 0
+            "sortOrder": 205
         },
         "Naydra's Claw": {
             "name": "Naydra's Claw",
             "image": "Naydras_Claw.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Naydra's_Claw",
-            "sortOrder": 0
-        },
-        "Naydra's Fang": {
-            "name": "Naydra's Fang",
-            "image": "Naydras_Fang.png",
-            "wiki": "https://www.zeldadungeon.net/wiki/Naydra's_Fang",
-            "sortOrder": 0
+            "sortOrder": 234
         },
         "Naydra's Horn": {
             "name": "Naydra's Horn",
             "image": "Naydras_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Naydra's_Horn",
-            "sortOrder": 0
+            "sortOrder": 181
         },
         "Naydra's Scale": {
             "name": "Naydra's Scale",
             "image": "Naydras_Scale.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Naydra's_Scale",
-            "sortOrder": 0
+            "sortOrder": 230
         },
         "Obsidian Frox Fang": {
             "name": "Obsidian Frox Fang",
             "image": "Obsidian_Frox_Fang.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Obsidian_Frox_Fang",
-            "sortOrder": 0
+            "sortOrder": 207
         },
         "Octo Balloon": {
             "name": "Octo Balloon",
             "image": "Octo_Balloon.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Octo_Balloon",
-            "sortOrder": 0
+            "sortOrder": 134
         },
         "Octorok Eyeball": {
             "name": "Octorok Eyeball",
             "image": "Octorok_Eyeball.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Octorok_Eyeball",
-            "sortOrder": 0
+            "sortOrder": 139
         },
         "Octorok Tentacle": {
             "name": "Octorok Tentacle",
             "image": "Octorok_Tentacle.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Octorok_Tentacle",
-            "sortOrder": 0
+            "sortOrder": 221
         },
         "Opal": {
             "name": "Opal",
             "image": "Opal.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Opal",
-            "sortOrder": 0
+            "sortOrder": 116
         },
         "Puffshroom": {
             "name": "Puffshroom",
             "image": "Puffshroom.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Puffshroom",
-            "sortOrder": 0
+            "sortOrder": 16
         },
         "Razorclaw Crab": {
             "name": "Razorclaw Crab",
             "image": "Razorclaw_Crab.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Razorclaw_Crab",
-            "sortOrder": 0
+            "sortOrder": 88
         },
         "Razorshroom": {
             "name": "Razorshroom",
             "image": "Razorshroom.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Razorshroom",
-            "sortOrder": 0
+            "sortOrder": 29
         },
         "Red Chuchu Jelly": {
             "name": "Red Chuchu Jelly",
             "image": "Red_Chuchu_Jelly.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Red_Chuchu_Jelly",
-            "sortOrder": 0
+            "sortOrder": 130
         },
         "Ruby": {
             "name": "Ruby",
             "image": "Ruby.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Ruby",
-            "sortOrder": 0
+            "sortOrder": 113
         },
         "Rushroom": {
             "name": "Rushroom",
             "image": "Rushroom.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Rushroom",
-            "sortOrder": 0
+            "sortOrder": 21
         },
         "Sapphire": {
             "name": "Sapphire",
             "image": "Sapphire.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sapphire",
-            "sortOrder": 0
+            "sortOrder": 114
         },
         "Shard of Dinraal's Fang": {
             "name": "Shard of Dinraal's Fang",
             "image": "Shard_of_Dinraals_Fang.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Dinraal's_Fang",
-            "sortOrder": 0
+            "sortOrder": 237
         },
         "Shard of Dinraal's Spike": {
             "name": "Shard of Dinraal's Spike",
             "image": "Shard_of_Dinraals_Spike.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Dinraal's_Spike",
-            "sortOrder": 0
+            "sortOrder": 209
         },
         "Shard of Farosh's Fang": {
             "name": "Shard of Farosh's Fang",
             "image": "Shard_of_Faroshs_Fang.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Farosh's_Fang",
-            "sortOrder": 0
+            "sortOrder": 239
         },
         "Shard of Farosh's Spike": {
             "name": "Shard of Farosh's Spike",
             "image": "Shard_of_Faroshs_Spike.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Farosh's_Spike",
-            "sortOrder": 0
+            "sortOrder": 211
         },
         "Shard of Light Dragon's Fang": {
             "name": "Shard of Light Dragon's Fang",
             "image": "Shard_of_Light_Dragons_Fang.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Light_Dragon's_Fang",
-            "sortOrder": 0
+            "sortOrder": 240
         },
         "Shard of Naydra's Fang": {
             "name": "Shard of Naydra's Fang",
             "image": "Shard_of_Naydras_Fang.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Naydra's_Fang",
-            "sortOrder": 0
+            "sortOrder": 238
         },
         "Shard of Naydra's Spike": {
             "name": "Shard of Naydra's Spike",
             "image": "Shard_of_Naydras_Spike.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Shard_of_Naydra's_Spike",
-            "sortOrder": 0
+            "sortOrder": 210
         },
         "Shock Fruit": {
             "name": "Shock Fruit",
             "image": "Shock_Fruit.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Shock_Fruit",
-            "sortOrder": 0
+            "sortOrder": 12
         },
         "Shock Like Stone": {
             "name": "Shock Like Stone",
             "image": "Shock_Like_Stone.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Shock_Like_Stone",
-            "sortOrder": 0
+            "sortOrder": 187
         },
         "Silent Princess": {
             "name": "Silent Princess",
             "image": "Silent_Princess.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Silent_Princess",
-            "sortOrder": 0
+            "sortOrder": 36
         },
         "Silent Shroom": {
             "name": "Silent Shroom",
             "image": "Silent_Shroom.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Silent_Shroom",
-            "sortOrder": 0
+            "sortOrder": 28
         },
         "Silver Bokoblin Horn": {
             "name": "Silver Bokoblin Horn",
             "image": "Silver_Bokoblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Silver_Bokoblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 152
         },
         "Silver Boss Bokoblin Horn": {
             "name": "Silver Boss Bokoblin Horn",
             "image": "Silver_Boss_Bokoblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Silver_Boss_Bokoblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 156
         },
         "Silver Lizalfos Horn": {
             "name": "Silver Lizalfos Horn",
             "image": "Silver_Lizalfos_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Silver_Lizalfos_Horn",
-            "sortOrder": 0
+            "sortOrder": 160
         },
         "Silver Moblin Horn": {
             "name": "Silver Moblin Horn",
             "image": "Silver_Moblin_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Silver_Moblin_Horn",
-            "sortOrder": 0
+            "sortOrder": 191
         },
         "Sizzlefin Trout": {
             "name": "Sizzlefin Trout",
             "image": "Sizzlefin_Trout.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sizzlefin_Trout",
-            "sortOrder": 0
+            "sortOrder": 77
         },
         "Smotherwing Butterfly": {
             "name": "Smotherwing Butterfly",
             "image": "Smotherwing_Butterfly.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Smotherwing_Butterfly",
-            "sortOrder": 0
+            "sortOrder": 95
         },
         "Sneaky River Snail": {
             "name": "Sneaky River Snail",
             "image": "Sneaky_River_Snail.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sneaky_River_Snail",
-            "sortOrder": 0
+            "sortOrder": 87
         },
         "Soldier Construct Horn": {
             "name": "Soldier Construct Horn",
             "image": "Soldier_Construct_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Soldier_Construct_Horn",
-            "sortOrder": 0
+            "sortOrder": 168
         },
         "Soldier Construct II Horn": {
             "name": "Soldier Construct II Horn",
             "image": "Soldier_Construct_II_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Soldier_Construct_II_Horn",
-            "sortOrder": 0
+            "sortOrder": 169
         },
         "Soldier Construct III Horn": {
             "name": "Soldier Construct III Horn",
             "image": "Soldier_Construct_III_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Soldier_Construct_III_Horn",
-            "sortOrder": 0
+            "sortOrder": 170
         },
         "Soldier Construct IV Horn": {
             "name": "Soldier Construct IV Horn",
             "image": "Soldier_Construct_IV_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Soldier_Construct_IV_Horn",
-            "sortOrder": 0
+            "sortOrder": 171
         },
         "Star Fragment": {
             "name": "Star Fragment",
             "image": "Star_Fragment.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Star_Fragment",
-            "sortOrder": 0
+            "sortOrder": 71
         },
         "Stealthfin Trout": {
             "name": "Stealthfin Trout",
             "image": "Stealthfin_Trout.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Stealthfin_Trout",
-            "sortOrder": 0
+            "sortOrder": 79
         },
         "Sticky Frog": {
             "name": "Sticky Frog",
             "image": "Sticky_Frog.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sticky_Frog",
-            "sortOrder": 0
+            "sortOrder": 107
         },
         "Sticky Lizard": {
             "name": "Sticky Lizard",
             "image": "Sticky_Lizard.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sticky_Lizard",
-            "sortOrder": 0
+            "sortOrder": 111
         },
         "Summerwing Butterfly": {
             "name": "Summerwing Butterfly",
             "image": "Summerwing_Butterfly.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Summerwing_Butterfly",
-            "sortOrder": 0
+            "sortOrder": 93
         },
         "Sundelion": {
             "name": "Sundelion",
             "image": "Sundelion.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sundelion",
-            "sortOrder": 0
+            "sortOrder": 49
         },
         "Sunset Firefly": {
             "name": "Sunset Firefly",
             "image": "Sunset_Firefly.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sunset_Firefly",
-            "sortOrder": 0
+            "sortOrder": 102
         },
         "Sunshroom": {
             "name": "Sunshroom",
             "image": "Sunshroom.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Sunshroom",
-            "sortOrder": 0
+            "sortOrder": 25
         },
         "Swift Carrot": {
             "name": "Swift Carrot",
             "image": "Swift_Carrot.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Swift_Carrot",
-            "sortOrder": 0
+            "sortOrder": 39
         },
         "Swift Violet": {
             "name": "Swift Violet",
             "image": "Swift_Violet.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Swift_Violet",
-            "sortOrder": 0
+            "sortOrder": 48
         },
         "Thunderwing Butterfly": {
             "name": "Thunderwing Butterfly",
             "image": "Thunderwing_Butterfly.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Thunderwing_Butterfly",
-            "sortOrder": 0
+            "sortOrder": 94
         },
         "Topaz": {
             "name": "Topaz",
             "image": "Topaz.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Topaz",
-            "sortOrder": 0
+            "sortOrder": 115
         },
         "Voltfin Trout": {
             "name": "Voltfin Trout",
             "image": "Voltfin_Trout.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Voltfin_Trout",
-            "sortOrder": 0
+            "sortOrder": 78
         },
         "Voltfruit": {
             "name": "Voltfruit",
             "image": "Voltfruit.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Voltfruit",
-            "sortOrder": 0
+            "sortOrder": 5
         },
         "Warm Darner": {
             "name": "Warm Darner",
             "image": "Warm_Darner.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Warm_Darner",
-            "sortOrder": 0
+            "sortOrder": 97
         },
         "Warm Safflina": {
             "name": "Warm Safflina",
             "image": "Warm_Safflina.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Warm_Safflina",
-            "sortOrder": 0
+            "sortOrder": 43
         },
         "White Chuchu Jelly": {
             "name": "White Chuchu Jelly",
             "image": "White_Chuchu_Jelly.png",
             "wiki": "https://www.zeldadungeon.net/wiki/White_Chuchu_Jelly",
-            "sortOrder": 0
+            "sortOrder": 131
         },
         "White-Maned Lynel Mace Horn": {
             "name": "White-Maned Lynel Mace Horn",
             "image": "White-Maned_Lynel_Mace_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/White-Maned_Lynel_Mace_Horn",
-            "sortOrder": 0
+            "sortOrder": 199
         },
         "White-Maned Lynel Saber Horn": {
             "name": "White-Maned Lynel Saber Horn",
             "image": "White-Maned_Lynel_Saber_Horn.png",
             "wiki": "https://www.zeldadungeon.net/wiki/White-Maned_Lynel_Saber_Horn",
-            "sortOrder": 0
+            "sortOrder": 166
         },
         "Winterwing Butterfly": {
             "name": "Winterwing Butterfly",
             "image": "Winterwing_Butterfly.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Winterwing_Butterfly",
-            "sortOrder": 0
+            "sortOrder": 92
         },
         "Yellow Chuchu Jelly": {
             "name": "Yellow Chuchu Jelly",
             "image": "Yellow_Chuchu_Jelly.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Yellow_Chuchu_Jelly",
-            "sortOrder": 0
+            "sortOrder": 132
         },
         "Zapshroom": {
             "name": "Zapshroom",
             "image": "Zapshroom.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Zapshroom",
-            "sortOrder": 0
+            "sortOrder": 27
         },
         "Zonaite": {
             "name": "Zonaite",
             "image": "Zonaite.png",
             "wiki": "https://www.zeldadungeon.net/wiki/Zonaite",
-            "sortOrder": 0
+            "sortOrder": 247
         }
     }
 }
