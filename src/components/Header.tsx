@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { BsGearFill } from "react-icons/bs";
 import { FaBars, FaGithub } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
-import { BsGearFill } from "react-icons/bs";
 
 export const Header = () => {
     const [ menuOpen, setMenuOpen ] = useState(false);
@@ -33,7 +33,7 @@ export const Header = () => {
                         {!menuOpen ? (
                             <FaBars className="mt-1 text-4xl" aria-hidden="true" />
                         ) : (
-                            <IoClose className="mx-auto mt-1 text-4xl" aria-hidden="true" />
+                             <IoClose className="mx-auto mt-1 text-4xl" aria-hidden="true" />
                          )}
                     </button>
                 </div>

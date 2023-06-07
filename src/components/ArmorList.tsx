@@ -1,8 +1,8 @@
 import { ArmorCard } from "@/components/ArmorCard";
 import { ArmorFilters } from "@/components/ArmorFilters";
 import { saveArmorData } from "@/store/DataManagement";
-import { Armor, SortColumn } from "@/types/Armors";
 import { trackerStore } from "@/store/TrackerStore";
+import { Armor, SortColumn } from "@/types/Armors";
 import { Clamp } from "@/utils/utils";
 import { Fragment } from "react";
 
@@ -22,7 +22,7 @@ export const ArmorList = () => {
 
     const filteredArmors = Object.values(armors).filter(armor => armor.name.search(new RegExp(searchTerm, "i")) >= 0)
         .sort(sortBy === SortColumn.Set ? sortBySet : sortByBodyPart);
-    
+
     const levelIncrementHandler = (name: string, increment: number) => {
         let result = armors;
         let updatedArmor = result[name];
@@ -32,7 +32,7 @@ export const ArmorList = () => {
             saveArmorData(result);
         }
     };
-    
+
     const obtainedChangeHandler = (name: string, isObtained: boolean) => {
         let result = armors;
         let updatedArmor = result[name];
@@ -41,7 +41,7 @@ export const ArmorList = () => {
             setArmors(result);
             saveArmorData(result);
         }
-    }
+    };
 
     return (
         <Fragment>
@@ -50,7 +50,8 @@ export const ArmorList = () => {
                 <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
                     {filteredArmors
                         .map(armor => (
-                            <ArmorCard key={armor.name} armorData={armor} onLevelIncrement={levelIncrementHandler} onObtainedChange={obtainedChangeHandler} />
+                            <ArmorCard key={armor.name} armorData={armor} onLevelIncrement={levelIncrementHandler}
+                                       onObtainedChange={obtainedChangeHandler} />
                         ))}
                     {!filteredArmors.length && <h2 className="px-2 py-6">No matching armors</h2>}
                 </ul>

@@ -1,4 +1,5 @@
 import data from "@/data/data.json";
+import { trackerStore } from "@/store/TrackerStore";
 import { ArmorData, ArmorSaveData } from "@/types/Armors";
 import { MaterialData, MaterialSaveData } from "@/types/Materials";
 import { Upgrades } from "@/types/Upgrades";
@@ -76,7 +77,7 @@ export const loadData = () => {
     //     window.localStorage.setItem("armorData", JSON.stringify(saveData));
     // }
     //
-    // trackerStore.setState({ armors: armorData});
+    trackerStore.setState({ armors: armorData });
 };
 
 export const saveArmorData = (armorData: ArmorData) => {
