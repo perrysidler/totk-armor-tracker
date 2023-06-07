@@ -39,4 +39,6 @@ main {
     background-image: url("../../public/images/bg-test-2.jpg");
 }
 
-/*xl:w-[68.5rem] 2xl:w-[86rem]*/
+.nav-link.active {
+    @apply border-l-8 border-[#27201d] bg-[#342D2A] rounded;
+}
