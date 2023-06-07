@@ -1,20 +1,34 @@
-import { Armor, ArmorSortMethod } from "@/types/Armor";
+import { ArmorData, SortColumn } from "@/types/Armors";
+import { MaterialData } from "@/types/Materials";
+import { Upgrades } from "@/types/Upgrades";
 import { create } from "zustand";
 
 interface ITrackerStoreState {
-    armors: Armor[],
+    armors: ArmorData,
+    materials: MaterialData,
+    upgrades: Upgrades,
     searchTerm: string,
-    sortBy: ArmorSortMethod,
-    setArmors: (armors: Armor[]) => void,
+    sortColumn: SortColumn,
+    setArmors: (armors: ArmorData) => void,
+    setMaterials: (materials: MaterialData) => void,
+    setUpgrades: (upgrades: Upgrades) => void,
     setSearchTerm: (searchTerm: string) => void,
-    setSortBy: (sortBy: ArmorSortMethod) => void,
+    setSortBy: (sortBy: SortColumn) => void,
 }
 
+/**
+ * The tracker store that holds all app data.
+ * @type {UseBoundStore<Mutate<StoreApi<ITrackerStoreState>, []>>}
+ */
 export const trackerStore = create<ITrackerStoreState>(set => ({
-    armors: [],
+    armors: {},
+    materials: {},
+    upgrades: {},
     searchTerm: "",
-    sortBy: ArmorSortMethod.Set,
+    sortColumn: SortColumn.Set,
     setArmors: (armors) => set(state => ({ armors: armors })),
+    setMaterials: (materials) => set(state => ({ materials: materials })),
+    setUpgrades: (upgrades) => set(state => ({ upgrades: upgrades })),
     setSearchTerm: (searchTerm) => set(state => ({ searchTerm: searchTerm })),
-    setSortBy: (sortBy) => set(state => ({ sortBy: sortBy })),
+    setSortBy: (sortColumn) => set(state => ({ sortColumn: sortColumn })),
 }));

@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { BsGearFill } from "react-icons/bs";
 import { FaBars, FaGithub } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
-import { BsGearFill } from "react-icons/bs";
 
 export const Header = () => {
     const [ menuOpen, setMenuOpen ] = useState(false);
@@ -33,13 +33,13 @@ export const Header = () => {
                         {!menuOpen ? (
                             <FaBars className="mt-1 text-4xl" aria-hidden="true" />
                         ) : (
-                            <IoClose className="mx-auto mt-1 text-4xl" aria-hidden="true" />
+                             <IoClose className="mx-auto mt-1 text-4xl" aria-hidden="true" />
                          )}
                     </button>
                 </div>
             </nav>
             {menuOpen ? (
-                <nav className="container absolute top-full left-0 z-20 bg-neutral-700 p-2 sm:hidden">
+                <nav className="absolute top-full left-0 z-20 bg-neutral-700 p-2 sm:hidden w-full">
                     <ul className="flex flex-col gap-2 text-left">
                         <li>
                             <button className="inline-block px-3 py-2 text-left text-lg min-w-[12rem]" type="button">
@@ -47,7 +47,7 @@ export const Header = () => {
                             </button>
                         </li>
                         <li>
-                            <Link className="inline-block px-3 py-2 text-lg" href="https://github.com/perrysidler/totk-armor-tracker"
+                            <Link className="inline-block px-3 py-2 text-lg w-full" href="https://github.com/perrysidler/totk-armor-tracker"
                                   target="_blank">
                                 Feedback
                             </Link>
