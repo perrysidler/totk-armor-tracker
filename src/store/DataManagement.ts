@@ -80,6 +80,7 @@ export const loadData = () => {
         window.localStorage.setItem("materialData", JSON.stringify(materialSaveData));
     }
 
+    trackerStore.setState({ materialsOpen: window.localStorage.getItem("materialsOpen") === "open" });
     trackerStore.setState({ armors: armorData });
     trackerStore.setState({ materials: materialData });
     trackerStore.setState({ upgrades: upgradeData });
@@ -117,3 +118,7 @@ export const saveMaterialData = (materialData: MaterialData) => {
 
     window.localStorage.setItem("armorData", JSON.stringify(materialSaveData));
 };
+
+export const saveMaterialsOpen = (open: boolean) => {
+    window.localStorage.setItem("materialsOpen", open ? "open" : "close");
+}

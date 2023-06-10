@@ -7,6 +7,7 @@ interface ITrackerStoreState {
     armors: ArmorData,
     materials: MaterialData,
     upgrades: Upgrades,
+    materialsOpen: boolean,
     searchTerm: string,
     sortColumn: SortColumn,
     setArmors: (armors: ArmorData) => void,
@@ -14,8 +15,7 @@ interface ITrackerStoreState {
     setUpgrades: (upgrades: Upgrades) => void,
     setSearchTerm: (searchTerm: string) => void,
     setSortBy: (sortBy: SortColumn) => void,
-    removeMaterialsByUpgrade: (upgrade: UpgradeCost[]) => void,
-    changeMaterialRequiredQuantity: (name: string) => void,
+    setMaterialsOpen: (open: boolean) => void,
 }
 
 /**
@@ -26,6 +26,7 @@ export const trackerStore = create<ITrackerStoreState>(set => ({
     armors: {},
     materials: {},
     upgrades: {},
+    materialsOpen: false,
     searchTerm: "",
     sortColumn: SortColumn.Set,
     setArmors: (armors) => set(state => ({ armors: armors })),
@@ -33,17 +34,5 @@ export const trackerStore = create<ITrackerStoreState>(set => ({
     setUpgrades: (upgrades) => set(state => ({ upgrades: upgrades })),
     setSearchTerm: (searchTerm) => set(state => ({ searchTerm: searchTerm })),
     setSortBy: (sortColumn) => set(state => ({ sortColumn: sortColumn })),
-    changeMaterialRequiredQuantity: (name) => {
-        
-    },
-    removeMaterialsByUpgrade: (upgrade) => {
-        // for (const material of upgrade) {
-        //     set((state) => ({
-        //         materials: {
-        //             ...state.materials,
-        //             "": {}
-        //         }
-        //     }))
-        // }
-    }
+    setMaterialsOpen: (open) => set(state => ({ materialsOpen: open })),
 }));
