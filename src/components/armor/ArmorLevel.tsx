@@ -1,6 +1,8 @@
+import { faStar as faStarEmpty } from "@fortawesome/free-regular-svg-icons";
+import { faStar as faStarSolid } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MouseEvent, useState } from "react";
 import { isMobile } from "react-device-detect";
-import { FaRegStar, FaStar } from "react-icons/fa";
 
 interface IArmorLevelProps {
     level: number,
@@ -29,7 +31,7 @@ export const ArmorLevel = ({ level, obtained, onLevelChange }: IArmorLevelProps)
 
         const index: number = parseInt(e.currentTarget.dataset.index || "0");
         if (index === level - 1) {
-            onLevelChange(-level);
+            onLevelChange(0);
             return;
         }
 
@@ -44,15 +46,15 @@ export const ArmorLevel = ({ level, obtained, onLevelChange }: IArmorLevelProps)
                     <button key={index} className="p-0.5 py-1.5 disabled:opacity-25" data-index={index} type="button"
                             onMouseEnter={beginHover} onMouseLeave={endHover} onClick={levelClickHandler} disabled={!obtained}>
                         {level >= index + 1 || hoverIndex >= index ? (
-                            <FaStar className="text-xl" />
+                            <FontAwesomeIcon icon={faStarSolid} className="text-xl" />
                         ) : (
-                             <FaRegStar className="text-xl" />
+                             <FontAwesomeIcon icon={faStarEmpty} className="text-xl" />
                          )}
                     </button>
                 ))}
                 {!obtained ? (
                     <span
-                        className="absolute top-2 left-1/2 z-20 m-4 mx-auto hidden -translate-x-1/2 translate-y-full whitespace-nowrap rounded-sm bg-neutral-700 px-1.5 py-0.5 text-sm text-gray-100 opacity-0 transition-opacity group-hover:block group-hover:opacity-100">
+                        className="absolute top-2 left-1/2 z-20 m-4 mx-auto hidden -translate-x-1/2 translate-y-full whitespace-nowrap rounded-sm bg-neutral-700 text-sm text-gray-100 opacity-0 transition-opacity px-1.5 py-0.5 group-hover:block group-hover:opacity-100">
                         Add item to inventory first
                     </span>
                 ) : ""
