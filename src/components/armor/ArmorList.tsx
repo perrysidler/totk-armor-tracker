@@ -31,9 +31,6 @@ export const ArmorList = () => {
             // Calculate the levels we need to add/remove materials for
             let previousLevel = updatedArmor.currentLevel;
             let excludedLevels = [...Array(4).keys()];
-            // window.console.log(`previousLevel - ${previousLevel}`);
-            // window.console.log(`increment - ${increment}`);
-            // window.console.log(`newLevel - ${previousLevel + increment}`);
             // Update armor data
             updatedArmor.currentLevel = Clamp(updatedArmor.currentLevel + increment, 0, 4);
             setArmors(result);
@@ -41,45 +38,33 @@ export const ArmorList = () => {
 
             // filter to just the upgrade levels we need to add or remove
             if (previousLevel === 0) {
-                window.console.log("case 1");
                 // start at 0 (increase)
                 excludedLevels = excludedLevels.filter(i => i >= updatedArmor.currentLevel);
             } else if (updatedArmor.currentLevel === 0) {
-                window.console.log("case 2");
-                // end at 0 (decrease) or 4 (increase)
+                // end at 0 (decrease)
                 excludedLevels = excludedLevels.filter(i => i >= previousLevel);
             } else if (updatedArmor.currentLevel === 4) {
-                window.console.log("case 2.5");
-                // end at 0 (decrease) or 4 (increase)
+                // end at 4 (increase)
                 excludedLevels = excludedLevels.filter(i => i < previousLevel);
             } else if (previousLevel === 4) {
-                window.console.log("case 3");
                 // start at 4 (decrease)
                 excludedLevels = excludedLevels.filter(i => i < updatedArmor.currentLevel);
             } else {
-                window.console.log("case 4");
                 // standard case
                 let min = Math.min(previousLevel, updatedArmor.currentLevel);
                 let max = Math.max(previousLevel, updatedArmor.currentLevel);
                 excludedLevels = excludedLevels.filter(i => i < min || i >= max);
             }
-            window.console.log(excludedLevels);
-            
+
             // Update material data
             let materialTemp = { ...materials };
             for (const key in updatedArmor.upgrades) {
-                if (excludedLevels.indexOf(parseInt(key)) >= 0) {
-                    window.console.log("excluded - " + key);
+                if (excludedLevels.indexOf(parseInt(key)) >= 0)
                     continue;
-                }
-                window.console.log(key);
-                // materialTemp[updatedArmor.upgrades[key]]
                 for (const materialName in updatedArmor.upgrades[parseInt(key)]) {
                     materialTemp[updatedArmor.upgrades[parseInt(key)][materialName].name].quantityRequired = materialTemp[updatedArmor.upgrades[parseInt(key)][materialName].name].quantityRequired || 0;
                     // @ts-ignore
                     materialTemp[updatedArmor.upgrades[parseInt(key)][materialName].name].quantityRequired += (increment < 0 ? 1 : -1) * updatedArmor.upgrades[parseInt(key)][materialName].quantity;
-                    // materialTemp[updatedArmor.upgrades[parseInt(key)][materialName].name].quantityRequired += (isObtained ? 1 : -1) * updatedArmor.upgrades[parseInt(key)][materialName].quantity;
-                    // window.console.log(updatedArmor.upgrades[parseInt(key)][materialName]);
                 }
             }
             setMaterials(materialTemp);
@@ -90,37 +75,25 @@ export const ArmorList = () => {
         let result = armors;
         let updatedArmor = result[name];
         if (updatedArmor) {
+            let excludedLevels = [...Array(4).keys()];
+            if (updatedArmor.currentLevel < 4)
+                excludedLevels = excludedLevels.filter(i => i < updatedArmor.currentLevel);
             updatedArmor.obtained = isObtained;
             setArmors(result);
             saveArmorData(result);
-            // updateMaterials(updatedArmor);
             let materialTemp = { ...materials };
-            window.console.log(materialTemp);
             for (const key in updatedArmor.upgrades) {
-                // materialTemp[updatedArmor.upgrades[key]]
+                if (excludedLevels.indexOf(parseInt(key)) >= 0)
+                    continue;
                 for (const materialName in updatedArmor.upgrades[parseInt(key)]) {
                     materialTemp[updatedArmor.upgrades[parseInt(key)][materialName].name].quantityRequired = materialTemp[updatedArmor.upgrades[parseInt(key)][materialName].name].quantityRequired || 0;
                     // @ts-ignore
                     materialTemp[updatedArmor.upgrades[parseInt(key)][materialName].name].quantityRequired += (isObtained ? 1 : -1) * updatedArmor.upgrades[parseInt(key)][materialName].quantity;
-                    // window.console.log(updatedArmor.upgrades[parseInt(key)][materialName]);
                 }
             }
             setMaterials(materialTemp);
         }
     };
-    
-    // const updateMaterials = (armor: Armor) => {
-    //     let materialsTemp = { ...materials };
-    //     for (const key in armor.upgrades) {
-    //         // materialTemp[updatedArmor.upgrades[key]]
-    //         for (const materialName in armor.upgrades[parseInt(key)]) {
-    //             // @ts-ignore
-    //             materialsTemp[updatedArmor.upgrades[parseInt(key)][materialName].name].quantityRequired += (isObtained ? 1 : -1) * updatedArmor.upgrades[parseInt(key)][materialName].quantity;
-    //             // window.console.log(updatedArmor.upgrades[parseInt(key)][materialName]);
-    //         }
-    //     }
-    //     setMaterials(materialsTemp);
-    // }
 
     return (
         <Fragment>
