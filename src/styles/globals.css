@@ -8,6 +8,7 @@
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 255, 255, 255;
+    --fa-display: block;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,4 +42,8 @@ main {
 
 .nav-link.active {
     @apply border-l-8 border-[#27201d] bg-[#342D2A] rounded;
+}
+
+.armor-inventory-checkbox [type='checkbox']:checked {
+    background-image: none;
 }

@@ -51,6 +51,29 @@ export const loadData = () => {
         for (let material of loadedMaterialData) {
             materialData[material.name].quantityInventory = material.quantityInventory;
         }
+        if (loadedArmorData !== null) {
+            for (const key in armorData) {
+                if (!armorData[key].obtained)
+                    continue;
+                // window.console.log(armorData[key].name);
+                window.console.log(`key - ${armorData[key].name}`);
+                for (const levelKey in armorData[key].upgrades) {
+                    if (parseInt(levelKey) < armorData[key].currentLevel || typeof armorData[key].upgrades === "undefined")
+                        continue;
+                    window.console.log(`levelKey - ${levelKey}`);
+                    // @ts-ignore
+                    for (const material of armorData[key].upgrades[levelKey]) {
+                        window.console.log(material);
+                        try {
+                            materialData[material.name].quantityRequired = (materialData[material.name].quantityRequired ?? 0) + material.quantity;
+                        } catch (e) {
+                            // do nothing
+                        }
+                    }
+                    // window.console.log(armorData[key].upgrades[levelKey]);
+                }
+            }
+        }
     } else {
         let materialSaveData: MaterialSaveData[] = [];
         for (const key in materialData) {
@@ -63,8 +86,8 @@ export const loadData = () => {
     }
 
     trackerStore.setState({ armors: armorData });
-    trackerStore.setState({ armors: armorData });
-    trackerStore.setState({ armors: armorData });
+    trackerStore.setState({ materials: materialData });
+    trackerStore.setState({ upgrades: upgradeData });
 };
 
 /**

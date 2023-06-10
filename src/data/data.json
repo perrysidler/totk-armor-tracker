@@ -3884,6 +3884,12 @@
             "wiki": "https://www.zeldadungeon.net/wiki/Aerocuda_Wing",
             "sortOrder": 145
         },
+        "Amber": {
+            "name": "Amber",
+            "image": "Amber.png",
+            "wiki": "https://www.zeldadungeon.net/wiki/Amber",
+            "sortOrder": 145
+        },
         "Black Bokoblin Horn": {
             "name": "Black Bokoblin Horn",
             "image": "Black_Bokoblin_Horn.png",

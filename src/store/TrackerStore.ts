@@ -1,6 +1,6 @@
 import { ArmorData, SortColumn } from "@/types/Armors";
 import { MaterialData } from "@/types/Materials";
-import { Upgrades } from "@/types/Upgrades";
+import { UpgradeCost, UpgradeLevel, Upgrades } from "@/types/Upgrades";
 import { create } from "zustand";
 
 interface ITrackerStoreState {
@@ -14,6 +14,8 @@ interface ITrackerStoreState {
     setUpgrades: (upgrades: Upgrades) => void,
     setSearchTerm: (searchTerm: string) => void,
     setSortBy: (sortBy: SortColumn) => void,
+    removeMaterialsByUpgrade: (upgrade: UpgradeCost[]) => void,
+    changeMaterialRequiredQuantity: (name: string) => void,
 }
 
 /**
@@ -31,4 +33,17 @@ export const trackerStore = create<ITrackerStoreState>(set => ({
     setUpgrades: (upgrades) => set(state => ({ upgrades: upgrades })),
     setSearchTerm: (searchTerm) => set(state => ({ searchTerm: searchTerm })),
     setSortBy: (sortColumn) => set(state => ({ sortColumn: sortColumn })),
+    changeMaterialRequiredQuantity: (name) => {
+        
+    },
+    removeMaterialsByUpgrade: (upgrade) => {
+        // for (const material of upgrade) {
+        //     set((state) => ({
+        //         materials: {
+        //             ...state.materials,
+        //             "": {}
+        //         }
+        //     }))
+        // }
+    }
 }));
