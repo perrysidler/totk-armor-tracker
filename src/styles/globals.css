@@ -38,6 +38,7 @@ body {
 
 main {
     background-image: url("../../public/images/bg-test-2.jpg");
+    background-attachment: fixed;
 }
 
 .nav-link.active {

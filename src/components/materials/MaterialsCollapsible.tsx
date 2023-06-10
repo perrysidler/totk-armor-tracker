@@ -1,18 +1,20 @@
-import { useState } from "react";
+import { trackerStore } from "@/store/TrackerStore";
+import { saveMaterialsOpen } from "@/store/DataManagement";
 
 interface ICollapsibleProps {
     children: any,
     classes?: string,
-    open?: boolean,
     tooltip: string,
     title: string,
 }
 
-export const Collapsible = ({ children, classes, open, tooltip, title }: ICollapsibleProps) => {
-    const [ isOpen, setIsOpen ] = useState(open);
-    
+export const MaterialsCollapsible = ({ children, classes, tooltip, title }: ICollapsibleProps) => {
+    const { materialsOpen, setMaterialsOpen } = trackerStore();
+
     const onCollapsibleClick = () => {
-        setIsOpen((prev) => !prev);
+        const isOpen = !materialsOpen;
+        setMaterialsOpen(isOpen);
+        saveMaterialsOpen(isOpen);
     }
 
     return (
@@ -24,7 +26,7 @@ export const Collapsible = ({ children, classes, open, tooltip, title }: ICollap
                 >
                     <h4 className="text-md">{title}</h4>
                     <span className="text-neutral-400 group-hover:text-neutral-200 group-focus-visible:text-neutral-200 pointer-events-none" onClick={onCollapsibleClick}>
-                        {isOpen ? (
+                        {materialsOpen ? (
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="w-6 h-6 pointer-events-none mb-0.5 mx-0.5">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
                             </svg>
@@ -36,8 +38,8 @@ export const Collapsible = ({ children, classes, open, tooltip, title }: ICollap
                     </span>
                 </button>
             </div>
-            <div className={`${isOpen ? "border-2": ""} border-t-0 border-neutral-800 border-opacity-75 relative rounded-bl rounded-br -mt-0.5`}>
-                {isOpen ? (
+            <div className={`${materialsOpen ? "border-2": ""} border-t-0 border-neutral-800 border-opacity-75 relative rounded-bl rounded-br -mt-0.5`}>
+                {materialsOpen ? (
                     <div className="p-4 before:block before:absolute before:opacity-40 before:w-full before:h-full before:bg-black before:top-0 before:left-0 [&>*]:relative">
                         {children}
                     </div>
