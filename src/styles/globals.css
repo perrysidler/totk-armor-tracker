@@ -50,17 +50,17 @@ main {
 }
 
 .material-name {
-    @apply w-auto text-left;
+    @apply max-w-[8rem] xs:max-w-none w-auto text-left;
 }
 
 .material-required {
-    @apply w-12 text-sm;
+    @apply w-10 text-sm;
 }
 
 .material-inventory {
-    @apply w-24 pr-2 text-sm;
+    @apply w-20 text-sm;
 }
 
 .material-need {
-    @apply w-10 text-sm;
+    @apply w-[3.2rem] text-sm;
 }
