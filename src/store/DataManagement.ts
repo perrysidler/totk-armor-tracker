@@ -116,7 +116,7 @@ export const saveMaterialData = (materialData: MaterialData) => {
         } as MaterialSaveData;
     });
 
-    window.localStorage.setItem("armorData", JSON.stringify(materialSaveData));
+    window.localStorage.setItem("materialData", JSON.stringify(materialSaveData));
 };
 
 export const saveMaterialsOpen = (open: boolean) => {
