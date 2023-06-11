@@ -16,7 +16,7 @@ export const Header = () => {
                     <span className="text-xl site-title pt-0.5">TOTK Armor Tracker</span>
                 </div>
                 <ul className="hidden gap-1 sm:flex">
-                    <li>
+                    <li className="hidden">
                         <button className="inline-block px-3 py-2 text-left text-lg nav-link" type="button">
                             Feedback
                         </button>
@@ -29,7 +29,7 @@ export const Header = () => {
                     {/*</li>*/}
                 </ul>
                 <ul className="ml-auto hidden gap-1 sm:flex">
-                    <li className="flex">
+                    <li className="flex hidden">
                         <button className="inline-block px-3 py-2 text-xl" type="button">
                             {/*<BsGearFill />*/}
                             <FontAwesomeIcon icon={faGear} />
@@ -75,13 +75,13 @@ export const Header = () => {
                         {/*    </Link>*/}
                         {/*</li>*/}
                         <li>
-                            <button className="inline-block w-full px-3 py-2 text-lg text-left" type="button">
-                                Feedback
-                            </button>
-                            {/*<Link className="inline-block w-full px-3 py-2 text-lg nav-link" href="https://github.com/perrysidler/totk-armor-tracker/issues/new"*/}
-                            {/*      target="_blank">*/}
+                            {/*<button className="inline-block w-full px-3 py-2 text-lg text-left" type="button">*/}
                             {/*    Feedback*/}
-                            {/*</Link>*/}
+                            {/*</button>*/}
+                            <Link className="inline-block w-full px-3 py-2 text-lg nav-link" href="https://github.com/perrysidler/totk-armor-tracker/"
+                                  target="_blank">
+                                GitHub
+                            </Link>
                         </li>
                     </ul>
                 </nav>

@@ -17,8 +17,8 @@ export const MaterialCard = ({ material, onQuantityChange }: IMaterialCardProps)
     }
 
     return (
-        <div className="flex justify-end gap-2 p-1">
-            <span className="material-name mr-auto">
+        <div className="flex justify-end gap-1 md:gap-2 p-1">
+            <span className="material-name mr-auto text-sm sm:text-base">
                 <a href={material.wiki} target="_blank"
                     className=""
                 >

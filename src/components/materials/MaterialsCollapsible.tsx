@@ -40,7 +40,7 @@ export const MaterialsCollapsible = ({ children, classes, tooltip, title }: ICol
             </div>
             <div className={`${materialsOpen ? "border-2": ""} border-t-0 border-neutral-800 border-opacity-75 relative rounded-bl rounded-br -mt-0.5`}>
                 {materialsOpen ? (
-                    <div className="p-4 before:block before:absolute before:opacity-40 before:w-full before:h-full before:bg-black before:top-0 before:left-0 [&>*]:relative">
+                    <div className="p-2 md:p-4 before:block before:absolute before:opacity-40 before:w-full before:h-full before:bg-black before:top-0 before:left-0 [&>*]:relative">
                         {children}
                     </div>
                 ): ""}
