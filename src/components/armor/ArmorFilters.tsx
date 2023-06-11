@@ -28,7 +28,7 @@ export const ArmorFilters = () => {
                 {sortByNames[sortColumn]}
             </button>
             <input type="text"
-                   className="mx-auto mb-4 block h-10 w-full xs:w-64 rounded border-0 border-2 border-black bg-white p-2 text-black focus:ring-transparent sm:mr-0 sm:ml-8 sm:inline-block"
+                   className="text-xs mx-auto mb-4 block h-10 w-full xs:w-64 rounded border-0 border-2 border-black bg-white p-2 text-black focus:ring-transparent sm:mr-0 sm:ml-8 sm:inline-block"
                    placeholder="Search armors" value={searchTerm} onChange={searchChangeHandler} />
         </div>
     );

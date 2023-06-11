@@ -48,3 +48,19 @@ main {
 .armor-inventory-checkbox [type='checkbox']:checked {
     background-image: none;
 }
+
+.material-name {
+    @apply w-auto text-left;
+}
+
+.material-required {
+    @apply w-12 text-sm;
+}
+
+.material-inventory {
+    @apply w-24 pr-2 text-sm;
+}
+
+.material-need {
+    @apply w-10 text-sm;
+}
