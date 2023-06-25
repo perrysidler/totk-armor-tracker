@@ -20,7 +20,7 @@ export const MaterialList = () => {
     return (
         <MaterialsCollapsible title={`Materials ${requiredMaterials.length > 0 ? `(${requiredMaterials.length})` : ""}`}
                               tooltip="Click to view required materials"
-                              classes="pb-6">
+                              classes="mb-6">
             <div className="grid grid-cols-1 gap-x-8 gap-y-1 lg:grid-cols-2 2xl:grid-cols-3 text-right">
                 {requiredMaterials.length === 0 ? (
                     <span className="text-left text-neutral-400">No materials required</span>

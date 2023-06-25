@@ -20,7 +20,7 @@ export const MaterialsCollapsible = ({ children, classes, tooltip, title }: ICol
     return (
         <div className={classes}>
             <div className="relative z-10">
-                <button className="group w-full flex justify-between border-0 border-neutral-400 py-3 px-5 border-opacity-75 bg-neutral-800 rounded"
+                <button className="group w-full flex justify-between border-0 border-neutral-400 py-3 px-5 border-opacity-75 bg-neutral-800 rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-400"
                         onClick={onCollapsibleClick}
                         title={tooltip}
                 >

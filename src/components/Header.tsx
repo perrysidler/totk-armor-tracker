@@ -36,7 +36,7 @@ export const Header = () => {
                         </button>
                     </li>
                     <li className="flex">
-                        <Link className="inline-block px-3 py-2 text-xl" href="https://github.com/perrysidler/totk-armor-tracker"
+                        <Link className="rounded inline-block px-3 py-2 text-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-400" href="https://github.com/perrysidler/totk-armor-tracker"
                               target="_blank">
                             <FontAwesomeIcon icon={faGithub} />
                             {/*<FaGithub />*/}
@@ -44,7 +44,7 @@ export const Header = () => {
                     </li>
                 </ul>
                 <div className="mr-3 ml-auto sm:hidden">
-                    <button className="flex h-8 w-8 items-center justify-center" type="button" onClick={() => setMenuOpen((prev) => !prev)}>
+                    <button className="flex h-8 w-8 items-center justify-center rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-400" type="button" onClick={() => setMenuOpen((prev) => !prev)}>
                         <span className="sr-only">Open menu</span>
                         {!menuOpen ? (
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-12 h-12 scale-150" aria-hidden="true">
@@ -78,7 +78,7 @@ export const Header = () => {
                             {/*<button className="inline-block w-full px-3 py-2 text-lg text-left" type="button">*/}
                             {/*    Feedback*/}
                             {/*</button>*/}
-                            <Link className="inline-block w-full px-3 py-2 text-lg nav-link" href="https://github.com/perrysidler/totk-armor-tracker/"
+                            <Link className="inline-block w-full px-3 py-2 rounded text-lg nav-link focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-400" href="https://github.com/perrysidler/totk-armor-tracker/"
                                   target="_blank">
                                 GitHub
                             </Link>

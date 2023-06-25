@@ -3,26 +3,68 @@ import { ArmorFilters } from "@/components/armor/ArmorFilters";
 import { MaterialList } from "@/components/materials/MaterialList";
 import { saveArmorData } from "@/store/DataManagement";
 import { trackerStore } from "@/store/TrackerStore";
-import { Armor, SortColumn } from "@/types/Armors";
+import { Armor } from "@/types/Armors";
 import { Clamp } from "@/utils/utils";
 import { Fragment } from "react";
 
 const bodyPartOrder = [ "Head", "Chest", "Legs" ];
-const sortBySet = (a: Armor, b: Armor) => {
-    return a["sortOrder"] - b["sortOrder"];
+
+const sortBySet = (a: Armor, b: Armor, dir: number) => {
+    return (a["sortOrder"] - b["sortOrder"]) * dir;
 };
-const sortByBodyPart = (a: Armor, b: Armor) => {
+const sortByBodyPart = (a: Armor, b: Armor, dir: number) => {
     const typeOrder = bodyPartOrder.indexOf(a.bodyPart) - bodyPartOrder.indexOf(b.bodyPart);
-    if (typeOrder < 0) return -1;
-    if (typeOrder === 0) return a.sortOrder - b.sortOrder;
+    if (typeOrder < 0) return -1 * dir;
+    if (typeOrder === 0) return (a.sortOrder - b.sortOrder) * dir;
     return 0;
 };
+const sortName = (a: Armor, b: Armor, dir: number) => {
+    if (a["name"] < b["name"])
+        return -1 * dir;
+    if (a["name"] > b["name"])
+        return dir;
+    return 0;
+}
+const sortSetName = (a: Armor, b: Armor, dir: number) => {
+    if (a["setName"] !== "" && b["setName"] === "")
+        return -1 * dir;
+    if (a["setName"] === "" && b["setName"] !== "")
+        return dir;
+    if (a["setName"] < b["setName"])
+        return -1 * dir;
+    if (a["setName"] > b["setName"])
+        return dir;
+    return 0;
+}
 
 export const ArmorList = () => {
-    const { armors, sortColumn, searchTerm, setArmors, materials, setMaterials } = trackerStore();
+    const { armors, setArmors, materials, setMaterials } = trackerStore();
+    const { searchTerm, sortBy, sortDirection } = trackerStore();
+    const { showObtained, showNotObtained } = trackerStore();
+    let sortMethod: (a: Armor, b: Armor, dir: number) => number;
+
+    switch (sortBy.value) {
+        case "byBodyPart":
+            sortMethod = sortByBodyPart;
+            break;
+        case "name":
+            sortMethod = sortName;
+            break;
+        case "setName":
+            sortMethod = sortSetName;
+            break;
+        case "bySet":
+        default:
+            sortMethod = sortBySet;
+    }
+
+    const sortArmors = (a: Armor, b: Armor) => {
+        return sortMethod.call(this, a, b, sortDirection);
+    }
 
     const filteredArmors = Object.values(armors).filter(armor => armor.name.search(new RegExp(searchTerm, "i")) >= 0)
-        .sort(sortColumn === SortColumn.Set ? sortBySet : sortByBodyPart);
+        .filter(armor => showObtained && armor.obtained || showNotObtained && !armor.obtained || (!showObtained && !showNotObtained))
+        .sort(sortArmors);
 
     const levelIncrementHandler = (name: string, increment: number) => {
         let result = armors;
@@ -30,7 +72,7 @@ export const ArmorList = () => {
         if (updatedArmor) {
             // Calculate the levels we need to add/remove materials for
             let previousLevel = updatedArmor.currentLevel;
-            let excludedLevels = [...Array(4).keys()];
+            let excludedLevels = [ ...Array(4).keys() ];
             // Update armor data
             updatedArmor.currentLevel = Clamp(updatedArmor.currentLevel + increment, 0, 4);
             setArmors(result);
@@ -75,7 +117,7 @@ export const ArmorList = () => {
         let result = armors;
         let updatedArmor = result[name];
         if (updatedArmor) {
-            let excludedLevels = [...Array(4).keys()];
+            let excludedLevels = [ ...Array(4).keys() ];
             if (updatedArmor.currentLevel < 4)
                 excludedLevels = excludedLevels.filter(i => i < updatedArmor.currentLevel);
             updatedArmor.obtained = isObtained;
