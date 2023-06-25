@@ -41,10 +41,6 @@ main {
     background-attachment: fixed;
 }
 
-.nav-link.active {
-    @apply border-l-8 border-[#27201d] bg-[#342D2A] rounded;
-}
-
 .armor-inventory-checkbox [type='checkbox']:checked {
     background-image: none;
 }

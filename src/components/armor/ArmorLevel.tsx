@@ -44,12 +44,13 @@ export const ArmorLevel = ({ level, obtained, onLevelChange }: IArmorLevelProps)
             <div className="flex px-2 py-1 text-neutral-300 group">
                 {[ ...Array(4) ].map((_, index) => (
                     <button key={index} className="p-0.5 py-1.5 disabled:opacity-25" data-index={index} type="button"
-                            onMouseEnter={beginHover} onMouseLeave={endHover} onClick={levelClickHandler} disabled={!obtained}>
+                            onMouseEnter={beginHover} onMouseLeave={endHover} onClick={levelClickHandler}
+                            disabled={!obtained}>
                         {level >= index + 1 || hoverIndex >= index ? (
                             <FontAwesomeIcon icon={faStarSolid} className="text-xl" />
                         ) : (
-                             <FontAwesomeIcon icon={faStarEmpty} className="text-xl" />
-                         )}
+                            <FontAwesomeIcon icon={faStarEmpty} className="text-xl" />
+                        )}
                     </button>
                 ))}
                 {!obtained ? (

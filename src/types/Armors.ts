@@ -33,16 +33,3 @@ export type ArmorSaveData = {
     currentLevel: number,
     obtained: boolean,
 }
-
-/**
- * Which sort method to use for the armors.
- * @enum {string}
- */
-export enum SortColumn {
-    /** @member {int} */
-    /** Default game sorting with sets grouped. */
-    Set,
-    /** @member {int} */
-    /** Default game sorting with armors grouped by body part (head, chest, then legs) */
-    BodyPart,
-}
