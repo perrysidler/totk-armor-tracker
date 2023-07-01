@@ -4,6 +4,10 @@ export default function Document() {
     return (
         <Html className="h-full" lang="en">
             <Head>
+                <meta name="description"
+                      content="Track which armors you have, how many of materials you need to upgrade them, and use the direct wiki links to learn more about the armor in Tears of the Kingdom."
+                      key="desc"
+                />
                 <link rel="shortcut icon" href="/favicon.png" />
                 <link rel="apple-touch-icon" href="/favicon.png" />
                 <link rel="icon" href="/favicon.png" />
