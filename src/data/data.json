@@ -401,7 +401,7 @@
             "setName": "Evil Spirit",
             "bodyPart": "Chest",
             "image": "Evil_Spirit_Armor.png",
-            "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Armor",
+            "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Ganon_Armor",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
@@ -413,7 +413,7 @@
             "setName": "Evil Spirit",
             "bodyPart": "Legs",
             "image": "Evil_Spirit_Greaves.png",
-            "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Greaves",
+            "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Ganon_Greaves",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
@@ -425,7 +425,7 @@
             "setName": "Evil Spirit",
             "bodyPart": "Head",
             "image": "Evil_Spirit_Mask.png",
-            "wiki": "https://www.zeldadungeon.net/wiki/Evil_Spirit_Mask",
+            "wiki": "https://www.zeldadungeon.net/wiki/Phantom_Ganon_Skull",
             "dlc": false,
             "isUpgradable": false,
             "currentLevel": 0,
@@ -1726,41 +1726,41 @@
             [
                 {
                     "name": "Luminous Stone",
+                    "quantity": 10
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Luminous Stone",
+                    "quantity": 15
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Luminous Stone",
+                    "quantity": 20
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Luminous Stone",
                     "quantity": 30
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Luminous Stone",
-                    "quantity": 45
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Luminous Stone",
-                    "quantity": 60
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Luminous Stone",
-                    "quantity": 90
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ]
         ],
@@ -1768,49 +1768,49 @@
             [
                 {
                     "name": "Mighty Thistle",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Lynel Saber Horn",
-                    "quantity": 6
+                    "quantity": 2
                 },
                 {
                     "name": "Lynel Mace Horn",
-                    "quantity": 6
+                    "quantity": 2
                 },
                 {
                     "name": "Razorshroom",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Blue-Maned Lynel Saber Horn",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Blue-Maned Lynel Mace Horn",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Razorclaw Crab",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "White-Maned Lynel Saber Horn",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "White-Maned Lynel Mace Horn",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Bladed Rhino Beetle",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ]
         ],
@@ -1922,45 +1922,45 @@
             [
                 {
                     "name": "Shock Fruit",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Electric Lizalfos Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Thunderwing Butterfly",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Large Zonai Charge",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Shock Like Stone",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Electric Darner",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Gleeok Thunder Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Voltfin Trout",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Large Zonai Charge",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ]
         ],
@@ -1968,41 +1968,41 @@
             [
                 {
                     "name": "Keese Wing",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Rushroom",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Electric Keese Wing",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Hightail Lizard",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Ice Keese Wing",
-                    "quantity": 24
+                    "quantity": 8
                 },
                 {
                     "name": "Hot-Footed Frog",
-                    "quantity": 30
+                    "quantity": 10
                 }
             ],
             [
                 {
                     "name": "Fire Keese Wing",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Swift Violet",
-                    "quantity": 60
+                    "quantity": 20
                 }
             ]
         ],
@@ -2010,45 +2010,45 @@
             [
                 {
                     "name": "Deep Firefly",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Dark Clump",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Frox Fang",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Frox Fingernail",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Obsidian Frox Fang",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Zonaite",
-                    "quantity": 60
+                    "quantity": 20
                 }
             ],
             [
                 {
                     "name": "Blue-White Frox Fang",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Large Zonaite",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Frox Guts",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ]
         ],
@@ -2056,45 +2056,45 @@
             [
                 {
                     "name": "White Chuchu Jelly",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "White Chuchu Jelly",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Cool Safflina",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Ice Keese Wing",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Ice-Breath Lizalfos Tail",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Chillshroom",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Ice-Breath Lizalfos Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Ice-Breath Lizalfos Tail",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Sapphire",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ]
         ],
@@ -2144,45 +2144,45 @@
             [
                 {
                     "name": "Fire Fruit",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Fire-Breath Lizalfos Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Summerwing Butterfly",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Fire Like Stone",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Warm Darner",
-                    "quantity": 21
+                    "quantity": 7
                 },
                 {
                     "name": "Large Zonai Charge",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Gleeok Flame Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Sizzlefin Trout",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Large Zonai Charge",
-                    "quantity": 30
+                    "quantity": 10
                 }
             ]
         ],
@@ -2316,45 +2316,45 @@
             [
                 {
                     "name": "Moblin Horn",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Moblin Fang",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Fireproof Lizard",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Blue Moblin Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Smotherwing Butterfly",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Flint",
-                    "quantity": 45
+                    "quantity": 15
                 }
             ],
             [
                 {
                     "name": "Black Moblin Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Smotherwing Butterfly",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Flint",
-                    "quantity": 90
+                    "quantity": 30
                 }
             ]
         ],
@@ -2362,41 +2362,41 @@
             [
                 {
                     "name": "Sticky Lizard",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Sticky Lizard",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Horriblin Horn",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Blue Horriblin Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Sticky Frog",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Black Horriblin Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Horriblin Guts",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Opal",
-                    "quantity": 30
+                    "quantity": 10
                 }
             ]
         ],
@@ -2404,45 +2404,45 @@
             [
                 {
                     "name": "Ice Fruit",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Ice-Breath Lizalfos Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Winterwing Butterfly",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Ice Like Stone",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Cold Darner",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Large Zonai Charge",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Gleeok Frost Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Chillfin Trout",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Large Zonai Charge",
-                    "quantity": 30
+                    "quantity": 10
                 }
             ]
         ],
@@ -2450,41 +2450,41 @@
             [
                 {
                     "name": "Keese Wing",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Aerocuda Eyeball",
-                    "quantity": 18
+                    "quantity": 6
                 },
                 {
                     "name": "Keese Wing",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Aerocuda Eyeball",
-                    "quantity": 24
+                    "quantity": 8
                 },
                 {
                     "name": "Aerocuda Wing",
-                    "quantity": 18
+                    "quantity": 6
                 }
             ],
             [
                 {
                     "name": "Gleeok Wing",
-                    "quantity": 36
+                    "quantity": 12
                 },
                 {
                     "name": "Aerocuda Wing",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Gibdo Wing",
-                    "quantity": 24
+                    "quantity": 8
                 }
             ]
         ],
@@ -2492,41 +2492,41 @@
             [
                 {
                     "name": "Ruby",
-                    "quantity": 3
+                    "quantity": 1
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Ruby",
-                    "quantity": 12
+                    "quantity": 4
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Ruby",
-                    "quantity": 18
+                    "quantity": 6
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Ruby",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ]
         ],
@@ -2534,45 +2534,45 @@
             [
                 {
                     "name": "Bokoblin Horn",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Blue Bokoblin Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Bokoblin Fang",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Black Bokoblin Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Bokoblin Guts",
-                    "quantity": 9
+                    "quantity": 1
                 },
                 {
                     "name": "Amber",
-                    "quantity": 60
+                    "quantity": 20
                 }
             ],
             [
                 {
                     "name": "Silver Bokoblin Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Bokoblin Guts",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Amber",
-                    "quantity": 90
+                    "quantity": 30
                 }
             ]
         ],
@@ -2580,45 +2580,45 @@
             [
                 {
                     "name": "Brightbloom Seed",
-                    "quantity": 30
+                    "quantity": 10
                 }
             ],
             [
                 {
                     "name": "Brightbloom Seed",
-                    "quantity": 60
+                    "quantity": 20
                 },
                 {
                     "name": "Brightcap",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Giant Brightbloom Seed",
-                    "quantity": 45
+                    "quantity": 15
                 },
                 {
                     "name": "Glowing Cave Fish",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Deep Firefly",
-                    "quantity": 30
+                    "quantity": 10
                 }
             ],
             [
                 {
                     "name": "Giant Brightbloom Seed",
-                    "quantity": 60
+                    "quantity": 20
                 },
                 {
                     "name": "Diamond",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Large Zonaite",
-                    "quantity": 30
+                    "quantity": 10
                 }
             ]
         ],
@@ -2668,49 +2668,49 @@
             [
                 {
                     "name": "Luminous Stone",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Moblin Guts",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Luminous Stone",
-                    "quantity": 45
+                    "quantity": 15
                 },
                 {
                     "name": "Moblin Guts",
-                    "quantity": 6
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Luminous Stone",
-                    "quantity": 60
+                    "quantity": 20
                 },
                 {
                     "name": "Horriblin Guts",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Gibdo Bone",
-                    "quantity": 30
+                    "quantity": 10
                 }
             ],
             [
                 {
                     "name": "Luminous Stone",
-                    "quantity": 90
+                    "quantity": 30
                 },
                 {
                     "name": "Lynel Guts",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Molduga Jaw",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ]
         ],
@@ -2718,45 +2718,45 @@
             [
                 {
                     "name": "Boss Bokoblin Horn",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Bokoblin Guts",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Blue Boss Bokoblin Horn",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Boss Bokoblin Guts",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Black Boss Bokoblin Horn",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Hinox Guts",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Silver Boss Bokoblin Horn",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Molduga Guts",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Gleeok Guts",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ]
         ],
@@ -2764,49 +2764,49 @@
             [
                 {
                     "name": "Electric Lizalfos Horn",
-                    "quantity": 3
+                    "quantity": 1
                 },
                 {
                     "name": "Yellow Chuchu Jelly",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Yellow Chuchu Jelly",
-                    "quantity": 24
+                    "quantity": 8
                 },
                 {
                     "name": "Voltfruit",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Zapshroom",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Electric Lizalfos Tail",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Electric Safflina",
-                    "quantity": 24
+                    "quantity": 8
                 }
             ],
             [
                 {
                     "name": "Electric Lizalfos Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Topaz",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Electric Lizalfos Tail",
-                    "quantity": 24
+                    "quantity": 8
                 }
             ]
         ],
@@ -2986,41 +2986,41 @@
             [
                 {
                     "name": "Sapphire",
-                    "quantity": 3
+                    "quantity": 1
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Sapphire",
-                    "quantity": 12
+                    "quantity": 4
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Sapphire",
-                    "quantity": 18
+                    "quantity": 6
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Sapphire",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ]
         ],
@@ -3066,45 +3066,45 @@
             [
                 {
                     "name": "Red Chuchu Jelly",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Red Chuchu Jelly",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Warm Safflina",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Fire Keese Wing",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Fire-Breath Lizalfos Tail",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Sunshroom",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Fire-Breath Lizalfos Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Fire-Breath Lizalfos Tail",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Ruby",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ]
         ],
@@ -3112,49 +3112,49 @@
             [
                 {
                     "name": "Chuchu Jelly",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Bokoblin Guts",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Keese Eyeball",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Moblin Guts",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Lizalfos Tail",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Hinox Guts",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Flint",
-                    "quantity": 90
+                    "quantity": 30
                 }
             ],
             [
                 {
                     "name": "Amber",
-                    "quantity": 90
+                    "quantity": 30
                 },
                 {
                     "name": "Lynel Hoof",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Lynel Guts",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ]
         ],
@@ -3162,45 +3162,45 @@
             [
                 {
                     "name": "Blue Nightshade",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Blue Nightshade",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Sunset Firefly",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Silent Shroom",
-                    "quantity": 24
+                    "quantity": 8
                 },
                 {
                     "name": "Sneaky River Snail",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Sticky Frog",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Stealthfin Trout",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Silent Princess",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Sundelion",
-                    "quantity": 30
+                    "quantity": 10
                 }
             ]
         ],
@@ -3208,41 +3208,41 @@
             [
                 {
                     "name": "Amber",
+                    "quantity": 10
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Amber",
+                    "quantity": 20
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Amber",
                     "quantity": 30
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Amber",
-                    "quantity": 60
+                    "quantity": 40
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Amber",
-                    "quantity": 90
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Amber",
-                    "quantity": 120
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ]
         ],
@@ -3446,41 +3446,41 @@
             [
                 {
                     "name": "Topaz",
-                    "quantity": 3
+                    "quantity": 1
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Topaz",
-                    "quantity": 12
+                    "quantity": 4
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Topaz",
-                    "quantity": 18
+                    "quantity": 6
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Topaz",
-                    "quantity": 30
+                    "quantity": 10
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ]
         ],
@@ -3688,41 +3688,41 @@
             [
                 {
                     "name": "Opal",
+                    "quantity": 5
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Opal",
+                    "quantity": 10
+                },
+                {
+                    "name": "Star Fragment",
+                    "quantity": 1
+                }
+            ],
+            [
+                {
+                    "name": "Opal",
                     "quantity": 15
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ],
             [
                 {
                     "name": "Opal",
-                    "quantity": 30
+                    "quantity": 25
                 },
                 {
                     "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Opal",
-                    "quantity": 45
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
-                }
-            ],
-            [
-                {
-                    "name": "Opal",
-                    "quantity": 75
-                },
-                {
-                    "name": "Star Fragment",
-                    "quantity": 3
+                    "quantity": 1
                 }
             ]
         ],
@@ -3730,41 +3730,41 @@
             [
                 {
                     "name": "Octorok Eyeball",
-                    "quantity": 6
+                    "quantity": 2
                 }
             ],
             [
                 {
                     "name": "Fire-Breath Lizalfos Tail",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Puffshroom",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Keese Eyeball",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Ice-Breath Lizalfos Tail",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Electric Lizalfos Tail",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Black Hinox Horn",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Mighty Bananas",
-                    "quantity": 30
+                    "quantity": 10
                 }
             ]
         ],
@@ -3772,49 +3772,49 @@
             [
                 {
                     "name": "Soldier Construct Horn",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Soldier Construct II Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Captain Construct I Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Zonaite",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Soldier Construct III Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Captain Construct II Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Large Zonaite",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Soldier Construct IV Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Captain Construct III Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Large Zonaite",
-                    "quantity": 30
+                    "quantity": 5
                 }
             ]
         ],
@@ -3822,45 +3822,45 @@
             [
                 {
                     "name": "Lizalfos Horn",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Lizalfos Talon",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Hyrule Bass",
-                    "quantity": 15
+                    "quantity": 5
                 }
             ],
             [
                 {
                     "name": "Blue Lizalfos Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Lizalfos Tail",
-                    "quantity": 9
+                    "quantity": 3
                 },
                 {
                     "name": "Hearty Bass",
-                    "quantity": 9
+                    "quantity": 3
                 }
             ],
             [
                 {
                     "name": "Black Lizalfos Horn",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Blue Lizalfos Tail",
-                    "quantity": 15
+                    "quantity": 5
                 },
                 {
                     "name": "Opal",
-                    "quantity": 60
+                    "quantity": 20
                 }
             ]
         ]
