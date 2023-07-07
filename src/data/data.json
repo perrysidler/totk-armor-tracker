@@ -1709,11 +1709,11 @@
             ],
             [
                 {
-                    "name": "White-Maned Lynel Saber Horn",
+                    "name": "Silver Lynel Saber Horn",
                     "quantity": 9
                 },
                 {
-                    "name": "White-Maned Lynel Mace Horn",
+                    "name": "Silver Lynel Mace Horn",
                     "quantity": 9
                 },
                 {
@@ -1851,12 +1851,12 @@
             ],
             [
                 {
-                    "name": "Farosh's Horn",
-                    "quantity": 2
-                },
-                {
                     "name": "Star Fragment",
                     "quantity": 3
+                },
+                {
+                    "name": "Farosh's Horn",
+                    "quantity": 2
                 },
                 {
                     "name": "Shard of Farosh's Spike",
@@ -1937,16 +1937,16 @@
             ],
             [
                 {
-                    "name": "Large Zonai Charge",
-                    "quantity": 3
-                },
-                {
                     "name": "Shock Like Stone",
                     "quantity": 5
                 },
                 {
                     "name": "Electric Darner",
                     "quantity": 5
+                },
+                {
+                    "name": "Large Zonai Charge",
+                    "quantity": 3
                 }
             ],
             [
@@ -2015,19 +2015,15 @@
             ],
             [
                 {
-                    "name": "Dark Clump",
-                    "quantity": 5
-                },
-                {
                     "name": "Frox Fang",
                     "quantity": 3
+                },
+                {
+                    "name": "Dark Clump",
+                    "quantity": 5
                 }
             ],
             [
-                {
-                    "name": "Frox Fingernail",
-                    "quantity": 3
-                },
                 {
                     "name": "Obsidian Frox Fang",
                     "quantity": 3
@@ -2035,6 +2031,10 @@
                 {
                     "name": "Zonaite",
                     "quantity": 20
+                },
+                {
+                    "name": "Frox Fingernail",
+                    "quantity": 3
                 }
             ],
             [
@@ -2164,7 +2164,7 @@
                 },
                 {
                     "name": "Warm Darner",
-                    "quantity": 7
+                    "quantity": 5
                 },
                 {
                     "name": "Large Zonai Charge",
@@ -2367,11 +2367,11 @@
             ],
             [
                 {
-                    "name": "Sticky Lizard",
+                    "name": "Horriblin Horn",
                     "quantity": 5
                 },
                 {
-                    "name": "Horriblin Horn",
+                    "name": "Sticky Lizard",
                     "quantity": 5
                 }
             ],
@@ -2465,13 +2465,14 @@
             ],
             [
                 {
-                    "name": "Aerocuda Eyeball",
-                    "quantity": 8
-                },
-                {
                     "name": "Aerocuda Wing",
                     "quantity": 6
+                },
+                {
+                    "name": "Aerocuda Eyeball",
+                    "quantity": 8
                 }
+                
             ],
             [
                 {
@@ -2554,7 +2555,7 @@
                 },
                 {
                     "name": "Bokoblin Guts",
-                    "quantity": 1
+                    "quantity": 3
                 },
                 {
                     "name": "Amber",
@@ -2671,7 +2672,7 @@
                     "quantity": 10
                 },
                 {
-                    "name": "Moblin Guts",
+                    "name": "Bokoblin Guts",
                     "quantity": 1
                 }
             ],
@@ -3145,16 +3146,16 @@
             ],
             [
                 {
-                    "name": "Amber",
-                    "quantity": 30
-                },
-                {
                     "name": "Lynel Hoof",
                     "quantity": 5
                 },
                 {
                     "name": "Lynel Guts",
                     "quantity": 5
+                },
+                {
+                    "name": "Amber",
+                    "quantity": 30
                 }
             ]
         ],
@@ -3325,12 +3326,12 @@
             ],
             [
                 {
-                    "name": "Dinraal's Horn",
-                    "quantity": 2
-                },
-                {
                     "name": "Star Fragment",
                     "quantity": 3
+                },
+                {
+                    "name": "Dinraal's Horn",
+                    "quantity": 2
                 },
                 {
                     "name": "Shard of Dinraal's Spike",
@@ -3429,12 +3430,12 @@
             ],
             [
                 {
-                    "name": "Naydra's Horn",
-                    "quantity": 2
-                },
-                {
                     "name": "Star Fragment",
                     "quantity": 3
+                },
+                {
+                    "name": "Naydra's Horn",
+                    "quantity": 2
                 },
                 {
                     "name": "Shard of Naydra's Spike",
@@ -3745,11 +3746,11 @@
             ],
             [
                 {
-                    "name": "Keese Eyeball",
+                    "name": "Ice-Breath Lizalfos Tail",
                     "quantity": 5
                 },
                 {
-                    "name": "Ice-Breath Lizalfos Tail",
+                    "name": "Keese Eyeball",
                     "quantity": 5
                 }
             ],
@@ -3814,7 +3815,7 @@
                 },
                 {
                     "name": "Large Zonaite",
-                    "quantity": 5
+                    "quantity": 10
                 }
             ]
         ],
