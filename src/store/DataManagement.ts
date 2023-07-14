@@ -4,21 +4,21 @@ import { ArmorData, ArmorSaveData } from "@/types/Armors";
 import { MaterialData, MaterialSaveData } from "@/types/Materials";
 import { Upgrades } from "@/types/Upgrades";
 
-const currentDataVersion = 2;
+// const currentDataVersion = 2;
 
 /**
  * Loads the armor, upgrade, and material data, and combines
  * with any available local storage saved data.
  */
 export const loadData = () => {
-    const dataVersion = window.localStorage.getItem("dataVersion");
-
-    if (typeof dataVersion === "undefined" || dataVersion === null
-        || isNaN(parseInt(dataVersion)) || parseInt(dataVersion) < currentDataVersion) {
-        window.localStorage.removeItem("armorData");
-        window.localStorage.removeItem("materialData");
-        window.localStorage.setItem("dataVersion", currentDataVersion.toString());
-    }
+    // const dataVersion = window.localStorage.getItem("dataVersion");
+    //
+    // if (typeof dataVersion === "undefined" || dataVersion === null
+    //     || isNaN(parseInt(dataVersion)) || parseInt(dataVersion) < currentDataVersion) {
+    //     window.localStorage.removeItem("armorData");
+    //     window.localStorage.removeItem("materialData");
+    //     window.localStorage.setItem("dataVersion", currentDataVersion.toString());
+    // }
 
     let armorData: ArmorData = data.armors;
     let upgradeData: Upgrades = data.upgrades;
