@@ -40,7 +40,7 @@ const sortSetName = (a: Armor, b: Armor, dir: number) => {
 export const ArmorList = () => {
     const { armors, setArmors, materials, setMaterials } = trackerStore();
     const { searchTerm, sortBy, sortDirection } = trackerStore();
-    const { showObtained, showNotObtained } = trackerStore();
+    const { showObtained, showNotObtained, showOnlyUpgradeable } = trackerStore();
     let sortMethod: (a: Armor, b: Armor, dir: number) => number;
 
     switch (sortBy.value) {
@@ -64,6 +64,7 @@ export const ArmorList = () => {
 
     const filteredArmors = Object.values(armors).filter(armor => armor.name.search(new RegExp(searchTerm, "i")) >= 0)
         .filter(armor => showObtained && armor.obtained || showNotObtained && !armor.obtained || (!showObtained && !showNotObtained))
+        .filter(armor => !showOnlyUpgradeable || armor.isUpgradable)
         .sort(sortArmors);
 
     const levelIncrementHandler = (name: string, increment: number) => {
