@@ -15,6 +15,7 @@ interface ITrackerStoreState {
     sortDirection: number,
     showObtained: boolean,
     showNotObtained: boolean,
+    showOnlyUpgradeable: boolean,
     setArmors: (armors: ArmorData) => void,
     setMaterials: (materials: MaterialData) => void,
     setUpgrades: (upgrades: Upgrades) => void,
@@ -22,8 +23,9 @@ interface ITrackerStoreState {
     setSortBy: (sortBy: SortMethod) => void,
     setSortDirection: (direction: number) => void,
     setMaterialsOpen: (open: boolean) => void,
-    setShowObtained: (obtained: boolean) => void,
-    setShowNotObtained: (obtained: boolean) => void,
+    setShowObtained: (showObtained: boolean) => void,
+    setShowNotObtained: (showNotObtained: boolean) => void,
+    setShowOnlyUpgradeable: (showOnlyUpgradeable: boolean) => void,
 }
 
 /**
@@ -40,6 +42,7 @@ export const trackerStore = create<ITrackerStoreState>(set => ({
     sortDirection: 1,
     showObtained: false,
     showNotObtained: false,
+    showOnlyUpgradeable: false,
     setArmors: (armors) => set(state => ({ armors: armors })),
     setMaterials: (materials) => set(state => ({ materials: materials })),
     setUpgrades: (upgrades) => set(state => ({ upgrades: upgrades })),
@@ -47,6 +50,7 @@ export const trackerStore = create<ITrackerStoreState>(set => ({
     setSortBy: (sortBy) => set(state => ({ sortBy: sortBy })),
     setSortDirection: (direction) => set(state => ({ sortDirection: direction })),
     setMaterialsOpen: (open) => set(state => ({ materialsOpen: open })),
-    setShowObtained: (obtained) => set((state) => ({ showObtained: obtained })),
-    setShowNotObtained: (obtained) => set((state) => ({ showNotObtained: obtained })),
+    setShowObtained: (showObtained) => set((state) => ({ showObtained: showObtained })),
+    setShowNotObtained: (showNotObtained) => set((state) => ({ showNotObtained: showNotObtained })),
+    setShowOnlyUpgradeable: (showOnlyUpgradeable) => set((state) => ({ showOnlyUpgradeable: showOnlyUpgradeable })),
 }));

@@ -31,13 +31,13 @@ export const ArmorSort = () => {
         setSortDirection(-1 * sortDirection);
     };
     return (
-        <div className="flex gap-x-1">
+        <div className="flex w-full gap-x-1 sm:w-auto">
             <Listbox value={sortBy} onChange={setSortBy}>
                 {({ open }) => (
-                    <div className="sort-dropdown flex items-center gap-4">
-                        <div className="relative">
+                    <div className="flex grow items-center gap-4 sort-dropdown">
+                        <div className="relative w-full">
                             <Listbox.Button
-                                className={ClassNames("relative w-48 block cursor-default rounded bg-white py-1 pl-3 pr-10 text-left text-gray-900 shadow-sm sm:text-sm sm:leading-6", focusStyles)}>
+                                className={ClassNames("relative w-full sm:w-48 block cursor-default rounded bg-white py-1 pl-3 pr-10 text-left text-gray-900 shadow-sm sm:text-sm sm:leading-6", focusStyles)}>
                                 <span className="block">{sortBy.name}</span>
                                 <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
                                 <ChevronUpDownIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />

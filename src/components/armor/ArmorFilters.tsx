@@ -8,6 +8,7 @@ export const ArmorFilters = () => {
     const { searchTerm, setSearchTerm } = trackerStore();
     const { showNotObtained, setShowNotObtained } = trackerStore();
     const { showObtained, setShowObtained } = trackerStore();
+    const { showOnlyUpgradeable, setShowOnlyUpgradeable } = trackerStore();
 
     const searchChangeHandler = (event: ChangeEvent<HTMLInputElement>) => {
         setSearchTerm(event.target.value);
@@ -23,18 +24,23 @@ export const ArmorFilters = () => {
 
     return (
         <div
-            className="mx-auto text-center armor-filters-container rounded bg-neutral-800 p-2 mb-4 m-h-[50px] gap-4 flex items-center flex-wrap">
+            className="mx-auto mb-4 flex flex-wrap items-center gap-4 rounded bg-neutral-800 text-center armor-filters-container p-2.5 m-h-[50px]"
+        >
             <input type="text"
-                   className={ClassNames("text-sm block h-8 w-full xs:w-64 rounded border-0 border-black bg-white p-2 text-black sm:inline-block", focusStyles)}
+                   className={ClassNames("text-sm block h-8 w-full sm:w-64 rounded border-0 border-black bg-white p-2 text-black sm:inline-block", focusStyles)}
                    placeholder="Search armors" value={searchTerm} onChange={searchChangeHandler} />
             <ArmorSort />
-            <div className="flex justify-center items-center gap-2">
+            <div className="flex items-center justify-center gap-2">
                 Only Obtained
                 <Toggle value={showObtained} onObtainedChange={filterObtainedChange} />
             </div>
-            <div className="flex justify-center items-center gap-2">
+            <div className="flex items-center justify-center gap-2">
                 Only Not Obtained
                 <Toggle value={showNotObtained} onObtainedChange={filterNotObtainedChange} />
+            </div>
+            <div className="flex items-center justify-center gap-2">
+                Only Upgradeable
+                <Toggle value={showOnlyUpgradeable} onObtainedChange={setShowOnlyUpgradeable} />
             </div>
         </div>
     );
